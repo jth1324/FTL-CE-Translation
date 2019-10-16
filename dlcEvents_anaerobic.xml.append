@@ -1495,9 +1495,9 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 	<choice>
 		<text>그들은 쉬운 목표다. 그들의 장비를 빼앗아라.</text>
 		<event>
-			<text>당신은 곧 해적행위를 저지르려고 합니다. 이것이 당신의 승무원들을 방해할 수도 있습니다.</text>
+			<text>당신은 곧 해적 행위를 저지르려고 합니다. 이것이 당신의 승무원들을 불안하게 할 겁니다.</text>
 			<choice hidden="true"> 
-				<text>G이 일을 끝까지 해 보고 승무원의 반응을 살핍니다.</text>
+				<text>이 일을 끝까지 해 보고 승무원의 반응을 살핍니다.</text>
 				<event load="C_PIRACY_RESULTS"/>
 			</choice>
 			<choice hidden="true"> 
