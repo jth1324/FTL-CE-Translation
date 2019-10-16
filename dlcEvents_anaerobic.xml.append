@@ -76,7 +76,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		</event>
 	</choice>
 	<choice req="engines" lvl="4" hidden="true">
-		<text>(향상된 엔진) 다음 구간까지 최고의 속도로 이동하기 위해 연료를 추가로 사용합니다. [ 연료: -3 ]</text>
+		<text>(향상된 엔진) 다음 구간까지 최고의 속도로 이동하려면 연료를 추가로 사용하십시오. [ 연료: -3 ]</text>
 		<event>
 			<text load="HYPERSPACE_TRAVEL_IMPROVED_TEXT"/>
 			<item_modify>
@@ -157,7 +157,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 				</event>
 			</choice>
 			<choice req="engines" lvl="1" hidden="true" blue="false">
-				<text>(기본 엔진) 표준적인 FTL 속도로 다음 섹터로 이동합니다. [ 연료: -1 ]</text>
+				<text>(표준 엔진) 표준적인 FTL 속도로 다음 섹터로 이동합니다. [ 연료: -1 ]</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_STANDARD_TEXT"/>
 					<item_modify>
@@ -170,7 +170,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 				</event>
 			</choice>
 			<choice req="engines" lvl="2" hidden="true">
-				<text>(표준 엔진) 다음 구간까지 최고의 속도로 이동하기 위해 연료를 추가로 사용합니다. [ 연료: -2 ]</text>
+				<text>(향상된 엔진) 다음 구간까지 최고의 속도로 이동하려면 연료를 추가로 사용하십시오. [ 연료: -2 ]</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_IMPROVED_TEXT"/>
 					<item_modify>
@@ -293,7 +293,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		<event load="CE_PRODUCTION_HOSTILE"/>
 	</choice>
 	<choice req="AE_BOUNTYHUNTER" hidden="true">
-		<text>(현상금 사냥꾼 데이터베이스) 이 섹터에 대한 계약을 맺습니다.</text>
+		<text>(현상금 사냥꾼 데이터베이스) 이 섹터에 대한 계약을 맺으십시오.</text>
 		<event load="CE_BOUNTY_LIST_LANIUS"/>
 	</choice>
 	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
@@ -319,7 +319,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		<event load="CE_SHIP_MAINTENANCE"/>
 	</choice>
 	<choice req="AE_BEACON_KIT" hidden="true">
-		<text>(비콘 접속장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연 시킵니다.</text>
+		<text>(비콘 접속 장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연 시킵니다.</text>
 		<event load="CE_BEACON_KIT_HOSTILE"/>
 	</choice>
 	<choice req="AE_SECTOR_SCANNER" hidden="true">
@@ -331,11 +331,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		<event load="CE_SECTOR_MAPPING"/>
 	</choice>
 	<choice req="DRONES_COMBAT_PROJECTILE" hidden="true">
-		<text>(전투 드론) 반란군 함대를 괴롭히기 위해 약간의 드론을 남겨둡니다. [ 드론 부품: -3 ]</text>
+		<text>(전투 트론) 반란군 함대를 괴롭히기 위해 약간의 드론을 남겨둡니다. [ 드론 부품: -3 ]</text>
 		<event load="CE_DRONE_COMBAT_FLEET_DELAY"/>
 	</choice>
 	<choice req="DRONES_MINELAYER" hidden="true">
-		<text>(기뢰설치 드론) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 드론 부품: -1 ]</text>
+		<text>(기뢰설치 트론) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 드론 부품: -1 ]</text>
 		<event load="CE_DRONE_MINELAYER_FLEET_DELAY"/>
 	</choice>
 	<choice req="WEAPONS_MINES" hidden="true"> 
@@ -419,7 +419,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		<event load="CE_SHIP_MAINTENANCE"/>
 	</choice>
 	<choice req="AE_BEACON_KIT" hidden="true">
-		<text>(비콘 접속장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연시킵니다.</text>
+		<text>(비콘 접속 장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연시킵니다.</text>
 		<event load="CE_BEACON_KIT_HOSTILE"/>
 	</choice>
 	<choice req="AE_SECTOR_SCANNER" hidden="true">
@@ -431,11 +431,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		<event load="CE_SECTOR_MAPPING"/>
 	</choice>
 	<choice req="DRONES_COMBAT_PROJECTILE" hidden="true">
-		<text>(전투 드론) 반란군 함대를 괴롭히기 위해 약간의 드론을 남겨둡니다. [ 드론 부품: -3 ]</text>
+		<text>(전투 트론) 반란군 함대를 괴롭히기 위해 약간의 드론을 남겨둡니다. [ 드론 부품: -3 ]</text>
 		<event load="CE_DRONE_COMBAT_FLEET_DELAY"/>
 	</choice>
 	<choice req="DRONES_MINELAYER" hidden="true">
-		<text>(기뢰설치 드론) 드론이 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 드론 부품: -1 ]</text>
+		<text>(기뢰설치 트론) 드론이 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 드론 부품: -1 ]</text>
 		<event load="CE_DRONE_MINELAYER_FLEET_DELAY"/>
 	</choice>
 	<choice req="WEAPONS_MINES" hidden="true"> 
@@ -501,7 +501,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		<event load="CE_SHIP_MAINTENANCE"/>
 	</choice>
 	<choice req="AE_BEACON_KIT" hidden="true">
-		<text>(비콘 접속장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연 시킵니다.</text>
+		<text>(비콘 접속 장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연 시킵니다.</text>
 		<event load="CE_BEACON_KIT_HOSTILE"/>
 	</choice>
 	<choice req="AE_SECTOR_SCANNER" hidden="true">
@@ -513,11 +513,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		<event load="CE_SECTOR_MAPPING"/>
 	</choice>
 	<choice req="DRONES_COMBAT_PROJECTILE" hidden="true">
-		<text>(전투 드론) 반란군 함대를 괴롭히기 위해 약간의 드론을 남겨둡니다. [ 드론 부품: -3 ]</text>
+		<text>(전투 트론) 반란군 함대를 괴롭히기 위해 약간의 드론을 남겨둡니다. [ 드론 부품: -3 ]</text>
 		<event load="CE_DRONE_COMBAT_FLEET_DELAY"/>
 	</choice>
 	<choice req="DRONES_MINELAYER" hidden="true">
-		<text>(기뢰설치 드론) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 드론 부품: -1 ]</text>
+		<text>(기뢰설치 트론) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 드론 부품: -1 ]</text>
 		<event load="CE_DRONE_MINELAYER_FLEET_DELAY"/>
 	</choice>
 	<choice req="WEAPONS_MINES" hidden="true"> 
@@ -575,7 +575,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		<event load="CE_SHIP_MAINTENANCE"/>
 	</choice>
 	<choice req="AE_BEACON_KIT" hidden="true">
-		<text>(비콘 접속장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연 시킵니다.</text>
+		<text>(비콘 접속 장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연 시킵니다.</text>
 		<event load="CE_BEACON_KIT_HOSTILE"/>
 	</choice>
 	<choice req="AE_SECTOR_SCANNER" hidden="true">
@@ -587,11 +587,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		<event load="CE_SECTOR_MAPPING"/>
 	</choice>
 	<choice req="DRONES_COMBAT_PROJECTILE" hidden="true">
-		<text>(전투 드론) 반란군 함대를 괴롭히기 위해 약간의 드론을 남겨둡니다. [ 드론 부품: -3 ]</text>
+		<text>(전투 트론) 반란군 함대를 괴롭히기 위해 약간의 드론을 남겨둡니다. [ 드론 부품: -3 ]</text>
 		<event load="CE_DRONE_COMBAT_FLEET_DELAY"/>
 	</choice>
 	<choice req="DRONES_MINELAYER" hidden="true">
-		<text>(기뢰설치 드론) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 드론 부품: -1 ]</text>
+		<text>(기뢰설치 트론) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 드론 부품: -1 ]</text>
 		<event load="CE_DRONE_MINELAYER_FLEET_DELAY"/>
 	</choice>
 	<choice req="WEAPONS_MINES" hidden="true"> 
@@ -864,11 +864,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -876,7 +876,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -947,11 +947,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -959,7 +959,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -1030,11 +1030,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1042,7 +1042,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -1115,11 +1115,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1127,7 +1127,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -1151,7 +1151,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		</event>
 	</choice>
 	<choice hidden="true" req="anaerobic">
-		<text>(라니우스 승무원) 당신의 승무원에게 그들의 함장을 훈계하도록 합니다.</text>
+		<text>(라니우스 승무원) 당신의 승무원에게 그들의 함장을 훈계하도록 하십시오.</text>
 		<event load="LANIUS_DISTRESS_FIGHT_LANIUS"/>
 	</choice>
 </event>
@@ -1187,11 +1187,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1199,7 +1199,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -1243,11 +1243,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1255,7 +1255,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -1304,11 +1304,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1316,7 +1316,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -1359,11 +1359,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1371,7 +1371,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -1421,11 +1421,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1433,7 +1433,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -1495,9 +1495,9 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 	<choice>
 		<text>그들은 쉬운 목표다. 그들의 장비를 빼앗아라.</text>
 		<event>
-			<text>당신은 곧 해적행위를 저지르려고 합니다. 이것이 당신의 승무원들을 방해할 수도 있습니다.</text>
+			<text>당신은 곧 해적 행위를 저리르려고 합니다. 이것은 당신의 승무원들을 불안하게 할 겁니다.</text>
 			<choice hidden="true"> 
-				<text>G이 일을 끝까지 해 보고 승무원의 반응을 살핍니다.</text>
+				<text>이 일을 끝까지 해 보고 승무원의 반응을 살핍니다.</text>
 				<event load="C_PIRACY_RESULTS"/>
 			</choice>
 			<choice hidden="true"> 
@@ -1505,7 +1505,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 				<event/>
 			</choice>
 			<choice req="AE_REQUISITION" hidden="true"> 
-				<text>(요청증) 이 작전은 합법이다. 우리는 임무와 전체 연방의 이익을 위해 이것을 하고 있다.</text>
+				<text>(요청증) 이 작전은 합법이다. 우리는 임무와 전체 연방의 이익을 위해 약탈하고 있다.</text>
 				<event load="CE_REQUISITION_CIVILIAN"/>
 			</choice>
 			<choice req="ROCK_ARMOR" hidden="true"> 
@@ -1581,11 +1581,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1593,7 +1593,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -1662,11 +1662,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1674,7 +1674,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -1718,11 +1718,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1730,7 +1730,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -1768,11 +1768,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1780,7 +1780,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -1821,11 +1821,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1833,7 +1833,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -1875,11 +1875,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1887,7 +1887,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -1929,11 +1929,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1941,7 +1941,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -1986,11 +1986,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -1998,7 +1998,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -2043,11 +2043,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2055,7 +2055,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -2108,11 +2108,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2120,7 +2120,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -2171,11 +2171,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2183,7 +2183,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -2234,11 +2234,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2246,7 +2246,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -2297,11 +2297,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2309,7 +2309,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -2369,11 +2369,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2381,7 +2381,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -2433,11 +2433,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2445,7 +2445,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -2518,11 +2518,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2530,7 +2530,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -2574,11 +2574,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2586,7 +2586,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -2639,11 +2639,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2651,7 +2651,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -2716,11 +2716,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2728,7 +2728,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -2780,11 +2780,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2792,7 +2792,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -2843,11 +2843,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2855,7 +2855,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -2902,11 +2902,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2914,7 +2914,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -2961,11 +2961,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -2973,7 +2973,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -3017,11 +3017,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -3029,7 +3029,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -3074,11 +3074,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -3086,7 +3086,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -3136,11 +3136,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -3148,7 +3148,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -3212,11 +3212,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -3224,7 +3224,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -3265,11 +3265,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -3277,7 +3277,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -3328,9 +3328,9 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 <event name="LANIUS_PIRATE_BOARDERS" unique="false"> <!-- MATT CHANGED TO STOP CRASHES-->
 	<text>쇠약하고 굶주린 모습의 인간들이 스크린에 나타납니다. "그 쇳덩이 새끼들이 우리 함선 엔진을 태반이나 쳐먹곤 , 우리가 뒈지든 말든 놔두고 가 버렸어. 니들 함선을 뺏는 이유를 이해해주길 바래."</text>
 	<choice req="AE_TELEPORTER_JAMMER" hidden="true">
-		<text>(텔레포터 방해장치) 텔레포트 침입자로부터 함선을 보호합니다.</text>
+		<text>(텔레포터 방해장치) 텔레포트 침입자로부터 함선을 보호하십시오.</text>
 		<event>
-			<text>침입자가 탑승하기 전에 방해 필드가 안정됩니다. 더 놀라운 것을 피하기 위해, 당신은 즉시 FTL을 준비하여 그들을 운명에 맡깁니다.</text>
+			<text>침입자가 탑승하기 전에 방해 필드가 안정됩니다. 더 놀라운 것을 피하기 위해, 당신은 즉시 FTL을 준비하여 그들을 운명에 맡기십시오.</text>
 		</event>
 	</choice>
 	<choice>
@@ -3425,7 +3425,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 <event name="CE_LANIUS_STRANDED" unique="true">
 	<text>당신은 앞쪽에 있는 생체 신호를 미리 감지합니다. 몇 개의 불탄 파편들 사이로 의지할 것 없는 몇 명의 라니우스가 떠다닙니다. 이 지역은 죽은 시체로 가득 차 있습니다. 그들은 방사선이나 굶주림으로 인해, 그리 오래갈 것처럼 보이지 않습니다.</text>
 	<choice hidden="true">
-		<text>라니우스를 구출하고 안전하게 보호합니다.</text>
+		<text>라니우스를 구출하고 안전하게 보호하십시오.</text>
 		<event load="CE_LANIUS_STRANDED_RESCUE"/>
 	</choice>
 	<choice hidden="true">
@@ -3502,11 +3502,11 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_DRONE_JAMMER" hidden="true">
-			<text>(드론 조종 방해장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
+			<text>(드론 조종 방해 장치) 적 드론 통신을 방해합니다. [ 전력: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-			<text>(텔레포트 방해장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(텔레포트 방해 장치) 텔레포트 방해 필드를 활성화합니다. [ 전력: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
@@ -3514,7 +3514,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(정신 보호장비) 정신 지배 보호를 활성화합니다. [ 전력: -1 ]</text>
+			<text>(정신 보호장비) 정신 지배 보호를 활성화 합니다. [ 전력: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
@@ -4420,14 +4420,14 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 
 <textList name="STORE_LANIUS_BUY_TEXT">
 	<text>스크랩을 전송합니다. 승무원이 화물을 적재하는 동안 상점에서 제공하는 함선 장비를 살펴보십시오. 시간이 경과합니다.</text>
-	<text>스크랩 전송 명령서를 작성합니다. 멸령을 처리하는데 시간이 좀 걸리고, 화물을 싣는데 더 많은 시간이 걸립니다. 기다리는 동안 함선 장비 목록을 확인합니다.</text>
+	<text>스크랩 전송 명령서를 작성합니다. 멸령을 처리하는데 시간이 좀 걸리고, 화물을 싣는데 더 많은 시간이 걸립니다. 기다리는 동안 함선 장비 목록을 확인하십시오.</text>
 	<text>당신은 그 상자들을 스크랩과 함께 건네주었습니다. 화물을 싣는데는 시간이 걸립니다. 화물용 드론은 당신보다 훨씬 덜 급하군요. 기다리는 동안 당신은 그들이 제공하는 선박 장비를 확인할 기회를 얻었습니다.</text>
 </textList>
 
 <textList name="STORE_LANIUS_SELL_TEXT">
-	<text>좋은 가격을 협상하려면 시간이 걸립니다. 선금으로 약간의 스크랩을 받은 후, 상점에 화물을 하역하여 남은 대금을 받습니다.</text>
+	<text>좋은 가격을 협상하려면 시간이 걸립니다. 선금으로 약간의 스크랩을 받은 후, 상점에 화물을 하역하여 남은 대금을 받으십시오.</text>
 	<text>협상은 상점에서 물건을 훔치기 위해 접근하는 범죄자 라니우스 스캐빈저에 의해 중단되었습니다. 상인은 라니우스가 호위병에 의해 쫓겨난 이후에 의사소통을 재개하였고, 남은 대금을 받기 위해선 상점에서 화물을 하역해야 합니다.  </text>
-	<text>당신은 좋은 가격으로 협상하려 합니다. 선금으로 약간의 스크랩을 받은 후, 상점에 화물을 하역하고 남은 대금을 받습니다. 이 모든 것이 정말 오래 걸렸습니다.</text>
+	<text>당신은 좋은 가격으로 협상하려 합니다. 선금으로 약간의 스크랩을 받은 후, 상점에 화물을 하역하고 남은 대금을 받으십시오. 이 모든 것이 정말 오래 걸렸습니다.</text>
 	<text>시간을 들여 흥정을 한 후, 당신은 합의에 도달합니다. 나머지 대금을 받으려면 여전히 상점에서 화물을 내려야 한다.</text>
 	<text>시간을 소모하는 협상끝에 선금을 받았습니다. "남은 대금은 상점에 화물을 내린 후 주겠소." 그들은 당신을 별로 신뢰하지 않는 것처럼 보입니다.</text>
 </textList>
