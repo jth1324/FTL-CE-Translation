@@ -106,11 +106,11 @@
 </eventList>
 
 <textList name="REBEL_FIGHT_DESTROYED">  
-	<text>Your crew breathes a sigh of relief as you successfully repel and destroy this Rebel pursuer. You salvage its wreckage and prepare to move on.</text>
-	<text>Another group of Rebel officers meets their end by the hand of their prime target, their wreckage only further fueling your escape.</text>
-	<text>The familiar markings of this Rebel ship char as the insides explode into flames. You collect what you can from their remains and ready the FTL drive.</text>
-	<text>As their vessel is torn apart from your final assault, you wonder why the Rebels became like this as you move in to scrap their ship.</text>
-	<text>One more Rebel ship bites the dust from your efforts. You salvage what you can and prepare for the next battle.</text>
+	<text>당신이 반란군 추적자를 성공적으로 물리치고 파괴하자, 선원들은 안도의 숨을 내쉬었습니다. 당신은 잔해를 인양하고 이동할 준비합니다.</text>
+	<text>또 다른 반란군 장교들은 자신들의 주요 목표 손에 최후를 맞이했고, 그들의 잔해는 오직 당신의 탈출을 더욱 부채질할 뿐입니다.</text>
+	<text>반란군 선박의 익숙한 흔적은 내부 폭발의 화염으로 새까맣게 타버립니다. 당신은 잔해에서 얻을 수 있는 것을 수집하고 FTL 드라이브를 준비합니다.</text>
+	<text>그들의 선박이 당신의 마지막 공격에서 산산조각납니다. 당신은 반란군 선박의 잔해를 줍기 위해 이동하며, 왜 반란군들이 이렇게 되었는지 궁금해합니다.</text>
+	<text>반란군 배 한 척이 당신의 노력으로 죽습니다. 당신은 인양할 수 있는 것을 인양하고 다음 전투를 준비합니다.</text>
 </textList>
 
 <eventList name="DESTROYED_SHIP_AUTO">
@@ -147,11 +147,11 @@
 </eventList>
 
 <textList name="AUTO_FIGHT_DESTROYED">  
-	<text>Another automated ship is sent to the scrapyard as it breaks apart. You salvage what looks usable from its remains before pressing onwards.</text>
-	<text>The AI of the automated scout remains online for a brief moment after its host ship explodes before shutting down for good, unconscious as its remains are looted.</text>
-	<text>One more of the masses of automated Rebels is shot down, its corpse scattering useful scrap materials before your recovery arms.</text>
-	<text>These sentient nuisances just keep on coming; with each one you destroy, there is sure to be many to replace it. You quickly scrap the ship and prepare to jump.</text>
-	<text>This AI wasn't smart enough to outwit your more natural instincts, its destruction a sign of that discovery. You collect what seems useful from its remains before leaving.</text>
+	<text>또 다른 무인선이 부서지면서 고철 처리장으로 보내집니다. 당신은 앞으로 진행하기 전에 사용할 수 있어 보이는 것들을 인양합니다.</text>
+	<text>무인 정찰기의 AI는 배가 폭발한 후 잠시 동안 온라인 상태를 유지하다가 남은 부품들이 모두 약탈당하자, 의식을 잃고 꺼집니다.</text>
+	<text>자동화된 반란군 무리 중 하나 더 격추되었고, 남은 잔해는 당신의 회수 팔 앞에 유용한 고철 물질들을 흩뿌립니다.</text>
+	<text>당신이 지성 있는 골칫거리들이 계속 파괴할 때마다, 이를 대체할 수 있는 녀석들이 계속 생겨납니다. 무인기를 대체할 수 있는 것들이 많이 남았을 겁니다. 당신은 재빨리 선박을 폐기하고 도약할 준비합니다.</text>
+	<text>이 AI는 당신의 더 타고난 직감을 을 능가할 만큼 똑똑하지 않았고, 그 발견의 징후를 파괴합니다. 당신은 떠나기 전에 잔해에서 유용하게 보이는 것을 수집합니다.</text>
 </textList>
 
 <!-- CE MODIFIED VANILLA REBEL EVENTS -->
@@ -182,7 +182,7 @@
 		<event load="CE_AUGMENT_UPGRADE_HOSTILE"/>
 	</choice>
 	<choice req="AE_AUGMENTS_PRODUCTION" blue="false" hidden="true">
-		<text>Produce something on board the ship.</text>
+		<text>함내에서 무언가 생산합니다.</text>
 		<event load="CE_PRODUCTION_HOSTILE"/>
 	</choice>
 	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
@@ -220,7 +220,7 @@
 	<choice req="WEAPONS_MINES" hidden="true"> 
 		<text>(기뢰무기) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 미사일: -3 ]</text>
 		<event>
-			<text>You quickly drop some mines as you circle around the beacon. The Rebel forces will have to avoid this area, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<text>FTL이 충전되는 동안 당신은 어떠한 방해도 받지 않고 기뢰를 설치할 수 있었습니다. 반란군은 이 구역을 피하거나, 기뢰밭을 제거하거나 혹은 큰 피해를 입을 겁니다. 모든 가능성이 그들의 함대를 상당히 지연시킬 것입니다.</text>
 			<item_modify>
 				<item type="missiles" min="-3" max="-3"/>
 			</item_modify>
@@ -228,23 +228,23 @@
 		</event>
 	</choice>
 	<choice hidden="true"> 
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event/>
 	</choice>
 </event>
 <textList name="NOTHING_REBEL">
-	<text>You enter a system bustling with Rebel activity. Supply freighters and re-supply stations are dwarfed by a few heavy warships. Luckily, no one seems to be paying attention to small cruisers. No ships are scanning or messaging you.</text>
-	<text>You arrive near a small Rebel refueling depot. Your ship is being scanned multiple times so they must recognize you, but there appears to be no combat-ready ships in the vicinity. The only message you receive is a denial to your request to dock at the depot.</text> 
-	<text>There is not much of interest nearby. A small sun in the distance with a few orbiting planets in nearby space provide little of interest.</text>
-	<text planet="NONE">There are no other ships near this beacon, however you detect a small communications relay. You tap into it without a problem; there are no encryptions. Most of the chatter revolves around troop and fleet movements, nothing particularly interesting.</text>
-	<text planet="PLANET_POPULATED_SMALL">There is a small planet nearby with scattered settlements. A small Rebel fleet is in orbit with many ships ferrying back and forth. It must be a recently 'liberated' planet.</text>
+	<text>반란군의 활동이 왕성한 항성계에 진입했습니다. 보급품 수송기와 재보급 정거장이 소수의 거대 전함에 비해 왜소해 보입니다. 운 좋게도 작은 순양함에는 아무도 신경을 쏟지 않았습니다. 아무도 당신을 조사하거나 연락을 시도하지 않았습니다.</text>
+	<text>조그만 반란군 연료보급 창고에 도착했습니다. 함선이 여러 번 조사당해 적들은 분명히 당신을 알아차렸을 겁니다만, 주변에 전투준비가 된 함선이 보이지 않습니다. 오직 당신이 받은 메시지라고는 창고 정박 요청을 거부하는 메시지 뿐이었습니다.</text> 
+	<text>주변에는 흥미로운 것이 없습니다. 멀리 있는 작은 항성과 그 궤도를 도는 몇몇 행성들이 약간의 관심을 끌 뿐입니다.</text>
+	<text planet="NONE">이 송신소 주변에는 다른 함선이 없습니다만, 짧은 통신 중계를 감지했습니다. 암호화 되지 않았기에 쉽게 도청이 가능했습니다. 대부분의 대화는 병력과 함대의 움직임에 관한 것들이었으며 딱히 관심을 가질 만한 것은 없었습니다.</text>
+	<text planet="PLANET_POPULATED_SMALL">근처에 드물게 정착지가 있는 작은 행성이 있습니다. 적은 규모의 반란군 함대가 궤도 상에 위치해있으며, 주변엔 많은 함선들이 왔다 갔다 하고 있습니다. 최근에 '해방된' 행성인 것이 분명합니다.</text>
 </textList>
 
 
 
 
 <event name="START_BEACON_REBEL">
-	<!-- <text>You totally travel through hyperspace lol</text> -->
+	<!-- <text>당신은 완전히 하이퍼스페이스 롤을 통해 이동합니다</text> -->
 	<text load="HYPERSPACE_TEXT"/>
 	<img back="BG_DARK" planet="PLANET_HYPERSPACE"/>
 	<choice req="engines" lvl="1" hidden="true" blue="false">
@@ -253,7 +253,7 @@
 			<text load="HYPERSPACE_TRAVEL_EMERGENCY_TEXT"/>
 			<modifyPursuit amount="2"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_BEACON_REBEL_ACTUAL"/>
 			</choice>
 		</event>
@@ -266,7 +266,7 @@
 				<item type="fuel" min="-2" max="-2"/>
 			</item_modify>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_BEACON_REBEL_ACTUAL"/>
 			</choice>
 		</event>
@@ -280,13 +280,13 @@
 			</item_modify>
 			<modifyPursuit amount="-1"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_BEACON_REBEL_ACTUAL"/>
 			</choice>
 		</event>
 	</choice>
 	<choice req="engines" lvl="6" hidden="true">
-		<text>(Advanced Engines) Override the engines' security protocols and accept the engine degradation that comes with traveling at extremely high speeds. [ Fuel: -4; Hull Damage: 4 ]</text>			
+		<text>(고급 엔진) 엔진 성능의 저하와 보안 프로토콜을 무시하는 대신 초고속으로 이동합니다. [ 연료: -4; 선체 피해: 4 ]</text>			
 		<event>
 			<text load="HYPERSPACE_TRAVEL_ADVANCED_TEXT"/>
 			<item_modify>
@@ -300,13 +300,13 @@
 					<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 					<damage amount="-2"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_REBEL_ACTUAL"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_BEACON_REBEL_ACTUAL"/>
 			</choice>
 		</event>
@@ -326,13 +326,13 @@
 					<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 					<damage amount="-4"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_REBEL_ACTUAL"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_BEACON_REBEL_ACTUAL"/>
 			</choice>
 		</event>
@@ -347,7 +347,7 @@
 					<text load="HYPERSPACE_TRAVEL_EMERGENCY_TEXT"/>
 					<modifyPursuit amount="1"/>
 					<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 						<event load="START_BEACON_REBEL_ACTUAL"/>
 					</choice>
 				</event>
@@ -360,7 +360,7 @@
 						<item type="fuel" min="-1" max="-1"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_REBEL_ACTUAL"/>
 					</choice>
 				</event>
@@ -374,13 +374,13 @@
 					</item_modify>
 					<modifyPursuit amount="-1"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_REBEL_ACTUAL"/>
 					</choice>
 				</event>
 			</choice>
 			<choice req="engines" lvl="4" hidden="true">
-				<text>(Improved Engines) Override the engines' security protocols. Risk engine degradation by traveling at extremely high speeds. [ Fuel: -3; Hull Damage: 4 ]</text>		
+				<text>(향상된 엔진) 엔진의 보안 프로토콜을 무시합니다. 매우 빠른 속도로 주행하여 엔진 성능이 저하 될 수 있습니다. [ 연료: -3; 선체 피해: 4 ]</text>		
 				<event>
 					<text load="HYPERSPACE_TRAVEL_ADVANCED_TEXT"/>
 					<item_modify>
@@ -394,13 +394,13 @@
 							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 							<damage amount="-2"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="START_BEACON_REBEL_ACTUAL"/>
 							</choice>
 						</event>
 					</choice>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_REBEL_ACTUAL"/>
 					</choice>
 				</event>
@@ -420,13 +420,13 @@
 							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 							<damage amount="-4"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="START_BEACON_REBEL_ACTUAL"/>
 							</choice>
 						</event>
 					</choice>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_REBEL_ACTUAL"/>
 					</choice>
 				</event>
@@ -446,13 +446,13 @@
 							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 							<damage amount="-5"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="START_BEACON_REBEL_ACTUAL"/>
 							</choice>
 						</event>
 					</choice>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_REBEL_ACTUAL"/>
 					</choice>
 				</event>
@@ -489,7 +489,7 @@
 		<event load="CE_AUGMENT_UPGRADE_HOSTILE"/>
 	</choice>
 	<choice req="AE_AUGMENTS_PRODUCTION" blue="false" hidden="true">
-		<text>Produce something on board the ship.</text>
+		<text>함내에서 무언가 생산합니다.</text>
 		<event load="CE_PRODUCTION_HOSTILE"/>
 	</choice>
 	<choice req="AE_BOUNTYHUNTER" hidden="true">
@@ -521,7 +521,7 @@
 	<choice req="AE_BEACON_KIT" hidden="true">
 		<text>(비콘 접속장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연시킵니다.</text>
 		<event>
-			<text>The access kit allows you to hack the beacon and disable it completely. You are right under the Rebels' noses but they will never know that you came here. This should give you an advantage for now.</text>
+			<text>접속 장치를 사용하면 신호소를 해킹하고 완전히 비활성화 시킬 수 있습니다. 당신이 바로 반란군 등잔 밑에 있지만, 그들은 당신이 여기 온 것을 절대 모를 겁니다. 이것으로 일단 당신은 유리해졌습니다.</text>
 			<modifyPursuit amount="-1"/>
 		</event>
 	</choice>
@@ -544,7 +544,7 @@
 	<choice req="WEAPONS_MINES" hidden="true"> 
 		<text>(기뢰무기) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 미사일: -3 ]</text>
 		<event>
-			<text>You quickly drop some mines as you circle around the beacon. The Rebel forces will have to avoid this area, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<text>FTL이 충전되는 동안 당신은 어떠한 방해도 받지 않고 기뢰를 설치할 수 있었습니다. 반란군은 이 구역을 피하거나, 기뢰밭을 제거하거나 혹은 큰 피해를 입을 겁니다. 모든 가능성이 그들의 함대를 상당히 지연시킬 것입니다.</text>
 			<item_modify>
 				<item type="missiles" min="-3" max="-3"/>
 			</item_modify>
@@ -552,38 +552,38 @@
 		</event>
 	</choice>
 	<choice hidden="true"> 
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event/>
 	</choice>
 </event>
 <textList name="START_BEACON_REBEL">
-	<text>This sector was bustling with activity just a few years ago. Now, more than half of the jump beacons have been destroyed, many settlements have been abandoned and the Rebels patrol constantly.</text>
-	<text>This sector was hit hard by the Rebellion. The many alien settlements and stations located here are now watched over by almost an equal number of Rebel bases, heavy-handedly 'keeping the peace.'</text>
-	<text>Once the Federation forces were scattered the Rebels came down hard on the locals here. Between the 'tax collectors' and military bases, the Rebel presence in this sector is high.</text>
-	<text>At one point this was one of the most commonly traveled sectors. Knowing that, the Rebels have stationed a number of fleets here. Be careful.</text>
-	<text>You will have to be very cautious in this sector. The Rebels have full control and are no doubt looking for you.</text>
+	<text>이 구역은 몇 년 전만 해도 아주 번화한 곳이었습니다. 하지만 지금은 반 이상의 도약 송신소가 파괴되었으며, 많은 정착지가 버려졌고, 반란군이 지속적으로 순찰하고 있습니다.</text>
+	<text>이 구역은 반란군에게 거세게 공격당했습니다. 지금 이곳은 많은 외계 정착지와 정거장과 거의 비슷한 숫자의 반란군 기지에 의해 감시당하며, 고압적인 '평화 유지'가 이루어지고 있습니다.</text>
+	<text>연방 함대가 분쇄되자, 반란군이 이곳을 점령해서는 지역 주민들을 혹독하게 다스렸습니다. 이 구역은 반란군의 '세금 징수원'이자 군사 기지의 중심지이기 때문에 주둔군 비율이 높습니다.</text>
+	<text>한 때 이곳은 주된 이동구역 중 한곳이였습니다. 그 사실을 알고 반란군은 멀지 않은 곳에 다수의 함대를 배치했습니다. 조심하십시오.</text>
+	<text>이 구역에서는 매우 조심해야합니다. 이 지역은 반란군이 완전히 장악하고 있으며, 틀림없이 당신을 찾고 있을것습니다.</text>
 </textList>
 
 
 <eventList name="CE_BOUNTY_LIST_REBEL">
 	<event> <!-- Rebel Commissar -->
-		<text>The wealth of a small but prosperous colony government has become well known to the Rebel fleet. A requisition craft pays them regular visits. The local magistrate wants that ship to disappear. Target: Rebel Requisition Officers. Payment: High.</text>
+		<text>작지만 번영하는 식민지 정부의 부유함은 반란군 함대에 잘 알려져 있습니다. 징발선은 주기적으로 그들을 방문합니다. 현지 치안판사는 징발선이 사라지기를 원합니다. 목표: 반란군 징발 장교. 보수: 많음.</text>
 		<quest event="CE_BOUNTY_REBEL_REQUISITION"/>
 	</event>
 	<event> <!-- Rebel Guard Asset -->
-		<text>Students on a small planetary settlement are unhappy about being watched by a Rebel surveillance satellite. While some of them have taken up military training, others want to hire outside help, so that no one (other than maybe you) gets hurt. Target: Auto Satellite. Payment: Low.</text>
+		<text>작은 행성 정착지에 있는 학생들은 반란군의 감시위성에 의해 감시되는 것에 대해 불만스러워 합니다. 그들 중 몇몇은 군사 훈련을 받았지만, 다른 사람들은 외부 사람(아마도 당신)을 고용해서 아무도 다치지 않길 바랍니다. 목표: 무인 위성. 보수: 소량.</text>
 		<quest event="CE_BOUNTY_AUTO_SURVEYOR"/>
 	</event>
 	<event> <!-- Auto Ship -->
-		<text>A tiny settlement still loyal to the Federation seeks to recruit a gun for hire. The'll pay you to destroy the automated scouts that guard their system. Target: Automated Craft. Payment: Low.</text>
+		<text>여전히 연방에 충성하는 작은 정착지는 고용할 용병을 모집하려 합니다. 행성계를 감시하는 무인 정찰기들을 파괴하기 위해 돈을 지불할 겁니다. 목표: 무인선. 보수: 소량.</text>
 		<quest event="CE_BOUNTY_AUTO"/>
 	</event>
 	<event> <!-- Rebel Cruiser -->
-		<text>Even though the Rebels have millions of supporters in this sector, not everyone seems to be happy. A wealthy underground group is ready to pay any Captain crazy enough to fight the Rebels right in their core territory. Target: Rebel Cruiser. Payment: High.</text>
+		<text>반란군이 이 섹터에 수백만 지지자를 가지고 있다고 해도, 모두가 기뻐하는 것 같지는 않습니다. 한 부유한 지하 단체가 반란군들과 싸울만큼 충분하게 미친 선장에게 돈을 지불할 준비가 되어 있습니다. 목표: 반란군 순양함. 보수: 많음.</text>
 		<quest event="CE_BOUNTY_REBEL_CRUISER"/>
 	</event>
 	<event> <!-- Rebel Cruiser -->
-		<text>Even though the Rebels have millions of supporters in this sector, not everyone seems to be happy. A wealthy underground group is ready to pay any Captain crazy enough to fight the Rebels right in their core territory. Target: Rebel Cruiser. Payment: High.</text>
+		<text>반란군이 이 섹터에 수백만 지지자를 가지고 있다고 해도, 모두가 기뻐하는 것 같지는 않습니다. 한 부유한 지하 단체가 반란군들과 싸울만큼 충분하게 미친 선장에게 돈을 지불할 준비가 되어 있습니다. 목표: 반란군 순양함. 보수: 많음.</text>
 		<quest event="CE_BOUNTY_REBEL_CRUISER"/>
 	</event>
 </eventList>
@@ -593,11 +593,11 @@
 	<text load="REBEL_AUTO"/>
 	<ship load="REBEL_AUTO" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -642,11 +642,11 @@
 	<text load="REBEL_AUTO"/>
 	<ship load="REBEL_AUTO_WARNING" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -691,11 +691,11 @@
 	<text load="REBEL"/>
 	<ship load="REBEL" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -737,14 +737,14 @@
 </event>
 
 <event name="SQUAT_WARNING" unique="true">
-	<text>You stumble across a forward scout of the Rebel fleet.</text>
+	<text>당신은 반란군 함대의 전방 정찰기를 우연히 발견합니다.</text>
 	<ship load="SQUAT_WARNING" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -787,18 +787,18 @@
 
 
 <event name="AUTO_CIVILIAN" unique="false">
-	<text>You come across a Rebel automated scout ship pursuing a civilian ship, weapons engaged.</text>
+	<text>당신은 민간 선박을 쫒는 반란군 무인 정찰선을 우연히 발견합니다, 무기 장전.</text>
 	<choice>
-		<text>Aid the civilian ship.</text>
+		<text>민간선을 돕는다.</text>
 		<event>
-			<text>Power up your weapons and engage the automated ship.</text>
+			<text>무기에 전력을 공급하고 무인선과 교전합니다.</text>
 			<ship load="REBEL_AUTO_CIVILIAN" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -840,28 +840,28 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Stay out of it.</text>
+		<text>관여하지 않는다.</text>
 		<event>
-			<text>The fight brings them out of your immediate scanning range.</text>
+			<text>싸움은 그들을 당신 스캔 범위 바깥으로 벗어나게 합니다.</text>
 		</event>
 	</choice>
 </event>
 
 <event name="SQUAT_REFUEL_STATION" unique="true">  
 	<img planet="PLANET_POPULATED_SMALL"/>
-	<text>You detect a Rebel scout on an attack approach to a small refueling outpost. Their weapons are charged, but they're not firing yet.</text>
+	<text>당신은 반란군 정찰기가 작은 주유 전초기지를 공격하려고 접근하는 것을 감지합니다. 정찰기의 무기는 충전되었지만, 아직 발사되지는 않았습니다.</text>
 	<ship load="SQUAT_REFUEL_STATION" hostile="false"/>
 	<choice>
-		<text>Intervene to defend the outpost.</text>
+		<text>전초기지를 방어하기 위해 개입한다.</text>
 		<event>
 			<ship hostile="true"/>
-			<text>The Rebel responds to your threat, "I don't know who you are, but no one defies the Rebel fleet!" They move in to engage.</text>
+			<text>반란군은 당신의 위협에 대해 응답합니다, "당신이 누군지 모르지만, 반란군 함대에 아무도 반항할 수 없습니다!" 그들은 교전하기 위해 움직입니다.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -903,28 +903,28 @@
 		</event>
 	</choice>
 	<choice>
-		<text>갈등을 피한다.</text>
+		<text>충돌을 피한다.</text>
 		<event>
-			<text>The Rebel ship fires some warning shots but eventually powers down their weapons. The outpost seems to have given them what they demanded.</text> 
+			<text>반란군 선박은 몇번 경고사격을 가했지만 결국 무기 전원을 완전히 내렸습니다. 아마 전초기지가 요구한 것을 들어준 것 같군요.</text> 
 		</event>
 	</choice>
 </event>
 
 <event name="AUTO_REFUEL_STATION" unique="true">  
 	<img planet="PLANET_POPULATED_SMALL"/>
-	<text>You detect an automated Rebel scout attacking a small refueling outpost. </text>
+	<text>당신은 반란군 무인 정찰기가 작은 주유 전초기지를 공격하는 것을 발견했습니다</text>
 	<ship load="REBEL_AUTO_REFUEL" hostile="false"/>
 	<choice>
-		<text>Intervene to defend the outpost.</text>
+		<text>전초기지를 방어하기 위해 개입한다.</text>
 		<event>
-			<text>Detecting the higher threat, the automated ship moves in to engage your ship.</text> 
+			<text>높은 위협을 감지한, 반란군 무인 정찰기는 당신 함선과 교전하기 위해 움직입니다.</text> 
 			<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -966,28 +966,28 @@
 		</event>
 	</choice>
 	<choice>
-		<text>갈등을 피한다.</text>
+		<text>충돌을 피한다.</text>
 		<event>
-			<text>You steer clear of the conflict. The outpost receives a beating but the ship stops its attack before it's destroyed.</text> 
+			<text>당신은 충돌을 피합니다. 전초기지는 공격을 받았지만, 파괴되기 전에 적 함선이 공격을 멈췄습니다.</text> 
 		</event>
 	</choice>
 </event>
 
 <event name="AUTO_DEFENSE_MAP" unique="true">
 	<img planet="PLANET_POPULATED_REAL"/>
-	<text>You detect a Rebel automated ship nearby. It does not engage and seems to be patrolling around a long-range sensor station.</text>
+	<text>당신은 주변의 반란군 무인선을 감지합니다. 이 무인선은 교전하지 않았고 장거리 감지 송신소를 순찰하는 것처럼 보입니다.</text>
 	<ship load="REBEL_AUTO_MAP" hostile="false"/>
 	<choice>
-		<text>Attack the automated ship to get to the sensor station records.</text>
+		<text>무인선을 공격하고 감지 송신소 기록에 접근합니다.</text>
 		<event>
 			<text load="CE_PRE_FIGHT_TEXT"/>
 			<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1029,35 +1029,35 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Avoid provoking the ship.</text>
+		<text>적 함선을 자극하지 않고 피한다.</text>
 		<event/>
 	</choice>
 	<choice req="sensors" lvl="3" hidden="true">
-		<text>(Sensors) Use your sensors to attempt to access the data.</text>
+		<text>(고급 센서) 당신의 센서를 이용하여 자료에 접근 시도합니다.</text>
 		<event load="AUTO_DEFENSE_MAP_SENSORS"/>
 	</choice>
 	<choice req="teleporter" hidden="true">
-		<text>(Teleporter) Beam directly onto the station to try to avoid detection.</text>
+		<text>(텔레포터) 감지당하는 것을 피하기 위해 직접 선원을 보냅니다.</text>
 		<event>
-			<text>Once on board, your crew is able to access and download the long-range scanner's archived information. Your map has been updated.</text>
+			<text>송신소에 승선한 승무원은 장거리 스캐너의 보관된 정보에 접근하고 다운로드 합니다. 지도가 업데이트 되었습니다.</text>
 			<reveal_map/>
 		</event>
 	</choice>
 </event>
 <eventList name="AUTO_DEFENSE_MAP_SENSORS">
 	<event>
-		<text>Your improved sensors are able to remotely access and download the public radar station's local map data.</text>
+		<text>당신의 향상된 센서는 원격으로 접근했고 공용 레이더 송신소의 현지 지도 자료를 다운받았습니다.</text>
 		<reveal_map/>
 	</event>
 	<event>
-		<text>The automated ship must be remotely connected to the station; as soon as you attempt to log on, the ship activates and charges you.</text>
+		<text>무인선은 송신소와 원격으로 연결된 것이 분명합니다. 당신이 로그인 하려는 순간, 무인선이 활성화되고 당신에게 돌격합니다.</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1102,19 +1102,19 @@
 
 
 <event name="AUTO_DEFENSE_ITEM" unique="true">
-	<text>An advanced Rebel automated ship remains stationed near a small Rebel space station. Sensors indicate it's a storage vessel for military goods.</text>
+	<text>고급 반란군 무인선 한 척이 작은 반란군 우주 정거장 근처에 주둔하고 있습니다. 센서는 군용품을 보관하고 있다고 나타냅니다.</text>
 	<ship load="REBEL_AUTO_ITEM" hostile="false"/>
 	<choice>
-		<text>Attack the automated ship to get to the storage cache.</text>
+		<text>무인선을 공격하고 보관소 물건을 가져갑니다.</text>
 		<event>
 		<text load="CE_PRE_FIGHT_TEXT"/>
 			<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1156,31 +1156,31 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Avoid provoking the ship.</text>
+		<text>적 함선을 자극하지 않고 피한다.</text>
 		<event/>
 	</choice>
 	<choice req="cloaking" hidden="true">
-		<text>(Cloaking) Attempt to cloak and access the cache.</text>
+		<text>(은폐장) 은폐하여 캐시에 접근 시도합니다.</text>
 		<event load="AUTO_DEFENSE_ITEM_CLOAK"/>
 	</choice>
 </event>
 <eventList name="AUTO_DEFENSE_ITEM_CLOAK">
 	<event>
-		<text>The ship patrols wide around the area, successfully approaching the station while avoiding detection.</text>
+		<text>배은 주변 넓은 지역을 순찰했고, 감지를 피해 성공적으로 정거장에 접근합니다.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="DEFENSE_ITEM_LIST"/>
 		</choice>
 	</event>
 	<event>
-		<text>Before you can get close enough to scan the station, the automated ship detects you and moves in to attack!</text>
+		<text>당신이 정거장을 스캘할 만큼 충분히 가까이 다가가기 전, 무인선은 당신을 감지하고 공격하기 위해 움직입니다!</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1224,19 +1224,19 @@
 
 
 <event name="AUTO_DEFENSE_RADAR" unique="true">
-	<text>A Rebel automated ship sits dormant near a Rebel forward radar station.</text>
+	<text>반란군 무인선은 반란군 전방 레이더 송신소 근처에서 휴면 상태로 있습니다.</text>
 	<ship load="REBEL_AUTO_RADAR" hostile="false"/>
 	<choice>
-		<text>Approach the station.</text>
+		<text>송신소에 접근합니다.</text>
 		<event>
-			<text>The ship powers up and targets you.</text>
+			<text>무인선은 전원을 키고 당신을 조준합니다.</text>
 			<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1278,19 +1278,19 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Keep your distance and wait for the FTL to charge.</text>
+		<text>거리를 유지하고 FTL이 충전될때까지 대기합니다.</text>
 		<event/>
 	</choice>
 	<choice req="COMBAT" hidden="true">
-		<text>(Anti-Ship Drone) Send a drone to distract the automated ship.</text>
+		<text>(대함 드론) 드론을 보내어 무인선의 주의를 분산시킵니다.</text>
 		<event load="AUTO_DEFENSE_RADAR_COMBAT"/>
 	</choice>
 </event>
 <eventList name="AUTO_DEFENSE_RADAR_COMBAT">
 	<event>
-		<text>Your combat drone attacks the automated ship and then retreats, luring it away. You quickly move up to the radar station to access it.</text>
+		<text>전투 드론은 무인선을 공격하고 유인하기 위해 후퇴합니다. 당신은 재빨리 레이더 송신소에 이동하여 접속합니다.</text>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="DEFENSE_RADAR_LIST"/>
 		</choice>
 		<item_modify>
@@ -1298,9 +1298,9 @@
 		</item_modify>
 	</event>
 	<event>
-		<text>Your combat drone repeatedly fires at the automated ship. It can't break through its shields, but is at least enough of a distraction to allow you to access the radar station.</text>
+		<text>전투 드론은 반복해서 무인선을 향해 공격합니다. 드론은 무인선의 방어막을 뚫을 수는 없었지만, 적어도 당신이 레이더 송신소에 접근할 수 있게 하는 방해물로는 충분합니다.</text>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="DEFENSE_RADAR_LIST"/>
 		</choice>
 		<item_modify>
@@ -1308,17 +1308,17 @@
 		</item_modify>
 	</event>
 	<event>
-		<text>Before your drone has a chance to attack, the automated ship activates and shoots it down. It then detects your ship and moves in on your position.</text>
+		<text>드론이 공격할 기회를 얻기도 전에, 무인선이 작동하여 드론을 격추시킵니다. 그런 다음 당신의 함선을 감지하고 당신의 위치로 접근합니다.</text>
 		<item_modify>
 			<item type="drones" min="-1" max="-1"/>
 		</item_modify>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1362,27 +1362,27 @@
 
 <event name="NEBULA_REBEL_BOARDING" unique="true">
 	<environment type="nebula"/>
-	<text>There appears to be a number of small stations nearby. Before you have time to scan them, warnings go off. A Rebel teleporter activates in one of the stations.</text>
+	<text>근처에 다수의 소형 정거장들이 있는 듯 합니다. 당신이 미처 그들을 스캔하기도 전에, 경고가 울립니다. 정거장들 중 한 곳에서 반란군 텔레포터가 작동합니다.</text>
 	<choice req="AE_TELEPORTER_JAMMER" hidden="true">
-		<text>(Teleporter Disruptor) Activate your disruptor field.</text>
+		<text>(텔레포터 교란장치) 교란장을 활성화해라.</text>
 		<event>
-			<text>With the disruptor active the Rebels here can't do anything. They call in reinforcements on all channels but there seem to be no combat ready ships in the system. You charge your FTL with a grin on your face.</text>
+			<text>교란장치가 활성화되자 여기 반란군들은 아무것도 할 수 없군요. 그들은 모든 채널로 지원군을 부르지만 이 성계에 전투가 준비된 함선은 없는 것 같습니다. 당신은 웃는 얼굴로 FTL을 충전합니다.</text>
 		</event>
 	</choice>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
-			<text> We've been boarded!</text>
+			<text>우린 강습당했습니다!</text>
 			<boarders min="3" max="4" class="human"/>
 			<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-				<text>(Subspace Scanner) "We need data on the hostiles whereabouts. Bring the sensors back up."</text> 
+				<text>(심층 우주스캐너) "우린 적의 행방에 대한 자료가 필요하다. 센서를 강화해라."</text> 
 				<event>
-					<text>You take a subspace image of the ship. The sensors should be able to locate the intruders now.</text>
+					<text>당신은 선박의 심층우주 영상을 촬영합니다. 이제 센서는 침입자들을 찾을 수 있습니다.</text>
 					<status type="clear" target="player" system="sensors" amount="100"/>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event/>
 			</choice>
 		</event>
@@ -1393,16 +1393,16 @@
 	<text load="BOARDERS_REBEL_SHIP"/>
 	<ship load="REBEL" hostile="false"/>
 	<choice req="AE_TELEPORTER_JAMMER" hidden="true">
-		<text>(Teleporter Disruptor) There is still time to activate the disruption field.</text>
+		<text>(텔레포터 교란장치) 거기 아직 교란장을 활성화할 시간이 남아있다.</text>
 		<event>
-			<text>You successfully defend yourself against the boarding attempt.</text>
+			<text>당신은 성공적으로 강습 시도를 막아냅니다.</text>
 			<ship load="REBEL" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1444,17 +1444,17 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
-			<text>We've been boarded!</text>
+			<text>우린 강습당했다!</text>
 			<boarders min="2" max="3" class="human"/>
 			<ship load="REBEL" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1497,30 +1497,30 @@
 	</choice>
 </event>
 <textList name="BOARDERS_REBEL_SHIP" unique="false">
-	<text>You receive a message from the nearby Rebel station's commander, "You have a lot of guts passing through our space, I'll give you that." She tells her men, "Kill their crew, I want that ship intact."</text>
-	<text>Your sensors warn of an incoming Rebel ship at the same time as the well-known computer voice of your ship AI warns you of an active enemy teleporter. You get a taunting message, "Ready to die? I sure am ready to get a promotion!"</text>
-	<text>Incoming message, "Hello, Captain," says a Rebel in an officer's garb. "How very generous of you to turn yourself in. Prepare to be boarded. Come quietly and we may be lenient."</text>
-	<text>You receive a message on a low-band channel. "You're surrounded, just like the last of your Federation friends. Just die already." The enemy has teleported onto our ship!</text>
-	<text>As you arrive, you become aware of a small Rebel outpost near the beacon. You are hardly able to bark an order before you detect a teleporter charging and a ship moving in. They must have been expecting you...</text>
+	<text>당신은 근처 반란군 정거장의 지휘관으로부터 메세지를 받았습니다, "네놈, 우리 우주를 마음대로 휘젓고 다니는거보니 배짱이 아주 두둑한가 보군. 그 점 하나는 인정하지." 그녀는 부하들에게 얘기합니다, "승무원들만 죽여라. 놈의 함선을 멀쩡한 채로 가지고 싶다."</text>
+	<text>당신 센서는 다가오는 반란군 함선을 경고함과 동시에 익숙한 AI 컴퓨터 음성으로 적 텔레포터가 활성화 되었다는 것을 경고합니다. 당신은 조롱하는 메시지를 얻습니다, "죽을 준비 되었나? 난 승진 준비가 되었는데 말이야!"</text>
+	<text>메세지가 수신되었습니다, "안녕하신가 함장." 반란군 장교복을 입은 사람이 말합니다. "여기로 배를 돌리다니 자네도 참 관대하구만. 승선당할 준비나 하시지. 고분고분히 따라준다면 우리 또한 자네에게 관용을 베풀도록 하지."</text>
+	<text>당신은 저대역 주파수에서 메세지를 받았습니다. "네놈은 지금 포위되었다, 저번에 우리에게 당한 연방 친구들처럼 말이야. 그냥 죽으라고!" 적이 우리 함선으로 순간이동했습니다!</text>
+	<text>당신이 도착할때, 신호소 근처에 있는 작은 반란군 전초기지를 눈치채게 됩니다. 당신은 막 소리를 내지르며 명령하기 전 텔레포터 충전과 선박이 움직이는 것을 감지합니다. 그들은 당신을 기다리고 있었던 모양입니다...</text>
 </textList>
 
 
 
 
 <event name="AUTO_HACKER" unique="true">
-	<text>Your arrival is greeted by numerous computer alerts. The nearby automated Rebel scout has deployed a virus and disrupted your shield system. Hopefully it won't cause further problems before you can destroy it.</text>
+	<text>당신의 도착에 수많은 컴퓨터 경고들이 반깁니다. 근처 반란군 무인 정찰기가 바이러스를 침투시켜 함선의 방어막 시설을 교란시킵니다. 정찰기를 파괴하기 전까지 더 이상의 문제가 일어나지 않기를 바랍니다.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
-			<text>You program an attack plan. "Redirect power to other systems!"</text>
+			<text>당신은 공격 계획을 세웁니다. "전력을 다른 시설로 재공급해라!"</text>
 			<ship load="REBEL_AUTO_HACKSHIELDS" hostile="true"/>
 			<status type="divide" target="player" system="shields" amount="2"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1562,16 +1562,16 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="WEAPONS_EFFECTOR">
-		<text>(Effector) Use your own electronic warfare equipment to counter the cyber-attack.</text> 
+		<text>(이펙터) 사이버 공격에 대응하기 위해 당신의 전자전 장비를 사용합니다.</text> 
 		<event>
-			<text>Your effector allows you to access the scout's outer data stores and you eliminate the virus. Power up the shields!</text>
+			<text>당신의 이펙터는 정찰기의 외부 데이터 저장소에 접근하여 바이러스를 제거할 수 있게 허용합니다. 방어막에 전력을 넣어라!</text>
 			<ship load="REBEL_AUTO" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1616,19 +1616,19 @@
 
 <event name="REBEL_TRANSPORT" unique = "true">
 	<img planet="NONE"/>
-	<text>You spot a small Rebel ship nearby. It seems to have been re-fitted for transport rather than combat. It does not seem to want to engage you and your ship.</text>
+	<text>당신은 근처 소형 반란군 선박을 발견합니다. 그건 전투보단 수송용으로 개조한 선박으로 보입니다. 당신의 함선과 교전을 원하는 것 같지는 않군요.</text>
 	<ship load="SQUAT_TRANSPORT" hostile="false"/>
 	<choice>
-		<text>Demand the surrender of their goods.</text>
+		<text>화물을 넘겨줄 것을 요구한다.</text>
 		<event>
-			<text>You prepare to secure their cargo by force.</text>
+			<text>당신은 화물을 힘으로 빼앗을 준비합니다.</text>
 			<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1670,34 +1670,34 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Avoid the ship.</text>
+		<text>선박을 피한다.</text>
 		<event>
-			<text>They stay outside your weapons range and eventually jump away.</text>
+			<text>적들은 당신의 무기 범위 밖에 머물러 있더니, 결국 도약해 도망칩니다.</text>
 		</event>
 	</choice>
 </event>
 
 <event name="BROKEN_REBEL_DRONE" unique="true">
-	<text>You find a Rebel automated scout floating near this beacon. Despite its pristine condition, it appears to be de-activated.</text>
+	<text>당신은 반란군 무인선이 신호소 주위를 떠다니는 것을 발견합니다. 무인선의 상태는 새 것처럼 보임에도 불구하고, 비활성화된 것처럼 보입니다.</text>
 	<ship load="REBEL_AUTO" hostile="false"/>
 	<choice hidden="true">
-		<text>Attempt to download the ship's data stores.</text>
+		<text>함선에 저장된 자료를 다운로드 시도합니다.</text>
 		<event load="DOWNLOAD_DRONE_DATA"/>
 	</choice>
 	<choice>
-		<text>Don't risk activating it, and just strip the ship for any useful scrap.</text>
+		<text>적 함선이 가동될수도 있으니, 위험을 무릅쓰지않고 쓸만한 고철들만 가져갑니다.</text>
 		<event>
 			<autoReward level="LOW">scrap_only</autoReward>
 		</event>
 	</choice>
 	<choice req="sensors" lvl="3" hidden="true">
-		<text>(Sensors) Remotely scan the ship.</text>
+		<text>(고급 센서) 함선을 원격으로 스캔합니다.</text>
 		<event load="BROKEN_REBEL_DRONE_SENSORS"/>
 	</choice>
 	<choice hidden="true" req="WEAPONS_EFFECTOR">
-		<text>(Effector) Use your electronic warfare device to hack into the scout.</text> 
+		<text>(이펙터) 전자전 장치를 사용하여 정찰기를 해킹합니다.</text> 
 		<event>
-			<text>Your effector turns the scout's security routines against each other and the scout's computer disables itself. You download its map data into your navigation system and strip the ship of useful materials.</text>
+			<text>이펙터는 정찰기의 보안 루틴을 서로 반대로 전환하고 스카우터 컴퓨터를 스스로 비활성화시킵니다. 당신은 지도 데이터를 항해 시스템에 다운로드하고 유용한 물질을 벗겨냅니다.</text>
 			<reveal_map/>
 			<autoReward level="LOW">standard</autoReward>
 		</event>
@@ -1705,19 +1705,19 @@
 </event>
 <eventList name="DOWNLOAD_DRONE_DATA">
 	<event>
-		<text>You are able to pull all of the ship's data about this sector. Your map has been updated.</text>
+		<text>당신은 이 구역에 대한 모든 선박 자료를 추출할 수 있었습니다. 지도가 업데이트 되었습니다.</text>
 		<reveal_map/>
 		<autoReward level="LOW">standard</autoReward>
 	</event>
 	<event>
-		<text>You accidentally reactivate the ship's AI. Its weapons and shields immediately go online; prepare for a fight!</text>
+		<text>당신은 실수로 적 선박의 인공지능을 재가동시킵니다. 적 무기와 보호막이 즉시 가동됩니다. 전투를 준비하십시오!</text>
 		<ship load="REBEL_AUTO" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1762,120 +1762,120 @@
 
 <eventList name="REBEL_TRANSPORT_DESTROYED">
 	<event>
-		<text>You search the ship and discover that its cargo was new military-grade weaponry! It was somehow undamaged in the fight and can easily be mounted on the ship.</text>
+		<text>당신은 함선을 수색해보니 화물이 새로운 군용 무기라는 걸 발견합니다! 웬일인지 무기는 전투 중에 손상을 입지 않았고, 당신의 함선에 쉽게 장착시킬 수 있어 보입니다.</text>
 		<autoReward level="MED">weapon</autoReward>
 	</event>
 	<event>
-		<text>You search the remains of the ship but only come across blueprints and debris from broken machinery. A shame, but you take what scrap you can salvage.</text>
+		<text>당신은 적 함선의 잔해를 수색했으나, 청사진들과 고장 난 기계에서 나온 잔해만을 발견했습니다. 안타깝지만, 가져갈 수 있는 스크랩만 가져갔습니다.</text>
 		<autoReward level="LOW">standard</autoReward>
 	</event>
 	<event>
-		<text>The ship was transporting weaponry. You find a piece still intact, despite the battle.</text>
+		<text>적 함선은 무기를 수송하고 있었습니다. 전투에도 불구하고 손상되지 않은 것 하나를 찾았습니다.</text>
 		<autoReward level="LOW">weapon</autoReward>
 	</event>
 	<event>
-		<text>The ship was apparently transporting weaponry; however, nothing seems to have survived the battle.</text>
+		<text>적 함선은 무기를 수송했던 것으로 보입니다만, 전투로 인해 온전히 남아있는 장비는 없는 것 같습니다.</text>
 		<autoReward level="MED">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>Searching the remains, you find that the cargo was military-grade drone schematics! You bring them aboard to install in your ship.</text>
+		<text>잔해를 조사하던 도중, 당신은 화물이 군용 드론의 설계도라는 것을 알아냈습니다! 당신은 그것들을 함선에 설치하기 위해 선상으로 가져옵니다.</text>
 		<autoReward level="MED">drone</autoReward>
 	</event>
 	<event>
-		<text>The debris implies that the ship was carrying drone schematics, but unfortunately nothing remains. You do find functioning drone parts, however.</text>
+		<text>잔해를 보아하니 적 함선은 드론 설계도를 수송중이었던 것 같습니다만, 안타깝게도 남아있는 것은 없습니다. 그래도 아직 작동하는 드론 부품을 몇 개 찾았습니다.</text>
 		<autoReward level="MED">droneparts</autoReward>
 	</event>
 	<event>
-		<text>This ship's cargo was not salvageable. However, they seem to have been surveying the region; they possess detailed maps and data. You download what you can to the ship's map.</text>
+		<text>함선의 화물은 인양할 수 없었습니다. 하지만 상세한 지도와 정보를 가지고 있던걸로 보아 그들은 이 지역을 측량 중이였던 것으로 보입니다. 당신은 다운로드 받을 수 있는 것들을 함선의 지도에 전송했습니다.</text>
 		<reveal_map/>		
 		<autoReward level="MED">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>From the bits and pieces you find, you decide that this ship was gathering information. Nothing seems useful.</text>
+		<text>부서진 파편을 보아하니, 당신은 적 함선이 정보를 모으고 있던 것으로 판단합니다. 쓸만한 건 없어 보입니다.</text>
 		<autoReward level="MED">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>You detect faint life signatures from an intact piece of the hull. They were transporting prisoners, and the sole survivor offers to join your crew as a first step on their path to get revenge.</text>
+		<text>당신은 아직 온전한 선체에서 미약한 생명신호를 감지했습니다. 적들은 포로들을 수송중이였으며, 단 한 명의 생존자가 복수의 첫 걸음으로 당신의 승무원으로 합류하는 것을 제안합니다.</text>
 		<crewMember amount="1"/>
 		<autoReward level="LOW">standard</autoReward>
 	</event>
 	<event>
-		<text>The ship appears to have been transporting prisoners. Unfortunately they were all killed in the battle. You salvage what you can.</text>
+		<text>함선은 포로들을 수송중이였던 것으로 보입니다. 안타깝게도 그들은 전부 전투 중에 죽었습니다. 당신은 인양할 수 있는 것들을 인양합니다.</text>
 		<autoReward level="LOW">standard</autoReward>
 	</event>
 	<event>
-		<text>The ship was carrying military supplies. You pick up anything that looks salvageable from the debris.</text>
+		<text>적 함선은 군수품을 수송중이었습니다. 당신은 잔해 속에서 인양할 수 있어 보이는 것들을 챙겼습니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 	</event>
 	<event>
-		<text>The ship was apparently transporting confiscated goods. Some crates remain undamaged; you load them into your cargo holds.</text>
+		<text>선박은 압수품을 수송하고 있었던 것 같습니다. 일부 상자는 손상되지 않은 상태였고, 당신은 화물칸에 압수품들을 적재합니다.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<augment name="TE_GOODS_REBEL_CONTRABAND"/>
 	</event>
 	<event>
-		<text>The ship was apparently transporting materials for deep space construction. The sturdy rods are barely damaged - This must be what the Rebels build their many stations of. You load the cargo into your holds.</text>
+		<text>선박은 심층 우주 공사를 위한 자재들을 운반하고 있었던 것 같습니다. 견고한 막대가 거의 손상되지 않았습니다 - 이런 방식으로 반란군들은 많은 정거장을 건설합니다. 당신은 짐칸에 화물을 싣습니다.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<augment name="TE_GOODS_GIRDERS"/>
 	</event>
 	<event>
-		<text>The ship was apparently transporting materials for deep space construction. The sturdy rods are barely damaged - This must be what the Rebels build their many stations of. You load the cargo into your holds.</text>
+		<text>선박은 심층 우주 공사를 위한 자재들을 운반하고 있었던 것 같습니다. 견고한 막대가 거의 손상되지 않았습니다 - 이런 방식으로 반란군들은 많은 정거장을 건설합니다. 당신은 짐칸에 화물을 싣습니다.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<augment name="TE_GOODS_GIRDERS"/>
 	</event>
 	<event>
-		<text>The ship was transporting a haul of gems. This would be a more exciting find if these materials would not be abundantly available in outer space. You load the cargo into your holds.</text>
+		<text>선박은 많은 보석들을 운반하고 있었습니다. 만약 이 물건들이 외우주에서 충분히 이용되지 않는다면, 이건 더 흥미로운 발견일 겁니다. 당신은 짐칸에 화물을 싣습니다.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<augment name="TE_GOODS_GEMS"/>
 	</event>
 	<event>
-		<text>The ship was apparently transporting hyper-flexible cable elements. Some crates remain undamaged; you load them into your cargo holds.</text>
+		<text>선박은 유연성이 강한 케이블 부품을 수송하고 있었던 것 같습니다. 일부 상자는 손상되지 않은 상태로 남아 있습니다. 당신은 그것들을 화물칸에 싣습니다.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<augment name="TE_GOODS_CONDUITS"/>
 	</event>
 	<event>
-		<text>The ship was apparently transporting industrial drones. You have no use for them, but maybe you can find a good buyer for the machines somewhere. You load them into your cargo holds.</text>
+		<text>선박은 명백히 산업용 드론으로 보이는 걸 운송하고 있었습니다. 당신은 그들을 위해 쓸모가 없지만, 아마도 어딘가에 그 기계들을 사줄 좋은 구매자들을 찾을 수 있을 겁니다. 당신은 그것들을 화물칸에 싣습니다.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<augment name="TE_GOODS_ROBOTS"/>
 	</event>
 </eventList>
 <eventList name="REBEL_TRANSPORT_CAPTURED">
 	<event>
-		<text>This ship was ferrying a bunch of cadets to their first assignments, you find them hiding deep within the ship. The young Rebels have just passed training and seem ill equipped to offer any kind of resistance. They surrender and demand to be treated in accordance with general system law.</text>
+		<text>이 배는 많은 생도들을 첫 임무를 위해 실어 나르는 중이었습니다. 당신은 그들이 배 안 깊숙한 곳에 숨어있는 것을 발견합니다. 젊은 반란군들은 방금 훈련에 통과했고 어떤 종류의 저항을 할 수 장비를 갖추지 못한 것 같습니다. 그들은 항복하며 일반적인 성계법률에 따라 대우해줄 것을 요구합니다.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<choice hidden="true">
-			<text>Take the Rebels as prisoners.</text>
+			<text>반란군들을 포로로 잡습니다.</text>
 			<event load="CE_QUEST_REBEL_POW_START"/>
 		</choice>
 		<choice hidden="true">
-			<text>Execute the Rebels on the spot.</text>
+			<text>현장에서 반란군들을 처형합니다.</text>
 			<event>
-				<text>You decide that you have neither the time, nor the resources to take care of prisoners. These Rebels will act against the Federation if set free, but when you order them shot your crew refuses to act against unarmed POWs. You grab a pulse rifle and gun down the pleading and screaming Rebels yourself.</text>
+				<text>당신은 포로를 돌볼 시간도, 자원도 없다고 판단합니다. 이 반란군들은 석방되면 연방에 대항할 것입니다. 하지만 당신이 반란군들에게 총을 쏘라고 명령할 때, 선원들은 무장하지 않은 포로들을 상대로 처형하는 것을 거부합니다. 당신은 펄스 라이플을 잡고 행동하기를 거부합니다. 당신은 펄스 라이플을 잡고 애원하고 비명 지르는 반란군들을 직접 쏘아 죽입니다.</text>
 			</event>
 		</choice>
 		<choice req="CREW_STIMS" hidden="true"> 
-			<text>(Mantis Ship) Torture the Rebels for Information.</text>
+			<text>(맨티스 함선) Torture the Rebels for Information.</text>
 			<event>
-				<text>You order them to be take to the special room. After a few hours that involve plenty of shouting, medication and hand tools, the group of cadets is reduced to a whimpering pile of half-dismembered bodies. You learned all you can about the Rebels pursuit vectors and hose down the torture chamber,- airlock style.</text>
+				<text>당신은 그들을 특별실로 데려가라고 명령합니다. 많은 고함소리, 약품 그리고 연장도구가 포함된 몇 시간이 지난 후 생도들은 초주검이 된 상태로 전락합니다. 당신은 반란군의 진로와 호스로 씻어내리는 고문실에 대한 모든 것을 배웠습니다 - 에어록 스타일로 말이죠.</text>
 				<modifyPursuit amount="-1"/>
 			</event>
 		</choice>
 	</event>
 	<event>
-		<text>With the crew dead, you search the ship. You find military-grade weaponry and take what looks most useful.</text>
+		<text>선원들이 죽자, 당신은 배를 수색하세요. 당신은 군용 무기를 찾았고 가용 유용해 보이는 것들을 가져갑니다.</text>
 		<autoReward level="MED">weapon</autoReward>
 	</event>
 	<event>
-		<text>The ship refuses to fight, but you still detect life signatures. Apparently this was a prisoner transport. The single survivor offers to join your crew in exchange for their freedom.</text>
+		<text>선박은 싸우기를 거부했지만, 당신은 여전히 생명신호를 감지합니다. 이건 분명 포로 수송선이었을 겁니다. 생존자 단 한 명이 답례로 당신의 승무원으로 합류하기를 제의합니다.</text>
 		<crewMember amount="1"/>
 		<autoReward level="MED">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>This ship was apparently carrying information about the surrounding beacons. You download what you can to the ship's map and scrap the rest of the ship.</text>
+		<text>선박은 주변 신호소에 대한 정보를 싣고 있었던 것 같습니다. 당신은 다운로드할 수 있는 선박 지도를 다운하고 배를 폐기합니다.</text>
 		<reveal_map/>
 		<autoReward level="MED">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>The ship was apparently transporting confiscated goods. You load them into your cargo holds.</text>
+		<text>배는 압수품을 수송하고 있었던 것 같습니다. 당신은 그것들을 화물칸에 싣습니다.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<augment name="TE_GOODS_REBEL_CONTRABAND"/>
 	</event>
@@ -1883,19 +1883,19 @@
 
 <eventList name="CE_QUEST_REBEL_POW_START">
 	<event>
-		<text>You contact a local Rebel official via an encrypted proxy beacon and fix a rendezvous point in neutral territory to perform a prisoner exchange. If you can get there before the fleet then you might be able to negotiate the release of the prisoners under favorable conditions.</text>
+		<text>당신은 암호화된 대리 신호소를 통해 현지 반란군 관계자에게 연락하고 중립 영역에 있는 접선 지점을 정하여 포로 교환을 수행할 수 있습니다. 만약 당신이 함대보다 먼저 도착할 수 있다면, 유리한 조건으로 포로 석방을 협상할 수 있을 것입니다.</text>
 		<quest event="CE_QUEST_REBEL_POW_MEETING"/>
 	</event>
 	<event>
-		<text>You contact a local Rebel official via an encrypted proxy beacon and fix a rendezvous point in neutral territory to perform a prisoner exchange. If you can get there before the fleet then you might be able to negotiate the release of the prisoners under favorable conditions.</text>
+		<text>당신은 암호화된 대리 신호소를 통해 현지 반란군 관계자에게 연락하고 중립 영역에 있는 접선 지점을 정하여 포로 교환을 수행할 수 있습니다. 만약 당신이 함대보다 먼저 도착할 수 있다면, 유리한 조건으로 포로 석방을 협상할 수 있을 것입니다.</text>
 		<quest event="CE_QUEST_REBEL_POW_MEETING"/>
 	</event>
 	<event>
-		<text>You contact a local Rebel official via an encrypted proxy beacon and fix a rendezvous point in neutral territory to perform a prisoner exchange. If you can get there before the fleet then you might be able to negotiate the release of the prisoners under favorable conditions.</text>
+		<text>당신은 암호화된 대리 신호소를 통해 현지 반란군 관계자에게 연락하고 중립 영역에 있는 접선 지점을 정하여 포로 교환을 수행할 수 있습니다. 만약 당신이 함대보다 먼저 도착할 수 있다면, 유리한 조건으로 포로 석방을 협상할 수 있을 것입니다.</text>
 		<quest event="CE_QUEST_REBEL_POW_MEETING"/>
 	</event>
 	<event>
-		<text>When bringing the Cadets on board, one of them snatches a rifle from a nearby rack. The young Rebels stage a desperate attempt to take over your ship. You will have to defend yourself.</text>
+		<text>생도들을 승선시킬 때, 그들 중 한 명이 근처 선반에서 소총을 낚아챕니다. 젊은 반란군들은 당신의 배를 탈취하려고 필사적인 시도를 벌입니다. 당신은 스스로 방어해야 할 겁니다.</text>
 		<boarders min="2" max="3" class="human"/>
 	</event>
 </eventList>
@@ -1903,14 +1903,14 @@
 
 <eventList name="CE_QUEST_REBEL_POW_MEETING">
 	<event>
-		<text>It looks like the Rebels do care little about their own. A military vessel waits for you in what is supposed to be the neutral zone and opens fire the moment you arrive.</text>
+		<text>반란군들은 자기 포로에 대한 걸 별로 신경 쓰지 않는 모양입니다. 군함은 중립지대에서 대기하다가 당신이 도착하자마자 바로 발포합니다.</text>
 		<ship load="REBEL_POW_MEETING_RELEASE" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1951,14 +1951,14 @@
 		</choice>
 	</event>
 	<event>
-		<text>It looks like the Rebels do care little about their own. A military vessel waits for you in what is supposed to be the neutral zone and opens fire the moment you arrive.</text>
+		<text>반란군들은 자기 포로에 대한 걸 별로 신경 쓰지 않는 모양입니다. 군함은 중립지대에서 대기하다가 당신이 도착하자마자 바로 발포합니다.</text>
 		<ship load="REBEL_POW_MEETING" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1999,14 +1999,14 @@
 		</choice>
 	</event>
 	<event>
-		<text>It looks like the Rebels do care little about their own. A military vessel waits for you in what is supposed to be the neutral zone and opens fire the moment you arrive.</text>
+		<text>반란군들은 자기 포로에 대한 걸 별로 신경 쓰지 않는 모양입니다. 군함은 중립지대에서 대기하다가 당신이 도착하자마자 바로 발포합니다.</text>
 		<ship load="REBEL_POW_MEETING" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2047,39 +2047,39 @@
 		</choice>
 	</event>
 	<event>
-		<text>You arrive in the neutral zone and meet the Rebel negotiators aboard a small civilian orbital. They agree to pay a ransom in exchange for the lives of the prisoners.</text>
+		<text>당신은 중립지대에 도착했고 작은 민간 궤도선에 탄 반란군 협상가들을 만납니다. 그들은 포로들의 생명을 대가로 몸값을 지불하는 것에 동의합니다.</text>
 		<autoReward level="HIGH">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>You arrive in the neutral zone and meet the Rebel negotiators aboard a small civilian orbital. They agree to pay a ransom in exchange for the lives of the prisoners.</text>
+		<text>당신은 중립지대에 도착했고 작은 민간 궤도선에 탄 반란군 협상가들을 만납니다. 그들은 포로들의 생명을 대가로 몸값을 지불하는 것에 동의합니다.</text>
 		<autoReward level="HIGH">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>You arrive in the neutral zone and meet the Rebel negotiators aboard a small civilian orbital. They agree to pay a ransom in exchange for the lives of the prisoners.</text>
+		<text>당신은 중립지대에 도착했고 작은 민간 궤도선에 탄 반란군 협상가들을 만납니다. 그들은 포로들의 생명을 대가로 몸값을 지불하는 것에 동의합니다.</text>
 		<autoReward level="HIGH">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>You arrive in the neutral zone and meet the Rebel negotiators aboard a small civilian orbital. The leverage gained allows you to convince the Rebel officials to delay the pursuing fleet.</text>
+		<text>당신은 중립지대에 도착했고 작은 민간 궤도선에 탄 반란군 협상가들을 만납니다. 얻은 영향력을 바탕으로 반란군 관계자들에게 함대 추적을 늦추도록 설득시킬 수 있었습니다.</text>
 		<modifyPursuit amount="-3"/>
 	</event>
 	<event>
-		<text>You arrive in the neutral zone and meet the Rebel negotiators aboard a small civilian orbital. The leverage gained allows you to convince the Rebel officials to delay the pursuing fleet.</text>
+		<text>당신은 중립지대에 도착했고 작은 민간 궤도선에 탄 반란군 협상가들을 만납니다. 얻은 영향력을 바탕으로 반란군 관계자들에게 함대 추적을 늦추도록 설득시킬 수 있었습니다.</text>
 		<modifyPursuit amount="-3"/>
 	</event>
 	<event>
-		<text>You arrive in the neutral zone and meet the Rebel negotiators aboard a small civilian orbital. The leverage gained allows you to convince the Rebel officials to delay the pursuing fleet.</text>
+		<text>당신은 중립지대에 도착했고 작은 민간 궤도선에 탄 반란군 협상가들을 만납니다. 얻은 영향력을 바탕으로 반란군 관계자들에게 함대 추적을 늦추도록 설득시킬 수 있었습니다.</text>
 		<modifyPursuit amount="-3"/>
 	</event>
 	<event>
-		<text>You arrive in the neutral zone and meet the Rebel negotiators aboard a small civilian orbital. They agree to a prisoner exchange and a captured Federation commando is released when you return the Rebel cadets. The seasoned lieutenant has to submit to your command.</text>
+		<text>당신은 중립지대에 도착했고 작은 민간 궤도선에 탄 반란군 협상가들을 만납니다. 그들은 포로 교환에 동의했고, 당신이 반란군 생도들을 돌려보내자 붙잡힌 연방 특공대를 석방합니다. 노련한 중위는 당신의 지휘에 복종합니다.</text>
 		<crewMember amount="1" class="human" combat="2"/>
 	</event>
 	<event>
-		<text>You arrive in the neutral zone and meet the Rebel negotiators aboard a small civilian orbital. They agree to a prisoner exchange and a captured Federation engineer is released when you return the Rebel cadets. The specialist submits to your command.</text>
+		<text>당신은 중립지대에 도착했고 작은 민간 궤도선에 탄 반란군 협상가들을 만납니다. 그들은 포로 교환에 동의했고, 당신이 반란군 생도들을 돌려보내자 붙잡힌 연방 기술자를 석방합니다. 전문가는 당신의 지휘에 복종합니다.</text>
 		<crewMember amount="1" class="engi" repair="1"/>
 	</event>
 	<event>
-		<text>You arrive in the neutral zone and meet the Rebel negotiators aboard a small civilian orbital. They agree to a prisoner exchange and a captured Federation official is released when you return the Rebel cadets. The Zoltan agrees to submit to your command.</text>
+		<text>당신은 중립지대에 도착했고 작은 민간 궤도선에 탄 반란군 협상가들을 만납니다. 그들은 포로 교환에 동의했고, 당신이 반란군 생도들을 돌려보내자 붙잡힌 연방 생도를 석방합니다. 졸탄은 당신의 지휘에 복종하기로 동의합니다.</text>
 		<crewMember amount="1" class="energy"/>
 	</event>
 </eventList>
@@ -2088,18 +2088,18 @@
 
 
 <event name="FLAGSHIP_CONSTRUCTION" unique="true">
-	<text>You arrive at the beacon to find yourself in a huge Rebel shipyard, scaffolding and construction drones filling the sector! The entire system looks devoted to ship construction, the nearby planets and moons ruthlessly mined to harvest resources for a ship of immense size...</text>
+	<text>당신은 송신소에 도착하자 발판들과 건설 드론들로 가득한 거대한 반란군 조선소를 발견합니다! 모든 시설이 함선 건조에 힘을 쏟는 것처럼 보였고, 근처 행성들과 위성들은 어마어마한 크기의 함선에 쓸 자원을 채취하기 인정사정없이 채굴당했습니다...</text>
 	<choice>
-		<text>Look around.</text>
+		<text>주변을 둘러본다.</text>
 		<event>
-			<text>Warning lights flash as scans identify the gigantic ship under construction - it's a second Rebel Flagship! This must be the secret shipyards where the first one was built, and you've accidentally stumbled across it! Even in its weakened state, the Rebel ship powers up... get ready, you've got a hell of a fight on your hands.</text>
+			<text>건조 중인 거대한 함선을 스캔하고 식별하자 경고등이 울립니다 - 그건 두 번째 반란군 기함입니다! 여긴 분명 첫 번째 기함이 건조된 비밀 조선소였고, 당신은 우연히 그걸 발견했습니다! 비록 약한 상태이지만, 반란군 기함은 전력을 공급합니다... 준비하십시오, 당신의 손으로 지옥 같은 전투를 치뤄야 합니다</text>
 			<ship load="FLASHSHIP_CONSTRUCTION_SHIP" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2141,9 +2141,9 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Leave immediately.</text>
+		<text>즉시 떠난다.</text>
 		<event>
-			<text>You feel the mission is the highest priority and it's too risky to stay in such a dangerous location.</text>
+			<text>당신은 임무가 최우선 사항이며 이런 위험한 지역에 머무는 것은 너무 위험하다고 느꼈습니다.</text>
 		</event>
 	</choice>
 </event>
@@ -2157,11 +2157,11 @@
 	<ship load="BS_AUTO_SUICIDE" hostile="true"/>
 	<status type="limit" target="enemy" system="engines" amount="0"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2220,11 +2220,11 @@
 	<text load="BS_EVENT_AUTO_TEXT"/>
 	<ship load="BS_AUTO_TURRET" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2280,19 +2280,19 @@
 </textList>
 
 <event name="BS_EVENT_AUTO_DEFENSE_SUPPLY" unique="true">
-	<text>An AI controlled Rebel defense turret is stationed near an unarmed Rebel supply depot. Sensors indicate it stores military equipment.</text>
+	<text>AI가 통제하고 있는 반란군 방어 포탑이 비무장 반란군 보급 전초기지에 배치되어 있습니다. 센서들은 전초기지가 군사 장비를 보관하고 있다는 것을 나타냅니다.</text>
 	<ship load="BS_AUTO_TURRET_DEFENSE_SUPPLY" hostile="false"/>
 	<choice>
-		<text>Engage the turret to get to the supply station.</text>
+		<text>포탑과 교전하여 보급 정거장에 접근합니다.</text>
 		<event>
 			<ship hostile="true"/>
 		<text load="CE_PRE_FIGHT_TEXT"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2334,11 +2334,11 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Avoid provoking the turret.</text>
+		<text>포탑을 자극하는 걸 피합니다.</text>
 		<event/>
 	</choice>
 	<choice req="cloaking" hidden="true">
-		<text>(Cloaking) Attempt to cloak and access the supply station.</text>
+		<text>(은폐장) 은폐하여 보급 정거장에 접근 시도합니다.</text>
 		<event load="BS_EVENT_AUTO_DEFENSE_SUPPLY_CLOAK"/>
 	</choice>
 </event>
@@ -2346,7 +2346,7 @@
 	<event>
 		<text>After an initial thrust you activate the ship's cloak and drift towards the station. The turret seems to register that something is wrong; it broadens its scanning range, but isn't able to detect you.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="BS_EVENT_AUTO_DEFENSE_SUPPLY_RESULTS"/>
 		</choice>
 	</event>
@@ -2354,11 +2354,11 @@
 		<text>After an initial thrust you activate the ship's cloak and drift towards the station. The turret seems to register that something is wrong; it broadens its scanning range and detects faint residual heat from your thruster. It fully activates its weapon clusters!</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2431,16 +2431,16 @@
 	<img planet="NONE"/>
 	<text>You successfully tracked down the transport that carries equipment from the supply depot.</text>
 	<choice>
-		<text>Demand the surrender of their goods.</text>
+		<text>화물을 넘겨줄 것을 요구한다.</text>
 		<event>
-			<text>You prepare to secure their cargo by force.</text>
+			<text>당신은 화물을 힘으로 빼앗을 준비합니다.</text>
 			<ship load="SQUAT_TRANSPORT" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2484,7 +2484,7 @@
 	<choice>
 		<text>Leave them be.</text>
 		<event>
-			<text>They stay outside your weapons range and eventually jump away.</text>
+			<text>적들은 당신의 무기 범위 밖에 머물러 있더니, 결국 도약해 도망칩니다.</text>
 		</event>
 	</choice>
 </event>
@@ -2494,12 +2494,12 @@
 	<text load="CE_REBEL_AUTO_CRUISER_TEXT"/>
 	<ship load="C_AUTO_CRUISER" hostile="true"/>
 	<choice hidden="true"> 
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text load="CE_REBEL_AUTO_CRUISER_NAME_TEXT"/>
 			<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2560,16 +2560,16 @@
 	<text load="BS_EVENT_REBEL_TEXT"/>
 	<ship load="BS_REBEL" hostile="false"/>
 	<choice>
-		<text>Power up the weapons.</text>
+		<text>무기에 전력을 넣습니다.</text>
 		<event>
 			<text>The station begins laying down fire on you.</text>
 			<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2611,7 +2611,7 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Surrender.</text>
+		<text>항복합니다.</text>
 		<event>
 			<text>Confusion breaks out amongst your crew as you tell them your decision. The Rebels are not exactly known for taking prisoners...</text>
 			<choice>
@@ -2619,7 +2619,7 @@
 				<event>
 					<text load="BS_EVENT_REBEL_FAIL_TEXT"/>
 					<choice>
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>...</text>
 							<damage amount="100"/>
@@ -2633,11 +2633,11 @@
 					<text>As you target the station it powers up its guns. You engage it with newfound desperate confidence.</text>
 					<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2681,11 +2681,11 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="mantis">
-		<text>(Mantis Crew) Pretend that you want to parley and have your Mantis ambush the Rebel negotiators to facilitate an escape.</text>
+		<text>(맨티스 승무원) Pretend that you want to parley and have your Mantis ambush the Rebel negotiators to facilitate an escape.</text>
 		<event>
 			<text>The Rebels agree to send an unarmed negotiator. When their shuttle docks, you aren't surprised that four fully suited up Rebel marines exit it instead. They calmly walk up towards you. Suddenly your Mantis crew member bursts out of a nearby cargo crate.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>With the element of surprise on its side, the Mantis slices the boarders to pieces before they can even reach for their comms. The whole operation gave you enough time to charge the FTL drive and the Rebel station isn't reacting yet. This is your chance to escape!</text>
 					<ship hostile="false"/>
@@ -2713,7 +2713,7 @@
 <event name="BS_QUEST_REBEL_START" unique="true">
 	<text>A short while after arriving at the beacon you receive a message with multiple encryption layers from a ship that IDs as Federation. You cannot see it around anywhere. "Greetings, friendlies. This is Federation Infiltrator Solid-PXt005."</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 			<event>
 			<text>"We've been running interference and sabotage missions in this sector for months on our own now. No idea what you are doing here, but you might be sufficiently equipped to take on a Rebel prime target we identified. You are not some kind of deserter, are you? Will you accept this mission?"</text>
 			<choice hidden="true">
@@ -2721,17 +2721,17 @@
 				<event>
 					<text>"Good! The target is a Rebel station that is a key part of their supply lines. We transmit coordinates, oh... hostiles incoming, we got to go!" They cease communications and you detect a faint jump signature nearby.</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>Immediately afterwards a Rebel ship jumps in. "Finally got you, you evasive fu... wait, who are you? A cruiser class? Fed ID, huh? Well just as good." They lock weapons on your ship."</text>
 							<quest event="BS_QUEST_REBEL_FIGHT"/>
 							<ship load="REBEL" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2779,16 +2779,16 @@
 				<event>
 					<text>"Well we wish you luck with that then. You might want to get out of here, we detect incoming bogies." You detect a small jump signature a few klicks away and then a much bigger one right in front of you.</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>A Rebel ship jumps in and hails, "Hmm, you are not who we are looking for... I see, you are even better!". They get into an attack position.</text>
 							<ship load="REBEL" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2839,7 +2839,7 @@
 	<environment type="asteroid"/>	
 	<ship load="BS_REBEL_QUEST_SUPPLY" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2882,7 +2882,7 @@
 <event name="BS_QUEST_REBEL_REWARD">
 	<text>You arrive at the location specified by the Infiltrator. An automated Rebel armory orbits a nearby moon, with a few Rebel riggers currently docking. After transmitting the stolen codes you receive automated docking instructions.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>You remain tense and ready to power the weapons at a second's notice, but no one bothers you as the station's drones install a weapon from the Rebels' arsenal on your ship. You leave the station immediately and charge the FTL.</text>
 			<autoReward level="HIGH">weapon</autoReward>
@@ -2899,16 +2899,16 @@
 	<text load="C_EVENT_CRUISER_REBEL_TEXT"/>
 	<ship load="C_REBEL_CRUISER" hostile="false"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
-			<text> Fleeing seems to be a suitable option here... still, taking out a cruiser here would surely throw the Rebel fleet into disarray.</text>
+			<text>도망은 여기서 적절한 선택인 겉 같습니다... 그렇지만, 여전히 순양함을 제거한다면 반란군 함대는 혼란에 빠질 것입니다.</text>
 			<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -2979,11 +2979,11 @@
 	<text load="C_EVENT_REBEL_GUNBOAT_TEXT"/>
 	<ship load="C_REBEL_GUNBOAT" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -3044,7 +3044,7 @@
 	<text load="CE_PDS_REBEL_TEXT"/>
 
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="CE_PDS_REBEL_LIST"/>
 	</choice>
 </event>
@@ -3060,11 +3060,11 @@
 		<text>The Rebels must be in full control of the former Federation point defense beams. A ship of their newly established defense force is sent out to mark you for the beam strike. Your First Mate advises you to avoid the planetary fire at all cost and jump on quickly.</text>
 		<ship load="CE_SPOTTER_REBEL_BEAM" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -3108,11 +3108,11 @@
 		<text>A ship of the local defense squadron is dispatched to spot for the Rebel artillery. You will have to get out of this system quickly to escape the deadly barrage.</text>
 		<ship load="CE_SPOTTER_REBEL_ARTILLERY" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -3161,7 +3161,7 @@
 	<text load="REBEL_AUTO"/>
 	<ship load="REBEL_AUTO" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="CE_ENEMY_COMBATAUG_AUTO"/>
 	</choice>
 </event>
@@ -3171,7 +3171,7 @@
 	<text load="BS_EVENT_AUTO_TEXT"/>
 	<ship load="BS_AUTO_TURRET" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="CE_ENEMY_COMBATAUG_AUTO"/>
 	</choice>
 </event>
@@ -3181,11 +3181,11 @@
 	<text load="BS_EVENT_AUTO_TEXT"/>
 	<ship load="BS_AUTO_TURRET_BOARDERS" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -3231,11 +3231,11 @@
 	<text load="REBEL_AUTO"/>
 	<ship load="REBEL_AUTO_BOARDERS" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -3283,11 +3283,11 @@
 <event name="STORE_REBEL">
 	<text load="STORE_REBEL"/>
 	<choice req="AE_TRADE_BOOSTER" hidden="true">
-		<text>(Cargo Teleporter) Prepare to quickly transfer cargo and have a look at the goods.</text>
+		<text>(화물 전송기) 빨리 화물을 이송할 준비를 하고 상품을 살펴봅니다.</text>
 		<event load="TE_STORE_REBEL_LIST_BOOSTED"/>
 	</choice>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="TE_STORE_REBEL_LIST"/>
 	</choice>
 	<store/>
@@ -3305,9 +3305,9 @@
 	<event load="TE_STORE_REBEL_ACTUAL"/>
 	<event load="TE_STORE_REBEL_ACTUAL"/>
 	<event>
-		<text>Upon docking you discover that this trader has access to a cargo teleporter. You will be able to make a quick deal here.</text>
+		<text>도킹할 때 당신은 이 상인이 화물 전송기에 접속할 수 있다는 것을 알았습니다. 당신은 이곳에서 거래를 신속하게 할 수 있을 겁니다.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="TE_STORE_REBEL_LIST_BOOSTED"/>
 		</choice>
 	</event>
@@ -3316,10 +3316,10 @@
 
 <eventList name="TE_STORE_REBEL_ACTUAL">
 	<event>
-		<text>You consider striking a deal here. This might take some time.</text>
+		<text>당신은 여기서 거래하는 것을 고려합니다. 시간이 좀 걸릴 겁니다.</text>
 <!-- BUYING -->
 		<choice>
-			<text>Buy some confiscated goods.</text>
+			<text>밀수품 좀 삽니다.</text>
 			<event>
 				<text load="STORE_REBEL_BUY_TEXT"/>
 				<modifyPursuit amount="1"/>
@@ -3332,11 +3332,11 @@
 <!-- SELLING -->
 		<choice req="TE_GOODS_NEBULA_GAS" hidden="true">
 			<!-- best deal-->
-			<text>The trader approaches you, "The Rebels need a lot of fuel for their fleet. I could find a good buyer for this gas shipment." [Sell Compressed Nebula Gas for about 90 Scrap]</text>
+			<text>상인이 당신에게 다가옵니다, "반란군들은 자신들의 함대를 위해 많은 양의 연료를 필요로 합니다. 전 이 가스 적하물은 살만한 좋은 구매자들을 찾을 수 있어요." [압축 성운 가스를 대략 95 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3349,11 +3349,11 @@
 		</choice>
 		<choice req="TE_GOODS_ROCK_ORE" hidden="true">
 			<!-- best deal-->
-			<text>The Rebels can't mine resources fast enough to construct their monstrous fleet. They've started to buy ore from all over the galaxy at insane prices. [Sell Raw Asteroid Ore for about 70 Scrap]</text>
+			<text>반란군들은 그들의 거대한 함대를 만들만큼 충분한 자원들을 빨리 채굴할 수 없습니다. 그들은 모든 은하계로부터 광석을 미친 가격에 사기 시작합니다. [소행성 원석을 대략 75 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3366,11 +3366,11 @@
 		</choice>
 		<choice req="TE_GOODS_MANTIS_ENGINES" hidden="true">
 			<!-- best deal-->
-			<text>A public announcement informs you, "The Rebel fleet wants your engine parts! Strip your ship or sell spare parts to support our troops!" The prices aren't that bad. [Sell Engine Parts for about 100 Scrap]</text>
+			<text>공지사항이 당신에게 알립니다, "반란군 함대는 당신의 엔진 부품을 원해요! 저희 군대를 지원하기 위해서는 배를 해체하거나 예비 부품들을 파세요!" 가격은 나쁘지 않군요. [엔진 부품을 대략 100 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3382,11 +3382,11 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GIRDERS" hidden="true">
-			<text>The Rebels need huge amounts of materials for their expansion. Several subcontractors buy all the construction material they can find. [Sell Building Material for about 70 Scrap]</text> <!-- updated -->
+			<text>반란군들은 확장을 위해 엄청난 양의 자재를 필요로 합니다. 몇몇 하청업체들은 자신들이 찾을 수 있는 모든 건축 자재를 구입합니다. [건축재를 대략 70 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3402,7 +3402,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3418,7 +3418,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3434,7 +3434,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3450,7 +3450,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3466,7 +3466,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3482,7 +3482,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3498,7 +3498,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3514,7 +3514,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3530,7 +3530,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3546,7 +3546,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3562,7 +3562,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3578,7 +3578,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3594,7 +3594,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3610,7 +3610,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3626,7 +3626,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3642,7 +3642,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3658,7 +3658,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3674,7 +3674,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3690,7 +3690,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3706,7 +3706,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3722,7 +3722,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3738,7 +3738,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3754,7 +3754,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3770,7 +3770,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3786,7 +3786,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3802,7 +3802,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3819,7 +3819,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3835,7 +3835,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3851,7 +3851,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3867,7 +3867,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3883,7 +3883,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3899,7 +3899,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3915,7 +3915,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3931,7 +3931,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3947,7 +3947,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3963,7 +3963,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3979,7 +3979,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -3995,7 +3995,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4011,7 +4011,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4027,7 +4027,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4043,7 +4043,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4059,7 +4059,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4075,7 +4075,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4091,7 +4091,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4107,7 +4107,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4123,7 +4123,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4139,7 +4139,7 @@
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4173,10 +4173,10 @@
 
 <eventList name="TE_STORE_REBEL_LIST_BOOSTED">
 	<event>
-		<text>You consider striking a deal here. The cargo teleporter will facilitate trading.</text>
+		<text>당신은 여기서 거래를 하는 것을 고려합니다. 화물 전송기는 거래를 용이하게 해줄 겁니다.</text>
 <!-- BUYING -->
 		<choice>
-			<text>Buy some confiscated goods.</text>
+			<text>밀수품 좀 삽니다.</text>
 			<event>
 				<text load="STORE_BUY_TEXT_BOOSTED"/>
 				<item_modify>
@@ -4188,11 +4188,11 @@
 <!-- SELLING -->
 		<choice req="TE_GOODS_NEBULA_GAS" hidden="true">
 			<!-- best deal-->
-			<text>The trader approaches you, "The Rebels need a lot of fuel for their fleet. I could find a good buyer for this gas shipment." [Sell Compressed Nebula Gas for about 90 Scrap]</text>
+			<text>상인이 당신에게 다가옵니다, "반란군들은 자신들의 함대를 위해 많은 양의 연료를 필요로 합니다. 전 이 가스 적하물은 살만한 좋은 구매자들을 찾을 수 있어요." [압축 성운 가스를 대략 95 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4204,11 +4204,11 @@
 		</choice>
 		<choice req="TE_GOODS_ROCK_ORE" hidden="true">
 			<!-- best deal-->
-			<text>The Rebels can't mine resources fast enough to construct their monstrous fleet. They've started to buy ore from all over the galaxy at insane prices. [Sell Raw Asteroid Ore for about 70 Scrap]</text>
+			<text>반란군들은 그들의 거대한 함대를 만들만큼 충분한 자원들을 빨리 채굴할 수 없습니다. 그들은 모든 은하계로부터 광석을 미친 가격에 사기 시작합니다. [소행성 원석을 대략 75 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4220,11 +4220,11 @@
 		</choice>
 		<choice req="TE_GOODS_MANTIS_ENGINES" hidden="true">
 			<!-- best deal-->
-			<text>A public announcement informs you, "The Rebel fleet wants your engine parts! Strip your ship or sell spare parts to support our troops!" The prices aren't that bad. [Sell Engine Parts for about 100 Scrap]</text>
+			<text>공지사항이 당신에게 알립니다, "반란군 함대는 당신의 엔진 부품을 원해요! 저희 군대를 지원하기 위해서는 배를 해체하거나 예비 부품들을 파세요!" 가격은 나쁘지 않군요. [엔진 부품을 대략 100 스크랩에 판매]</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4235,11 +4235,11 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GIRDERS" hidden="true">
-			<text>The Rebels need huge amounts of materials for their expansion. Several subcontractors buy all construction material they can find. [Sell Building Material for about 70 Scrap]</text> <!-- updated -->
+			<text>반란군들은 확장을 위해 엄청난 양의 자재를 필요로 합니다. 몇몇 하청업체들은 자신들이 찾을 수 있는 모든 건축 자재를 구입합니다. [건축재를 대략 70 스크랩에 판매]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4254,7 +4254,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4269,7 +4269,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4284,7 +4284,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4299,7 +4299,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4314,7 +4314,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4329,7 +4329,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4344,7 +4344,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4359,7 +4359,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4374,7 +4374,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4389,7 +4389,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4404,7 +4404,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4419,7 +4419,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4434,7 +4434,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4449,7 +4449,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4464,7 +4464,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4479,7 +4479,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4494,7 +4494,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4509,7 +4509,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4524,7 +4524,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4539,7 +4539,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4554,7 +4554,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4569,7 +4569,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4584,7 +4584,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4599,7 +4599,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4614,7 +4614,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4629,7 +4629,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4645,7 +4645,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4660,7 +4660,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4675,7 +4675,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4690,7 +4690,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4705,7 +4705,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4720,7 +4720,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4735,7 +4735,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4750,7 +4750,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4765,7 +4765,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4780,7 +4780,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4795,7 +4795,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4810,7 +4810,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4825,7 +4825,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4840,7 +4840,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4855,7 +4855,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4870,7 +4870,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4885,7 +4885,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4900,7 +4900,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4915,7 +4915,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4930,7 +4930,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4945,7 +4945,7 @@
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
  						<text>[지금 상점에서 무역 상품을 팔고 서로 도우십시오. 그렇지 않으면 당신은 우주의 균형을 방해하게 됩니다.]</text>
 					</event>
@@ -4953,7 +4953,7 @@
 			</event>
 		</choice>
 		<choice hidden="true">
-			<text>Just check the available ship equipment.</text>
+			<text>단지 사용할 수 있는 선박 장비를 확인합니다.</text>
 			<event/>
 		</choice>
 	</event>
@@ -5067,7 +5067,7 @@
 </eventList>
 
 <event name="START_BEACON_AUTO">
-	<!-- <text>You totally travel through hyperspace lol</text> -->
+	<!-- <text>당신은 완전히 하이퍼스페이스 롤을 통해 이동합니다</text> -->
 	<text load="HYPERSPACE_TEXT"/>
 	<img back="BG_DARK" planet="PLANET_HYPERSPACE"/>
 	<choice req="engines" lvl="1" hidden="true" blue="false">
@@ -5076,7 +5076,7 @@
 			<text load="HYPERSPACE_TRAVEL_EMERGENCY_TEXT"/>
 			<modifyPursuit amount="2"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_BEACON_AUTO_ACTUAL"/>
 			</choice>
 		</event>
@@ -5089,7 +5089,7 @@
 				<item type="fuel" min="-2" max="-2"/>
 			</item_modify>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_BEACON_AUTO_ACTUAL"/>
 			</choice>
 		</event>
@@ -5103,7 +5103,7 @@
 			</item_modify>
 			<modifyPursuit amount="-1"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_BEACON_AUTO_ACTUAL"/>
 			</choice>
 		</event>
@@ -5123,13 +5123,13 @@
 					<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 					<damage amount="-2"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_AUTO_ACTUAL"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_BEACON_AUTO_ACTUAL"/>
 			</choice>
 		</event>
@@ -5149,13 +5149,13 @@
 					<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 					<damage amount="-4"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_AUTO_ACTUAL"/>
 					</choice>
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="START_BEACON_AUTO_ACTUAL"/>
 			</choice>
 		</event>
@@ -5170,7 +5170,7 @@
 					<text load="HYPERSPACE_TRAVEL_EMERGENCY_TEXT"/>
 					<modifyPursuit amount="1"/>
 					<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 						<event load="START_BEACON_AUTO_ACTUAL"/>
 					</choice>
 				</event>
@@ -5183,7 +5183,7 @@
 						<item type="fuel" min="-1" max="-1"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_AUTO_ACTUAL"/>
 					</choice>
 				</event>
@@ -5197,7 +5197,7 @@
 					</item_modify>
 					<modifyPursuit amount="-1"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_AUTO_ACTUAL"/>
 					</choice>
 				</event>
@@ -5217,13 +5217,13 @@
 							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 							<damage amount="-2"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="START_BEACON_AUTO_ACTUAL"/>
 							</choice>
 						</event>
 					</choice>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_AUTO_ACTUAL"/>
 					</choice>
 				</event>
@@ -5243,13 +5243,13 @@
 							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 							<damage amount="-4"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="START_BEACON_AUTO_ACTUAL"/>
 							</choice>
 						</event>
 					</choice>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_AUTO_ACTUAL"/>
 					</choice>
 				</event>
@@ -5269,13 +5269,13 @@
 							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
 							<damage amount="-5"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="START_BEACON_AUTO_ACTUAL"/>
 							</choice>
 						</event>
 					</choice>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_AUTO_ACTUAL"/>
 					</choice>
 				</event>
@@ -5312,7 +5312,7 @@
 		<event load="CE_AUGMENT_UPGRADE_HOSTILE"/>
 	</choice>
 	<choice req="AE_AUGMENTS_PRODUCTION" blue="false" hidden="true">
-		<text>Produce something on board the ship.</text>
+		<text>함내에서 무언가 생산합니다.</text>
 		<event load="CE_PRODUCTION_HOSTILE"/>
 	</choice>
 	<choice req="AE_BOUNTYHUNTER" hidden="true">
@@ -5344,7 +5344,7 @@
 	<choice req="AE_BEACON_KIT" hidden="true">
 		<text>(비콘 접속장치) 당신의 FTL 네트워크 경로를 덮어 반란군 함대를 지연시킵니다.</text>
 		<event>
-			<text>The access kit allows you to hack the beacon and disable it completely. You are right under the Rebels' noses but they will never know that you came here. This should give you an advantage for now.</text>
+			<text>접속 장치를 사용하면 신호소를 해킹하고 완전히 비활성화 시킬 수 있습니다. 당신이 바로 반란군 등잔 밑에 있지만, 그들은 당신이 여기 온 것을 절대 모를 겁니다. 이것으로 일단 당신은 유리해졌습니다.</text>
 			<modifyPursuit amount="-1"/>
 		</event>
 	</choice>
@@ -5367,7 +5367,7 @@
 	<choice req="WEAPONS_MINES" hidden="true"> 
 		<text>(기뢰무기) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 미사일: -3 ]</text>
 		<event>
-			<text>You quickly drop some mines as you circle around the beacon. The Rebel forces will have to avoid this area, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<text>FTL이 충전되는 동안 당신은 어떠한 방해도 받지 않고 기뢰를 설치할 수 있었습니다. 반란군은 이 구역을 피하거나, 기뢰밭을 제거하거나 혹은 큰 피해를 입을 겁니다. 모든 가능성이 그들의 함대를 상당히 지연시킬 것입니다.</text>
 			<item_modify>
 				<item type="missiles" min="-3" max="-3"/>
 			</item_modify>
@@ -5375,7 +5375,7 @@
 		</event>
 	</choice>
 	<choice hidden="true"> 
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event/>
 	</choice>
 </event>
@@ -5448,7 +5448,7 @@
 		<event load="CE_AUGMENT_UPGRADE_HOSTILE"/>
 	</choice>
 	<choice req="AE_AUGMENTS_PRODUCTION" blue="false" hidden="true">
-		<text>Produce something on board the ship.</text>
+		<text>함내에서 무언가 생산합니다.</text>
 		<event load="CE_PRODUCTION_HOSTILE"/>
 	</choice>
 	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
@@ -5486,7 +5486,7 @@
 	<choice req="WEAPONS_MINES" hidden="true"> 
 		<text>(기뢰무기) 반란군 함대를 지연시키기 위해 기뢰구역을 설치합니다. [ 미사일: -3 ]</text>
 		<event>
-			<text>You quickly drop some mines as you circle around the beacon. The Rebel forces will have to avoid this area, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<text>FTL이 충전되는 동안 당신은 어떠한 방해도 받지 않고 기뢰를 설치할 수 있었습니다. 반란군은 이 구역을 피하거나, 기뢰밭을 제거하거나 혹은 큰 피해를 입을 겁니다. 모든 가능성이 그들의 함대를 상당히 지연시킬 것입니다.</text>
 			<item_modify>
 				<item type="missiles" min="-3" max="-3"/>
 			</item_modify>
@@ -5494,7 +5494,7 @@
 		</event>
 	</choice>
 	<choice hidden="true"> 
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event/>
 	</choice>
 </event>
@@ -5526,11 +5526,11 @@
 	<text load="CE_REBEL_CONSTRUCTION_PATROL_TEXT"/>
 	<ship load="REBEL" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -5584,7 +5584,7 @@
 	<text load="CE_REBEL_AUTO_CRUISER_CONSTRUCTION_TEXT"/>
 	<ship load="C_AUTO_CRUISER_CONSTRUCTION" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -5636,11 +5636,11 @@
 	<text load="CE_REBEL_AUTO_CONSTRUCTION_TEXT"/>
 	<ship load="CE_REBEL_AUTO_CONSTRUCTION" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -5727,11 +5727,11 @@
 <textList name="DESTROYED_SHIP_AUTO_CONSTRUCTION_STUFF_TEXT">  
 	<text>The automated constructor suffered damage it won't recover from anymore. You salvage what usable tools and supplies you find among its remains before pressing onwards.</text>
 	<text>One more auto-engineer is blown apart and you proceed to loot its remains for construction supplies.</text>
-	<text>Rebel construction crafts are no less dangerous than their scouting counterparts. But at last this one won't stand in your way any more. You quickly search its tool compartments for supplies and prepare to move on.</text>
+	<text>Rebel construction crafts are no less dangerous than their scouting counterparts. But at last this one won't stand in your way any more. You quickly search its tool compartments for supplies and prepare to 이동합니다.</text>
 </textList>
 <textList name="DESTROYED_SHIP_AUTO_CONSTRUCTION_TEXT">  
 	<text>One more Rebel construction unit is destroyed. In death it emits an short range burst message. An autonomous shipyard at the other end of the system comes online, undoubtedly already manufacturing a replacement. These battles start to seems really pointless.</text>
-	<text>These sentient nuisances just keep on coming; with each one you destroy, there is sure to be many to replace it. You quickly scrap the ship and prepare to jump.</text>
+	<text>당신이 지성 있는 골칫거리들이 계속 파괴할 때마다, 이를 대체할 수 있는 녀석들이 계속 생겨납니다. 무인기를 대체할 수 있는 것들이 많이 남았을 겁니다. 당신은 재빨리 선박을 폐기하고 도약할 준비합니다.</text>
 	<text>You try to tell yourself that you are deeply disrupting Rebel ship production here, but there is no denying the the truth: you won't stop these machines. For every ship destroyed, two more might already be put together in a nearby assembly line.</text>
 </textList>
 
@@ -5741,7 +5741,7 @@
 	<environment type="sun"/>
 	<ship load="CE_REBEL_AUTO_CONSTRUCTION" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -5787,7 +5787,7 @@
 	<text>You arrive in a mostly depleted asteroid belt. A Rebel construction unit is busy dissembling an old mining base, but then detaches and moves towards you. Attacking you seems to rank high on the constructors priority list.</text>
 	<ship load="CE_REBEL_AUTO_CONSTRUCTION" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -5828,17 +5828,17 @@
 	<img back="BG_WARNING_PROXIMITY_CONSTRUCTION" planet="NONE"/>
 	<text>Proximity warnings light up all over the screen. Beacon data explains that you find yourself inside a zero-grav factory of colossal proportions. The installation even has direct jump access. Countless tunnels lead to the various parts of the factory, but none are designed for ships of your size.</text>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>When you attempt a detailed scan of your surroundings, the first thing you notice is a nearby bulkhead opening. A hard-mounted turret slides out of the wall and turns towards you. "Intrusion detected. You have three seconds to verify your identity. 3... 2..."</text>
 			<ship load="BS_AUTO_TURRET_BOARDERS_SPACE_FACTORY" hostile="true"/>
 			<choice req="FTL_JUMPER" hidden="true">
-				<text>(Advanced Navigation AI) Activate your advanced navigation software.</text>
+				<text>(고급 항법 AI) Activate your advanced navigation software.</text>
 				<event>
 					<text>"... 1... Verification failed. Engaging target." The turret starts to unload it's weapon clusters on you. Your augment allows you to use the side thrusters to their full potential. You can navigate more safely within the confined environment of the hangar.</text>
 				<status type="limit" target="player" system="engines" amount="4"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -5880,12 +5880,12 @@
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>"... 1... Verification failed. Engaging target." The turret starts to unload it's weapon clusters on you. There is no space to navigate here; you are a sitting duck.</text>
 					<status type="limit" target="player" system="engines" amount="1"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -5935,11 +5935,11 @@
 	<text load="BS_EVENT_AUTO_CONSTRUCTION_TEXT"/>
 	<ship load="BS_AUTO_TURRET_CONSTRUCTION" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -6045,19 +6045,19 @@
 
 <event name="CE_AUTO_TRANSPORT_CONSTRUCTION" unique="true">
 	<img planet="NONE"/>
-	<text>An auto ship designed for transport is passing through this system. If you plot a course right away you could easily intercept it.</text>
+	<text>수송기로 설계된 무인선이 이 성계를 통과하고 있습니다. 만약 당신이 항로를 짠다면 곧바로 무인선을 손쉽게 가로막을 수 있을 겁니다.</text>
 	<ship load="CE_REBEL_AUTO_CONSTRUCTION_TRANSPORT" hostile="false"/>
 	<choice>
-		<text>Attack the automated transport.</text>
+		<text>무인 수송선을 공격합니다.</text>
 		<event>
-			<text>You prepare to secure their cargo by force.</text>
+			<text>당신은 화물을 힘으로 빼앗을 준비합니다.</text>
 			<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -6099,9 +6099,9 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Avoid the ship.</text>
+		<text>선박을 피한다.</text>
 		<event>
-			<text>The ship stays outside your weapons range and eventually jump away.</text>
+			<text>배는 당신의 무기 범위 밖을 머물렀고 결국 도약합니다.</text>
 		</event>
 	</choice>
 </event>
@@ -6109,137 +6109,137 @@
 
 <eventList name="REBEL_AUTO_TRANSPORT_DESTROYED">
 	<event>
-		<text>You search the remains of the transporter and discover that it was transporting a batch of military-grade weaponry. One gun somehow remained undamaged in the fight and can easily be mounted on the ship.</text>
+		<text>당신은 수송기의 잔해를 수색해 보니 군용 무기 한 묶음을 운반하고 있다는 것을 발견합니다. 웬일인지 무기 중 하나는 전투 중에 손상을 입지 않았고, 당신의 함선에 쉽게 장착시킬 수 있어 보입니다.</text>
 		<autoReward level="MED">weapon</autoReward>
 	</event>
 	<event>
-		<text>You search the remains of the ship but only come across blueprints and debris from broken machinery. A shame, but you take what scrap you can salvage.</text>
+		<text>당신은 적 함선의 잔해를 수색했으나, 청사진들과 고장 난 기계에서 나온 잔해만을 발견했습니다. 안타깝지만, 가져갈 수 있는 스크랩만 가져갔습니다.</text>
 		<autoReward level="LOW">standard</autoReward>
 	</event>
 	<event>
-		<text>The ship was transporting weaponry. You find a piece still intact, despite the battle.</text>
+		<text>적 함선은 무기를 수송하고 있었습니다. 전투에도 불구하고 손상되지 않은 것 하나를 찾았습니다.</text>
 		<autoReward level="LOW">weapon</autoReward>
 	</event>
 	<event>
-		<text>The ship was apparently transporting weaponry; however, nothing seems to have survived the battle.</text>
+		<text>적 함선은 무기를 수송했던 것으로 보입니다만, 전투로 인해 온전히 남아있는 장비는 없는 것 같습니다.</text>
 		<autoReward level="MED">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>Searching the remains, you find that the cargo was a military-grade drone schematics! You bring them aboard to install it in your ship.</text>
+		<text>잔해를 조사하던 도중, 당신은 화물이 군용 드론의 설계도라는 것을 알아냈습니다! 당신은 그것들을 함선에 설치하기 위해 선상으로 가져옵니다.</text>
 		<autoReward level="MED">drone</autoReward>
 	</event>
 	<event>
-		<text>The debris implies that the ship was carrying drone schematics, but unfortunately nothing remains. You do find functioning drone parts, however.</text>
+		<text>잔해를 보아하니 적 함선은 드론 설계도를 수송중이었던 것 같습니다만, 안타깝게도 남아있는 것은 없습니다. 그래도 아직 작동하는 드론 부품을 몇 개 찾았습니다.</text>
 		<autoReward level="MED">droneparts</autoReward>
 	</event>
 	<event>
-		<text>To your surprise you detect a faint life signatures from an intact piece of the auto-ship. Once aboard, the survivor pleads for mercy, claiming to just be a harmless colonist that was being resettled along with other people of this rimworld. Most of which were aboard this auto ship.</text>
+		<text>놀랍게도 당신은 자동차 선적의 손상되지 않은 조각에서 희미한 생명 신호를 발견하게 됩니다. 일단 승선시키자, 생존자는 이 림월드의 다른 사람들과 함께 정착하고 있었던 무해한 식민지 주민이라고 주장했고, 자비를 애원합니다. 대부분 이 무인선에 승선하고 있었습니다.</text>
 		<autoReward level="LOW">standard</autoReward>
 		<choice hidden="true">
-			<text>Drop off the survivor at first possibility.</text>
+			<text>가능한 한 빨리 생존자를 내려줍니다.</text>
 			<event>	
-				<text>The survivor does not seem to believe you when you tell him your plans. He remains extremely anxious for the time of the journey.</text>
+				<text>생존자는 당신의 계획을 들었을때 믿기 어려워했습니다. 그는 여행 중에 극심한 불안상태를 유지합니다.</text>
 			</event>
 		</choice>
 		<choice hidden="true">
-			<text>Force the survivor to work on board your ship.</text>
+			<text>생존자에게 당신 배에서 일하도록 강요합니다.</text>
 			<event>	
-				<text>You are about to enslave a person. This might disturb your crew.</text>
+				<text>당신은 이 사람을 노예로 만들려고 합니다. 이건 당신의 승무원들이 방해할 수도 있습니다.</text>
 				<ship hostile="false"/>
 				<choice hidden="true"> 
-					<text>We need any crew we can get aboard this ship. See how the crew reacts.</text>
+					<text>우린 이 함선에 승선할 수 있는 승무원이 필요합니다. 승무원들이 어떻게 반응하는지 지켜봅니다.</text>
 					<event load="CE_SLAVERY_RESULTS"/>
 				</choice>
 				<choice hidden="true"> 
-					<text>Change your mind and drop off the survivor at first possibility.</text>
+					<text>생각을 바꾸고 가능한 한 빨리 생존자를 내려줍니다.</text>
 					<event>
-						<text>The survivor does not seem to believe you when you tell her your decision. She remains extremely anxious for the time of the journey.</text>
+						<text>생존자는 당신의 계획을 들었을때 믿기 어려워했습니다. 그녀는 여행 중에 극심한 불안상태를 유지합니다.</text>
 					</event>	
 				</choice>
 				<choice req="CREW_STIMS" hidden="true"> 
-					<text>(Mantis Ship) You command a ship of the vicious Mantis, a species well known for taking slaves. Even if your crew might not like it, they probably expected things to go this way.</text>
+					<text>(맨티스 함선) 당신은 노예를 잡는 것으로 잘 알려진 악랄한 맨티스 함선을 지휘합니다. 당신의 승무원들이 노예상과 같은 행위를 좋아하지 않을지라도, 승무원들은 아마도 일이 이렇게 될 것이라고 예상했을 것입니다.</text>
 					<event>
-						<text>The slave gets on board your ship.</text>
+						<text>노예가 당신의 배에 승선합니다.</text>
 						<crewMember amount="1"/>
 					</event>
 				</choice>
 			</event>
 		</choice>
 		<choice hidden="true">
-			<text>This story is to unusual to be true. Execute the survivor.</text>
+			<text>이 이야기는 굉장히 드문 소리입니다. 생존자를 처형합니다.</text>
 			<event>	
-				<text>The survivor seemed to have expected something like this. They already snatched a blaster from an inattentive crewman and, upon becoming aware of your intentions, tries to fight their way to the shuttle bay.</text>
+				<text>생존자는 이런 걸 예상한 모양입니다. 그는 당신의 의도를 알아차리자마자, 부주의한 승무원으로부터 블래스터를 낚아챘며 셔틀실로 향하는 길을 뚫으려고 합니다.</text>
 				<boarders min="1" max="1" class="random"/>
 			</event>
 		</choice>
 	</event>
 	<event>
-		<text>This ship was ferrying a bunch of cadets to their first assignments. You discover it was even refit with escape pods, which saved some of the men and women. The young Rebels have just passed training and seem ill equipped to offer any kind of resistance. They surrender and demand to be treated in accordance with general system law.</text>
+		<text>이 배는 많은 생도들을 첫 임무를 위해 실어 나르는 중이었습니다. 당신은 심지어 배에서 탈출용 포드도 수리된 것을 발견했고, 남자와 여자 중 일부를 구했습니다. 젊은 반란군들은 방금 훈련에 통과했고 어떤 종류의 저항을 할 수 장비를 갖추지 못한 것 같습니다. 그들은 항복하며 일반적인 성계법률에 따라 대우해줄 것을 요구합니다.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<choice hidden="true">
-			<text>Take the Rebels as prisoners.</text>
+			<text>반란군들을 포로로 잡습니다.</text>
 			<event load="CE_QUEST_REBEL_POW_START"/>
 		</choice>
 		<choice hidden="true">
-			<text>Execute the Rebels on the spot.</text>
+			<text>현장에서 반란군들을 처형합니다.</text>
 			<event>
-				<text>You decide that you have neither the time, nor the resources to take care of prisoners. These Rebels will act against the Federation if set free, but when you order them shot your crew refuses to act against unarmed POWs. You grab a pulse rifle and gun down the pleading and screaming Rebels yourself.</text>
+				<text>당신은 포로를 돌볼 시간도, 자원도 없다고 판단합니다. 이 반란군들은 석방되면 연방에 대항할 것입니다. 하지만 당신이 반란군들에게 총을 쏘라고 명령할 때, 선원들은 무장하지 않은 포로들을 상대로 처형하는 것을 거부합니다. 당신은 펄스 라이플을 잡고 행동하기를 거부합니다. 당신은 펄스 라이플을 잡고 애원하고 비명 지르는 반란군들을 직접 쏘아 죽입니다.</text>
 			</event>
 		</choice>
 		<choice req="CREW_STIMS" hidden="true"> 
-			<text>(Mantis Ship) Convince the Rebels to share some Intel with you.</text>
+			<text>(맨티스 함선) 반란군들에게 일부 정보를 공유하도록 설득합니다.</text>
 			<event>
-				<text>You order them to be take to the special room. After a few hours that involve plenty of shouting, medication and hand tools, the group of cadets is reduced to a whimpering pile of half-dismembered bodies. You learned all you can about the Rebels pursuit vectors and hose down the torture chamber,- airlock style.</text>
+				<text>당신은 그들을 특별실로 데려가라고 명령합니다. 많은 고함소리, 약품 그리고 연장도구가 포함된 몇 시간이 지난 후 생도들은 초주검이 된 상태로 전락합니다. 당신은 반란군의 진로와 호스로 씻어내리는 고문실에 대한 모든 것을 배웠습니다 - 에어록 스타일로 말이죠.</text>
 				<modifyPursuit amount="-1"/>
 			</event>
 		</choice>
 	</event>
 	<event>
-		<text>The ship was carrying military supplies. You pick up anything that looks salvageable from the debris.</text>
+		<text>적 함선은 군수품을 수송중이었습니다. 당신은 잔해 속에서 인양할 수 있어 보이는 것들을 챙겼습니다.</text>
 		<autoReward level="MED">missiles</autoReward>
 	</event>
 	<event>
-		<text>The ship was towing a large solar array towards the systems sun. Some of the panels remain undamaged; you load them into your cargo holds.</text>
+		<text>배는 성계 태양 쪽으로 큰 태양 전지판을 견인하고 있었습니다. 일부 패널은 손상되지 않은 상태를 유지합니다. 당신은 그것들을 화물칸에 싣습니다.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<augment name="TE_GOODS_SOLAR"/>
 	</event>
 	<event>
-		<text>The ship was apparently transporting some industrial chemicals. Some of the containers remain undamaged; you load them into your cargo holds.</text>
+		<text>분명히 공업용 화학물질을 운반하고 있었습니다. 일부 용기는 손상되지 않은 상태로 유지됩니다. 당신은 그것들을 화물칸에 싣습니다.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<augment name="TE_GOODS_CHEMICALS"/>
 	</event>
 	<event>
-		<text>The ship was towing a small batch of reactor modules. You load them into your cargo holds.</text>
+		<text>배는 작은 원자로 모듈들을 견인하고 있었습니다. 당신은 그것들을 화물칸에 싣습니다.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<augment name="TE_GOODS_INDUSTRIAL_REACTOR"/>
 	</event>
 	<event>
-		<text>The ship was towing a batch of structural parts. You load the cargo into your holds.</text>
+		<text>배는 건축용 부품들을 견인하고 있었습니다. 당신은 짐칸에 화물을 싣습니다.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<augment name="TE_GOODS_GIRDERS"/>
 	</event>
 	<event>
-		<text>The ship was towing a load of girders for cruiser construction. You load the cargo into your holds.</text>
+		<text>배는 순양함 건조용 대들보를 끌고 있었습니다. 당신은 짐칸에 화물을 싣습니다.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<augment name="TE_GOODS_GIRDERS"/>
 	</event>
 	<event>
-		<text>The ship was apparently transporting materials for deep space construction. The sturdy rods are barely damaged - This must be what the Rebels build their many stations of. You load the cargo into your holds.</text>
+		<text>선박은 심층 우주 공사를 위한 자재들을 운반하고 있었던 것 같습니다. 견고한 막대가 거의 손상되지 않았습니다 - 이런 방식으로 반란군들은 많은 정거장을 건설합니다. 당신은 짐칸에 화물을 싣습니다.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<augment name="TE_GOODS_GIRDERS"/>
 	</event>
 	<event>
-		<text>The ship was transporting a haul of gems. This would be a more exciting find if these materials would not be abundantly available in outer space. You load the cargo into your holds.</text>
+		<text>선박은 많은 보석들을 운반하고 있었습니다. 만약 이 물건들이 외우주에서 충분히 이용되지 않는다면, 이건 더 흥미로운 발견일 겁니다. 당신은 짐칸에 화물을 싣습니다.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<augment name="TE_GOODS_GEMS"/>
 	</event>
 	<event>
-		<text>The ship was apparently transporting hyper-flexible cable elements. Some crates remain undamaged; you load them into your cargo holds.</text>
+		<text>선박은 유연성이 강한 케이블 부품을 수송하고 있었던 것 같습니다. 일부 상자는 손상되지 않은 상태로 남아 있습니다. 당신은 그것들을 화물칸에 싣습니다.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<augment name="TE_GOODS_CONDUITS"/>
 	</event>
 	<event>
-		<text>The ship was apparently transporting industrial drones. You have no use for them, but maybe you can find a good buyer for the machines somewhere. You load them into your cargo holds.</text>
+		<text>선박은 명백히 산업용 드론으로 보이는 걸 운송하고 있었습니다. 당신은 그들을 위해 쓸모가 없지만, 아마도 어딘가에 그 기계들을 사줄 좋은 구매자들을 찾을 수 있을 겁니다. 당신은 그것들을 화물칸에 싣습니다.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<augment name="TE_GOODS_ROBOTS"/>
 	</event>
@@ -6250,16 +6250,16 @@
 	<text load="CE_REBEL_AUTO_CONSTRUCTION_OCCUPIED_TEXT"/>
 	<ship load="CE_REBEL_AUTO_CONSTRUCTION" hostile="false"/>
 	<choice>
-		<text>Draw attention of the construction craft and attack.</text>
+		<text>건설선의 주의를 끌고 공격합니다.</text>
 		<event>
-			<text>You have a chance to disrupt Rebel production here and you won't let it go to waste.</text>
+			<text>당신은 여기 반란군의 생산에 지장을 줄 기회가 생겼고 이를 낭비하지 않을 겁니다.</text>
 			<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -6301,9 +6301,9 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Avoid the ship.</text>
+		<text>선박을 피한다.</text>
 		<event>
-			<text>You take care to remain outside the auto ships scanning range while charging your FTL drive.</text>
+			<text>당신은 FTL 드라이브를 충전하는 동안 무인선 스캔 범위 바깥에 머무르는 것을 조심합니다.</text>
 		</event>
 	</choice>
 </event>
@@ -6324,7 +6324,7 @@
 		<event load="CE_CONSTRUCTION_SPACE_FACTORY_ITEMS_LIST"/>
 	</choice>
 	<choice req="FTL_JUMPER" hidden="true">
-		<text>(Advanced Navigation AI) Use your augmented navigation software to safely navigate the installation.</text>
+		<text>(고급 항법 AI) Use your augmented navigation software to safely navigate the installation.</text>
 		<event load="CE_CONSTRUCTION_SPACE_FACTORY_ITEMS_LIST_THRUSTERS"/>
 	</choice>
 	<choice>
@@ -6347,13 +6347,13 @@
 		<text>You head for one of the larger tunnels that lead deeper into the facility. The design of the surrounding bulkheads and girders is unknown to you, but the supplies you find along the way are matching the usual standards. After you moved down the shaft for quite a bit, the crew reports movement ahead.</text>
 		<autoReward level="LOW">stuff</autoReward>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>A synthetic screeching tears through the comms when you open a channel. A split-second later, searchlights blind your eyes. The shape of an automated cruiser becomes visible. It accelerates in your direction, greedily extending its mechanical arms towards you. There is no way but back, even though the shaft barely gives you enough room to turn and you'll only be able to navigate with basic thrusters.</text>
 				<ship load="C_AUTO_CRUISER_CONSTRUCTION_FACTORY" hostile="true"/>
 				<status type="limit" target="enemy" system="engines" amount="1"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -6423,13 +6423,13 @@
 			<status type="limit" target="player" system="engines" amount="4"/>
 		<autoReward level="LOW">stuff</autoReward>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>A synthetic screeching tears through the comms when you open a channel and the next moment searchlights blind your eyes. The shape of an automated cruiser becomes visible. It accelerates in your direction, greedily extending its mechanical arms towards you. There is no way but back, even though the shaft barely gives you enough room to turn.</text>
 				<ship load="C_AUTO_CRUISER_CONSTRUCTION_FACTORY" hostile="true"/>
 				<status type="limit" target="enemy" system="engines" amount="1"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -6490,16 +6490,16 @@
 	<text load="CE_REBEL_AUTO_CRUISER_CONSTRUCTION_PLANET_TEXT"/>
 	<ship load="C_AUTO_CRUISER_CONSTRUCTION_PLANET" hostile="false"/>
 	<choice>
-		<text>Attack the cruiser.</text>
+		<text>순양함을 공격한다.</text>
 		<event>
 			<text>You close in on the cruiser with weapons hot.</text>
 			<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -6541,9 +6541,9 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Move on.</text>
+		<text>이동합니다.</text>
 		<event>
-			<text>You decide that you can't pick a fight with every single auto cruiser you encounter and prepare to leave.</text>
+			<text>당신은 만나는 모든 무인 순향함들과 싸울 수 없다고 결정했고 떠날 준비합니다.</text>
 		</event>
 	</choice>
 </event>
@@ -6598,16 +6598,16 @@
 	<text>You arrived near a small automated shipyard, consisting of an armed construction satellite and a small supply depot. The facility is inactive, but the satellite occasionally scans its surroundings for activity.</text>
 	<ship load="BS_AUTO_TURRET_CONSTRUCTION_DEFENSE_SUPPLY" hostile="false"/>
 	<choice>
-		<text>Engage the turret to get to the supply station.</text>
+		<text>포탑과 교전하여 보급 정거장에 접근합니다.</text>
 		<event>
 			<ship hostile="true"/>
 		<text load="CE_PRE_FIGHT_TEXT"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -6649,11 +6649,11 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Avoid provoking the turret.</text>
+		<text>포탑을 자극하는 걸 피합니다.</text>
 		<event/>
 	</choice>
 	<choice req="cloaking" hidden="true">
-		<text>(Cloaking) Attempt to cloak and access the supply station.</text>
+		<text>(은폐장) 은폐하여 보급 정거장에 접근 시도합니다.</text>
 		<event load="BS_EVENT_AUTO_DEFENSE_SUPPLY_CLOAK"/>
 	</choice>
 </event>
@@ -6664,7 +6664,7 @@
 	<event>
 		<text>After an initial thrust you activate the ship's cloak and drift towards the station. The satellite seems to register that something is wrong, it broadens its scanning range, but isn't able to detect you.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="BS_EVENT_AUTO_CONSTRUCTION_DEFENSE_SUPPLY_RESULTS"/>
 		</choice>
 	</event>
@@ -6672,11 +6672,11 @@
 		<text>After an initial thrust you activate the ship's cloak and drift towards the station. The satellite seems to register that something is wrong; its next scanning pulse is much stronger than expected and the AI realizes that you are there. Its weapons come live!</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -6751,16 +6751,16 @@
 	<text>You successfully tracked down the automated transport that carries equipment from the supply depot.</text>
 	<ship load="CE_REBEL_AUTO_CONSTRUCTION_TRANSPORT" hostile="false"/>
 	<choice>
-		<text>Demand the surrender of their goods.</text>
+		<text>화물을 넘겨줄 것을 요구한다.</text>
 		<event>
-			<text>You prepare to secure their cargo by force.</text>
+			<text>당신은 화물을 힘으로 빼앗을 준비합니다.</text>
 			<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -6802,9 +6802,9 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Avoid the ship.</text>
+		<text>선박을 피한다.</text>
 		<event>
-			<text>They stay outside your weapons range and eventually jump away.</text>
+			<text>적들은 당신의 무기 범위 밖에 머물러 있더니, 결국 도약해 도망칩니다.</text>
 		</event>
 	</choice>
 </event>
@@ -6817,11 +6817,11 @@
 	<ship load="CE_REBEL_AUTO_CONSTRUCTION" hostile="true"/>
 	<status type="limit" target="enemy" system="engines" amount="5"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -6879,11 +6879,11 @@
 	<ship load="BS_AUTO_TURRET_CONSTRUCTION" hostile="true"/>
 	<status type="limit" target="enemy" system="engines" amount="3"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -6937,16 +6937,16 @@
 	<status type="limit" target="player" system="engines" amount="3"/>
 	<status type="limit" target="player" system="sensors" amount="0"/>
 	<choice>
-		<text>Move in close and strafe the shipyard.</text>
+		<text>조선소 가까이 접근하며 폭격을 가합니다.</text>
 		<event>
 			<ship load="BS_AUTO_TURRET_CONSTRUCTION" hostile="true"/>
-			<text>You have a chance to disrupt Rebel production here and you won't let it go to waste.</text>
+			<text>당신은 여기 반란군의 생산에 지장을 줄 기회가 생겼고 이를 낭비하지 않을 겁니다.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<text>(심층 우주스캐너) 고급 스캐너 장치로 환경을 조사하고 자료를 센서로 다시 전송합니다. [ 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -7001,16 +7001,16 @@
 	<img planet="PLANET_POPULATED_REAL"/>
 	<text>The distress call comes from a large settlement. "To all law-abiding ships in range. The Rebels have violated our contracts and began extracting the resources of our system. Our militia is not strong enough to face their cruiser. We will pay anyone who is willing to drive this machine away."</text>
 	<choice>
-		<text>Attack the cruiser.</text>
+		<text>순양함을 공격한다.</text>
 		<event>
 			<text>You discover the cruiser in the center of the system, mining a small comet. The machine seems well aware of your intentions and has already activated its targeting sensors.</text>
 			<ship load="C_AUTO_CRUISER_CONSTRUCTION_DISTRESS_PLANET_MINER" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -7052,9 +7052,9 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Move on.</text>
+		<text>이동합니다.</text>
 		<event>
-			<text>You decide that you can't pick a fight with every single auto cruiser you encounter and prepare to leave.</text>
+			<text>당신은 만나는 모든 무인 순향함들과 싸울 수 없다고 결정했고 떠날 준비합니다.</text>
 		</event>
 	</choice>
 </event>
@@ -7099,23 +7099,23 @@
 				</event>
 			</choice>
 			<choice>
-				<text>Decline.</text>
+				<text>거절한다.</text>
 				<event/>
 			</choice>
 			<choice>
-				<text>Try to take the data by force.</text>
+				<text>무력으로 자료를 강제로 가져갑니다.</text>
 				<event>
-			<text>You are about to commit an act of piracy. This might disturb your crew.</text>
+			<text>당신은 해적행위에 관한 일을 저지르려고 합니다. 이것은 당신의 승무원들을 불안해하게 만들 수 있습니다.</text>
 			<choice hidden="true"> 
-				<text>Go through with this and see how the crew reacts.</text>
+				<text>이 일을 끝까지 해 보고 승무원의 반응을 살핍니다.</text>
 				<event load="C_PIRACY_RESULTS"/>
 			</choice>
 			<choice hidden="true"> 
-				<text>Change your mind and leave the civilians alone.</text>
+				<text>생각을 바꾸고 민간인들을 내버려 둡니다.</text>
 				<event/>
 			</choice>
 			<choice req="AE_REQUISITION" hidden="true"> 
-				<text>(Requisition License) This operation is legal. We are doing this for the good of the mission and the entire Federation.</text>
+				<text>(요청증) 이 작전은 합법이다. 우리는 임무와 전체 연방의 이익을 위해 해적행위를 하고 있다.</text>
 				<event>
 					<text>The station chief appears in screen, visibly scared. Drone trading is restricted and he knows that you could get him in front of a court for the deal he offered. You confiscate the drone parts and let it slip this time.</text>
 					<item_modify>
@@ -7124,15 +7124,15 @@
 				</event>
 			</choice>
 			<choice req="ROCK_ARMOR" hidden="true"> 
-				<text>(Rock Ship) You command a vessel of the brutal Rock people. Your crew knew that they were not signing on for a moral joyride here.</text>
+				<text>(락맨 함선) 당신은 잔혹한 락맨의 배를 지휘하고 있습니다. 승무원들은 자신들이 여기서 도덕적 즐거움을 위해 계약하지 않았다는 것을 알고 있습니다.</text>
 				<event load="CE_PIRACY_ATTACK_ROCK"/>
 			</choice>
 			<choice req="CREW_STIMS" hidden="true"> 
-				<text>(Mantis Ship) You command a vessel of the most vicious creatures in the galaxy. Your crew should expect things like this.</text>
+				<text>(맨티스 함선) 당신은 은하계에서 가장 사악한 생물의 배를 지휘하고 있습니다. 승무원들은 이런 해적질을 기대합니다.</text>
 				<event load="CE_PIRACY_ATTACK_MANTIS"/>
 			</choice>
 			<choice req="SLUG_GEL" hidden="true"> 
-				<text>(Slug Ship) You command a vessel of the sly and treacherous Slugs. Your crew knew this mission wouldn't be that clean.</text>
+				<text>(슬러그 함선) 당신은 교활하고 위험한 슬러그의 함선을 지휘하고 있습니다. 승무원들은 이런 임무가 깨끗하지 않다는 것을 알고 있습니다.</text>
 				<event load="CE_PIRACY_ATTACK_SLUG"/>
 			</choice>
 				</event>
@@ -7146,17 +7146,17 @@
 	<text>You successfully tracked down the surveyor craft. It has scouted the sectors ahead and gathered valuable information on available resources. Now it waits deactivated for its Rebel masters to pick it up.</text>
 	<ship load="CE_REBEL_AUTO_CONSTRUCTION_SURVEYOR" hostile="false"/>
 	<choice hidden="true">
-		<text>Attempt to download the ship's data stores.</text>
+		<text>함선에 저장된 자료를 다운로드 시도합니다.</text>
 		<event load="DOWNLOAD_SURVEYOR_DATA"/>
 	</choice>
 	<choice>
-		<text>Don't risk activating it, and just strip the ship for any useful scrap.</text>
+		<text>적 함선이 가동될수도 있으니, 위험을 무릅쓰지않고 쓸만한 고철들만 가져갑니다.</text>
 		<event>
 			<autoReward level="LOW">scrap_only</autoReward>
 		</event>
 	</choice>
 	<choice req="sensors" lvl="3" hidden="true">
-		<text>(Sensors) Remotely scan the ship.</text>
+		<text>(고급 센서) 함선을 원격으로 스캔합니다.</text>
 		<event load="DOWNLOAD_SURVEYOR_DATA_SENSORS"/>
 	</choice>
 </event>
@@ -7247,11 +7247,11 @@
 		<text>You tell your crew to treat this ship like an actual opponent. Combat stations!</text>
 		<ship load="TARGET_PRACTICE" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -7295,11 +7295,11 @@
 		<text>A Rebel scout was lying dormant nearby, impossible to identify so close to all the other ship signatures. What was planned as a combat exercise turns into a real ship-to-ship battle.</text>
 		<ship load="REBEL_AUTO" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<text>(대함포대) 무인 ASB를 무장 및 파견합니다. [ 미사일: -4; 전력: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -7346,11 +7346,11 @@
 <event name="STORE_AUTO">
 	<text load="STORE_AUTO"/>
 	<choice req="AE_TRADE_BOOSTER" hidden="true">
-		<text>(Cargo Teleporter) Prepare to quickly transfer cargo and have a look at the goods.</text>
+		<text>(화물 전송기) 빨리 화물을 이송할 준비를 하고 상품을 살펴봅니다.</text>
 		<event load="TE_STORE_REBEL_LIST_BOOSTED"/>
 	</choice>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="TE_STORE_REBEL_LIST"/>
 	</choice>
 	<store/>
