@@ -151,7 +151,7 @@
 	<text>무인 정찰기의 AI는 배가 폭발한 후 잠시 동안 온라인 상태를 유지하다가 남은 부품들이 모두 약탈당하자, 의식을 잃고 꺼집니다.</text>
 	<text>자동화된 반란군 무리 중 하나 더 격추되었고, 남은 잔해는 당신의 회수 팔 앞에 유용한 고철 물질들을 흩뿌립니다.</text>
 	<text>당신이 지성 있는 골칫거리들이 계속 파괴할 때마다, 이를 대체할 수 있는 녀석들이 계속 생겨납니다. 무인기를 대체할 수 있는 것들이 많이 남았을 겁니다. 당신은 재빨리 선박을 폐기하고 도약할 준비합니다.</text>
-	<text>이 AI는 당신의 더 타고난 직감을 을 능가할 만큼 똑똑하지 않았고, 그 발견의 징후를 파괴합니다. 당신은 떠나기 전에 잔해에서 유용하게 보이는 것을 수집합니다.</text>
+	<text>이 AI는 당신의 더 타고난 직감을 능가할 만큼 똑똑하지 않았고, 그 발견의 징후를 파괴합니다. 당신은 떠나기 전에 잔해에서 유용하게 보이는 것을 수집합니다.</text>
 </textList>
 
 <!-- CE MODIFIED VANILLA REBEL EVENTS -->
@@ -2283,7 +2283,7 @@
 	<text>AI가 통제하고 있는 반란군 방어 포탑이 비무장 반란군 보급 전초기지에 배치되어 있습니다. 센서들은 전초기지가 군사 장비를 보관하고 있다는 것을 나타냅니다.</text>
 	<ship load="BS_AUTO_TURRET_DEFENSE_SUPPLY" hostile="false"/>
 	<choice>
-		<text>포탑과 교전하여 보급 정거장에 접근합니다.</text>
+		<text>포탑과 교전하여 보급역에 접근합니다.</text>
 		<event>
 			<ship hostile="true"/>
 		<text load="CE_PRE_FIGHT_TEXT"/>
@@ -2338,7 +2338,7 @@
 		<event/>
 	</choice>
 	<choice req="cloaking" hidden="true">
-		<text>(은폐장) 은폐하여 보급 정거장에 접근 시도합니다.</text>
+		<text>(은폐장) 은폐하여 보급역에 접근 시도합니다.</text>
 		<event load="BS_EVENT_AUTO_DEFENSE_SUPPLY_CLOAK"/>
 	</choice>
 </event>
@@ -2482,7 +2482,7 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Leave them be.</text>
+		<text>그냥 내버려 둡니다.</text>
 		<event>
 			<text>적들은 당신의 무기 범위 밖에 머물러 있더니, 결국 도약해 도망칩니다.</text>
 		</event>
@@ -2562,7 +2562,7 @@
 	<choice>
 		<text>무기에 전력을 넣습니다.</text>
 		<event>
-			<text>The station begins laying down fire on you.</text>
+			<text>정거장은 당신에게 사격을 시작합니다.</text>
 			<ship hostile="true"/>
 		<choice hidden="true">
 			<text>계속...</text>
