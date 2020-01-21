@@ -81,7 +81,7 @@
 		<quest event="CE_BOUNTY_LANIUS"/>
 	</event>
 	<event> <!-- Corporated Competition -->
-		<text>익명의 의뢰인은 현지 정부당국이 행동하기 꺼려하기 떄문에 당신이 무기 밀매자를 추적하길 바랍니다. 여기에는 회사 전체의 이익들이 곳곳에 적혀 있습니다. 목표 :무기 밀수업자. 보수: 높음.</text>
+		<text>익명의 의뢰인은 현지 정부당국이 행동하기 꺼려하기 떄문에 당신이 무기 밀매자를 추적하길 바랍니다. 여기에는 회사 전체의 이익들이 곳곳에 적혀 있습니다. 목표 :무기 밀수업자. 보수: 높음</text>
 		<quest event="CE_BOUNTY_CORPORATE"/>
 	</event>
 	<event> <!--  Nothing -->
