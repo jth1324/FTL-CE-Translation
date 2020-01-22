@@ -2202,18 +2202,18 @@
 		</choice>
 </event>
 <textList name="BS_EVENT_AUTO_SUICIDE_TEXT">
-	<text>You discover one of the Rebels' autonomous satellite turrets. The ship's AI wastes no time in engaging your ship.</text>
-	<text>Your ship is hailed: "You have been identified as a high-priority target and are in range of this unit's weapon clusters. Engagement is the logical conclusion." This satellite seems to be controlled by an advanced Rebel combat AI.</text>
-	<text>A Rebel defense turret has been stationed here to guard this beacon. You realize that you will have to stay in its weapon range until the FTL drive is charged or it is defeated.</text>
-	<text>The AI of a nearby Rebel satellite turret immediately identifies you as a threat and engages.</text>
-	<text>A computer generated voice speaks through the comms, "I am one of 5237 identicaly produced Rebel defense turrets. Resistance is futile. Shut down your systems and accept annihilation."</text>
-	<text>An unmanned turret waits at this beacon. It politely sends an automated message, "Target acquired."</text>
-	<text>Another unmanned turret satellite guards this area. You prepare your ship for combat.</text>
-	<text>As you jump in a Rebel turret satellite activates. A fight seems unavoidable.</text>
-	<text>A small trade station appears on the local radar. You realize it is masking its identity, turns out it is a Rebel defense turret!</text>
-	<text>You receive a hail from a small AI run satellite, "Simulations indicate that I will win this engagement with high probability. Do you want to try your chances?"</text>
-	<text>A Rebel AI satellite is guarding this beacon and hails you, "This unit has already calculated the outcome of this battle, it will not be favorable for you. How does it feel to be so inferior to an AI?" The thing loads weapons!</text>
-	<text planet="PLANET_POPULATED_REAL">Scans indicate that about 34 fully armed defense turrets are stationed around this planet. Lucky for you only one is guarding the beacon.</text>
+	<text>당신은 반란군 무인 위성 포탑 중 하나를 발견합니다. 위성 AI는 곧바로 당신의 함선과 교전합니다.</text>
+	<text>당신의 함선은 교신받습니다. "당신은 최우선 순위 몰표로 식별되었고 이 유닛의 무기 거리에 들어섰습니다. 교전은 논리적인 결론입니다." 이 포탑은 첨단 반란군 전투 AI에 의해 통제받고 있는 것 같습니다.</text>
+	<text>반란군 방어용 포탑이 이 신호소를 지키기 위해 여기에 배치되었습니다. 당신은 FTL 드라이브가 충전될때까지 무기 범위 안에 있던가 아니면 포탑을 쓰러뜨려야 한다는 것을 깨닫습니다.</text>
+	<text>근처 반란군 위성 터렛의 AI는 당신을 위협으로 즉각 식별하고 교전에 들어섭니다.</text>
+	<text>컴퓨터가 만든 음성이 통신을 통해 말합니다, "난 똑같이 만들어진 5237개의 반란군 방어 포탑 중 하나입니다. 저항은 헛된 짓입니다. 시스템을 종료하고 소멸을 받아들이십시오."</text>
+	<text>무인 포탑이 이 신호소에서 대기합니다. 포탑은 정중히 "목표 확보"라는 메시지를 보냅니다.</text>
+	<text>또 다른 무인 위성 터렛이 이 영역을 지키고 있습니다. 당신은 전투 준비를 합니다.</text>
+	<text>당신이 도약하자 반란군 위성 터렛이 작동합니다. 싸움은 피할 수 없는 것 같군요.</text>
+	<text>지역 레이더에는 작은 무역 정거장이 나타납니다. 당신은 정거장이 정체를 가리고 있다는 것을 깨닫습니다. 그건 반란군 방어 포탑입니다!</text>
+	<text>당신은 작은 AI 운행 위성으로부터 교신을 받습니다. "모의교전은 제가 이 교전에서 이길 가능성이 높다는 걸 알려줍니다. 한 번 시도해 보시겠습니까?"</text>
+	<text>반란군 AI 위성이 이 신호소를 지키며 당신에게 교신합니다. "이 유닛은 이미 전투 결과를 계산했고, 그건 당신에게 불리하다는 것입니다. AI보다 그렇게 열등하다는 기분이 어떤가요?" 위성은 무기를 장전합니다!</text>
+	<text planet="PLANET_POPULATED_REAL">스캔 결과 대략 34개의 완전 무장한 방어용 터렛이 행성 주위에 배치되어 있는 것으로 나타났습니다. 운 좋게도 하나만 신호소를 지키고 있군요.</text>
 </textList>
 
 <event name="BS_EVENT_AUTO">
@@ -2265,18 +2265,18 @@
 		</choice>
 </event>
 <textList name="BS_EVENT_AUTO_TEXT">
-	<text>You discover one of the Rebels' autonomous satellite turrets. The station's AI wastes no time in engaging your ship.</text>
-	<text>Your ship is hailed, "You have been identified as a high priority target and are in range of this unit's weapon clusters. Engagement is the logical conclusion." This satellite seems to be controlled by an advanced Rebel combat AI.</text>
-	<text>A Rebel defense turret has been stationed here to guard this beacon. You realize that you will have to stay in its weapon range until the FTL drive is charged or it is defeated.</text>
-	<text>The AI of a nearby Rebel satellite turret immediately identifies you as a threat and engages.</text>
-	<text>A computer generated voice speaks through the comms, "I am one of 5237 identically produced Rebel defense turrets. Resistance is futile. Shut down your systems and accept annihilation."</text>
-	<text>An unmanned turret waits at this beacon. It politely sends an automated message, "Target acquired."</text>
-	<text>Another unmanned turret satellite guards this area. You prepare your ship for combat.</text>
-	<text>As you jump in a Rebel turret satellite activates. A fight seems unavoidable.</text>
-	<text>A small trade station appears on the local radar. You realize it is masking its identity, turns out it is a Rebel defense turret!</text>
+	<text>당신은 반란군 무인 위성 포탑 중 하나를 발견합니다. 정거장의 AI는 곧바로 당신의 함선과 교전합니다</text>
+	<text>당신의 함선은 교신받습니다. "당신은 최우선 순위 몰표로 식별되었고 이 유닛의 무기 거리에 들어섰습니다. 교전은 논리적인 결론입니다." 이 위성은 첨단 반란군 전투 AI에 의해 통제받고 있는 것 같습니다.</text>
+	<text>반란군 방어용 포탑이 이 신호소를 지키기 위해 여기에 배치되었습니다. 당신은 FTL 드라이브가 충전될때까지 무기 범위 안에 있던가 아니면 포탑을 쓰러뜨려야 한다는 것을 깨닫습니다.</text>
+	<text>근처 반란군 위성 터렛의 AI는 당신을 위협으로 즉각 식별하고 교전에 들어섭니다.</text>
+	<text>컴퓨터가 만든 음성이 통신을 통해 말합니다, "난 똑같이 만들어진 5237개의 반란군 방어 포탑 중 하나입니다. 저항은 헛된 짓입니다. 시스템을 종료하고 소멸을 받아들이십시오."</text>
+	<text>무인 포탑이 이 신호소에서 대기합니다. 포탑은 정중히 "목표 확보"라는 메시지를 보냅니다.</text>
+	<text>또 다른 무인 위성 터렛이 이 영역을 지키고 있습니다. 당신은 전투 준비를 합니다.</text>
+	<text>당신이 도약하자 반란군 위성 터렛이 작동합니다. 싸움은 피할 수 없는 것 같군요.</text>
+	<text>지역 레이더에는 작은 무역 정거장이 나타납니다. 당신은 정거장이 정체를 가리고 있다는 것을 깨닫습니다. 그건 반란군 방어 포탑입니다!</text>
 	<text>You receive a hail from a small AI run satellite, "Simulations show that I will win this engagement with 82 percent probability. Do you want to try your chances?"</text>
-	<text>A Rebel AI satellite is guarding this beacon and hails you, "This unit has already calculated the outcome of this battle, it will not be favorable for you. How does it feel to be so inferior to an AI?" The thing loads weapons!</text>
-	<text planet="PLANET_POPULATED_REAL">Scans indicate that about 34 fully armed defense turrets are stationed around this planet. Lucky for you only one is guarding the beacon.</text>
+	<text>반란군 AI 위성이 이 신호소를 지키며 당신에게 교신합니다. "이 유닛은 이미 전투 결과를 계산했고, 그건 당신에게 불리하다는 것입니다. AI보다 그렇게 열등하다는 기분이 어떤가요?" 위성은 무기를 장전합니다!</text>
+	<text planet="PLANET_POPULATED_REAL">스캔 결과 대략 34개의 완전 무장한 방어용 터렛이 행성 주위에 배치되어 있는 것으로 나타났습니다. 운 좋게도 하나만 신호소를 지키고 있군요.</text>
 </textList>
 
 <event name="BS_EVENT_AUTO_DEFENSE_SUPPLY" unique="true">
