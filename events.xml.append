@@ -31053,7 +31053,7 @@
 		</event>
 	</choice>
 	<choice>
-		<text>그들은 쉬운 목표다. Seize their cargo!</text>
+		<text>그들은 쉬운 목표다. 그들의 화물을 약탈해라!</text>
 		<event>
 			<text>당신은 해적행위에 관한 일을 저지르려고 합니다. 이것은 당신의 승무원들을 불안해하게 만들 수 있습니다.</text>
 			<choice hidden="true"> 
