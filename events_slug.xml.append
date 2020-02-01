@@ -225,7 +225,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>상대는 이런 기만을 예상하지 못했습니다. 그들은 도망치려 하지만, 당신은 곧 그들을 따라잡을 것입니다.<</text>
+		<text>상대는 이런 기만을 예상하지 못했습니다. 그들은 도망치려 하지만, 당신은 곧 그들을 따라잡을 것입니다.</text>
 		<choice>
 			<text>계속...</text>
 			<event load="CE_SURRENDER_BETRAYAL"/>
