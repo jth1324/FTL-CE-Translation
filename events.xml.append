@@ -18621,7 +18621,7 @@
 </eventList>
 
 <event name="SE_START_BEACON_CIVILIAN">
-	<!-- <text>You totally travel through hyperspace lol</text> -->
+	<!-- <text>당신은 완전한 초공간 롤을 통해 이동합니다.</text> -->
 	<text load="HYPERSPACE_TEXT"/>
 	<img back="BG_DARK" planet="PLANET_HYPERSPACE"/>
 	<choice req="engines" lvl="1" hidden="true" blue="false">
@@ -36201,7 +36201,7 @@ IDEAS
 </eventList>
 
 <event name="SE_START_BEACON_CIVILIAN_HOME">
-	<!-- <text>You totally travel through hyperspace lol</text> -->
+	<!-- <text>당신은 완전한 초공간 롤을 통해 이동합니다.</text> -->
 	<text load="HYPERSPACE_TEXT"/>
 	<img back="BG_DARK" planet="PLANET_HYPERSPACE"/>
 	<choice req="engines" lvl="1" hidden="true" blue="false">
