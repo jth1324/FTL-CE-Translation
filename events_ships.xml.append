@@ -3545,7 +3545,7 @@
 
 <ship name="CE_SPOTTER_REBEL_FLEET" auto_blueprint="SHIPS_REBEL_DEFENDER_ELITE">
 	<destroyed>
-		<text>The spotter unit ceases functioning under the fire of your weapons but the Rebel fleet has already acquired you. There is no time to lose; you have to jump away!</text>
+		<text>정찰기 유닛은 당신의 무기 사격 아래 작동을 멈추지만 이미 반란군 함대는 당신을 확보했습니다. 지체할 시간 없습니다, 당장 도망쳐야 합니다!</text>
 		<item_modify>
 			<item type="fuel" min="1" max="1"/>
 		</item_modify>
@@ -3583,7 +3583,7 @@
 
 <ship name="CE_SPOTTER_REBEL_FLEET_NO_FUEL" auto_blueprint="SHIPS_REBEL_DEFENDER_ELITE">
 	<destroyed>
-		<text>The spotter unit ceases functioning under the fire of your weapons but the Rebel fleet has already acquired you. There is no time to lose; you have to jump away with the little fuel you can gather from the wreckage.</text>
+		<text>정찰기 유닛은 당신의 무기 사격 아래 작동을 멈추지만 이미 반란군 함대는 당신을 확보했습니다. 지체할 시간 없습니다, 당신은 잔해로부터 소량의 연로를 얻고 도약해야 합니다.</text>
 		<item_modify>
 			<item type="fuel" min="1" max="1"/>
 		</item_modify>
@@ -3621,18 +3621,18 @@
 
 <ship name="CE_SPOTTER_REBEL_BEAM" auto_blueprint="SHIPS_REBEL_DEFENDER">
 	<escape chance="0.5" min="3" max="4">
-		<text>It seems the Rebel spotter ship considers its job done. It prepares to short-jump back into orbit.</text>
+		<text>반란군 정찰선은 임무를 완수했다고 생각하는 것 같습니다. 정찰선은 다시 궤도로 돌아갈 근거리 도약을 준비합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<gotaway>
-		<text>The automated ship jumps away. You should probably do the same, quickly!</text>
+		<text>무인선은 도망칩니다. 당신 또한 아마도 똑같이 도망쳐야 할 겁니다, 서둘러요!</text>
 	</gotaway>
 	<destroyed>
-		<text>The planetary defense ship is finally shot down by heavy fire from your weapons array. You quickly salvage some of its valuable tech and hasten to get out of here.</text>
+		<text>행성 방어 함선은 마침내 무기 집합에서 뿜어져 나오는 강력한 사격에 의해 격추되었습니다. 당신은 방어선의 귀중한 장비 중 일부를 빨리 인양하고 서둘러 여길 빠져나갑니다.</text>
 		<autoReward level="MED">standard</autoReward>
 	</destroyed>
 	<deadCrew>
-		<text>After the crew has been taken care of you sweep past the defense ship and quickly gather some of its advanced tech, then you hasten to jump away.</text>
+		<text>선원들이 방어선이었던 선박을 휠쓸고 재빨리 방어선의 고급 장비를 모읍니다. 그런 다음 당신은 서둘러 도망칩니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 	</deadCrew>
 	<weaponOverride count="1">
@@ -3644,17 +3644,17 @@
 
 <ship name="CE_SPOTTER_REBEL_ARTILLERY" auto_blueprint="SHIPS_REBEL_DEFENDER">
 	<escape chance="0.5" min="3" max="4">
-		<text>It seems the Rebel spotter ship considers its job done. It prepares to short-jump back into orbit.</text>
+		<text>반란군 정찰선은 임무를 완수했다고 생각하는 것 같습니다. 정찰선은 다시 궤도로 돌아갈 근거리 도약을 준비합니다.</text>
 	</escape>
 	<gotaway>
-		<text>The automated ship jumps away. You should probably do the same, quickly!</text>
+		<text>무인선은 도망칩니다. 당신 또한 아마도 똑같이 도망쳐야 할 겁니다, 서둘러요!</text>
 	</gotaway>
 	<destroyed>
-		<text>The planetary defense ship is finally shot down by heavy fire from your weapons array. You quickly salvage some of its valuable tech and hasten to get out of here.</text>
+		<text>행성 방어 함선은 마침내 무기 집합에서 뿜어져 나오는 강력한 사격에 의해 격추되었습니다. 당신은 방어선의 귀중한 장비 중 일부를 빨리 인양하고 서둘러 여길 빠져나갑니다.</text>
 		<autoReward level="MED">standard</autoReward>
 	</destroyed>
 	<deadCrew>
-		<text>After the crew has been taken care of you sweep past the defense ship and quickly gather some of its advanced tech, then you hasten to jump away.</text>
+		<text>선원들이 방어선이었던 선박을 휠쓸고 재빨리 방어선의 고급 장비를 모읍니다. 그런 다음 당신은 서둘러 도망칩니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 	</deadCrew>
 	<weaponOverride count="1">
@@ -3668,17 +3668,17 @@
 
 <ship name="CE_SPOTTER_REBEL_ARTILLERY_2" auto_blueprint="SHIPS_REBEL_DEFENDER">
 	<escape chance="0.5" min="3" max="4">
-		<text>The Rebel spotter ship has taken considerable damage and prepares to retreat.</text>
+		<text>반란군 정찰선은 상당한 피해를 입고 후퇴할 준비합니다.</text>
 	</escape>
 	<gotaway>
-		<text>The automated ship jumps away. You should probably do the same, quickly!</text>
+		<text>무인선은 도망칩니다. 당신 또한 아마도 똑같이 도망쳐야 할 겁니다, 서둘러요!</text>
 	</gotaway>
 	<destroyed>
-		<text>The spotter ship breaks apart. You quickly salvage some of its valuable tech and hasten to get out of here.</text>
+		<text>정찰선은 박살났습니다. 당신은 정찰선의 귀중한 장비 중 일부를 빨리 인양하고 서둘러 여길 빠져나갑니다.</text>
 		<autoReward level="MED">standard</autoReward>
 	</destroyed>
 	<deadCrew>
-		<text>After the crew has been taken care of you sweep past the defense ship and quickly gather some of its advanced tech, then you hasten to jump away.</text>
+		<text>선원들이 방어선이었던 선박을 휠쓸고 재빨리 방어선의 고급 장비를 모읍니다. 그런 다음 당신은 서둘러 도망칩니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 	</deadCrew>
 	<weaponOverride count="1">
@@ -3692,18 +3692,18 @@
 
 <ship name="CE_SPOTTER_MANTIS_ARTILLERY" auto_blueprint="SHIPS_MANTIS_DEFENDER">
 	<escape chance="0.5" min="3" max="4">
-		<text>The Mantis crew seems to think that it has already fought bravely enough. The spotter ship prepares to retreat.</text>
+		<text>맨티스 선원들은 이미 충분히 용감하게 싸웠다고 생가는 것 같군요. 정찰선은 퇴각 준비합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<gotaway>
-		<text>The spotter ship jumps away. You should probably do the same, quickly!</text>
+		<text>정찰선은 도망쳤습니다. 당신 또한 아마 똑같이 도망쳐야 할 겁니다, 서둘러요!</text>
 	</gotaway>
 	<destroyed>
-		<text>The Mantis spotter ship is consumed in deep red flames. You quickly salvage some parts of its wreckage and hasten to leave.</text>
+		<text>맨티스 정찰선은 깊은 붉은 불길에 사로잡힙니다. 당신은 재빨리 잔해 일부를 인양하고 서둘러 떠납니다.</text>
 		<autoReward level="MED">standard</autoReward>
 	</destroyed>
 	<deadCrew>
-		<text>The last remaining Mantis defender realizes that continued fighting is pointless, but it decides that jettisoning itself into open space is still better than being defeated and exits the ship through an airlock. You quickly approach the ship to salvage some of its advanced tech, then you hasten to jump away.</text>
+		<text>마지막 남은 맨티스 방어자는 계속되는 전투가 무의미하다는 것을 깨닫지만, 그는 배를 버리고 열린 공간 도망치는 것이 패배당하는 것보다 더 낫다고 판단하고는 에어록을 통해 빠져나갑니다. 당신은 재빨리 접근하여 정찰선의 고급 장비의 일부를 인양한 다음, 서둘러 도망칩니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 	</deadCrew>
 	<weaponOverride count="1">
@@ -3720,18 +3720,18 @@
 
 <ship name="CE_SPOTTER_ROCK_ARTILLERY" auto_blueprint="SHIPS_ROCK_DEFENDER">
 	<escape chance="0.5" min="3" max="4">
-		<text>The Rock crew considers a retreat. They surely hope that the artillery will finish you off.</text>
+		<text>암석 선원들은 후퇴를 고려합니다. 그들은 확실히 대포가 당신을 끝장내주길 바랍니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<gotaway>
-		<text>The garrison ship jumps away. You should probably do the same, quickly!</text>
+		<text>주둔군이 도망칩니다. 당신 또한 아마 똑같이 도망쳐야 할 겁니다, 서둘러요!</text>
 	</gotaway>
 	<destroyed>
-		<text>The defense ship's armored hull bursts open under your last salvo. Rock garrison forces don't seem to be as tough as one might think but you have to leave before they send in more ships.</text>
+		<text>방어선의 장갑 선체가 당신의 마지막 일제사격 아래 터집니다. 암석 주둔군은 생각만큼 강인해 보이지 않지만, 그들이 더 많은 배를 보내기 전에 당신은 떠나야 합니다.</text>
 		<autoReward level="MED">standard</autoReward>
 	</destroyed>
 	<deadCrew>
-		<text>The mighty Rock defenders have been slain and their ship drifts dead in space. You quickly approach it to salvage some of its equipment, then you hasten to jump away.</text>
+		<text>강력한 암석 방어군이 죽었고 수비수들이 죽었고 그들의 함선은 우주에서 죽은 체로 표류합니다. 당신은 재빨리 접근하여 선박의 장비의 일부를 인양한 다음, 서둘러 도망칩니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 	</deadCrew>
 	<weaponOverride count="1">
@@ -3745,18 +3745,18 @@
 
 <ship name="CE_SPOTTER_ZOLTAN_BEAM" auto_blueprint="SHIPS_ZOLTAN_DEFENDER">
 	<escape chance="0.5" min="3" max="4">
-		<text>The Zoltan defender's shields have failed and it sustains heavy damage. It charges up its FTL and prepares to jump back to its garrison planet.</text>
+		<text>졸탄 방어자의 방어막이 고장나고 큰 피해를 입습니다. 함선은 FTL을 충전하고 주둔 행성으로 돌아갈 준비합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<gotaway>
-		<text>The defender class jumps away. You should probably do the same, quickly!</text>
+		<text>방어자는 도망칩니다. 당신 또한 아마 똑같이 도망쳐야 할 겁니다, 서둘러요!</text>
 	</gotaway>
 	<destroyed>
-		<text>The defense ship's armored hull bursts open under your last salvo. Zoltan garrison forces don't seem to be as tough as one might think but you have to leave before they send in more ships.</text>
+		<text>방어선의 장갑 선체가 당신의 마지막 일제사격 아래 터집니다. 졸탄 주둔군은 생각만큼 강인해 보이지 않지만, 그들이 더 많은 배를 보내기 전에 당신은 떠나야 합니다.</text>
 		<autoReward level="MED">standard</autoReward>
 	</destroyed>
 	<deadCrew>
-		<text>The Zoltan defender's have been slain and their ship drifts dead in space. You quickly approach it to salvage some of its equipment, then you hasten to jump away.</text>
+		<text>졸탄 방어군이 죽었고 수비수들이 죽었고 그들의 함선은 우주에서 죽은 체로 표류합니다. 당신은 재빨리 접근하여 선박의 장비의 일부를 인양한 다음, 서둘러 도망칩니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 	</deadCrew>
 	<weaponOverride count="1">
@@ -3773,18 +3773,18 @@
 
 <ship name="CE_SPOTTER_CIV_BEAM" auto_blueprint="SHIPS_CIV_DEFENDER">
 	<escape chance="0.5" min="3" max="4">
-		<text>The defender has sustained heavy damage. It charges up its FTL and prepares to jump back to its garrison planet.</text>
+		<text>방어자는 큰 피해를 입었습니다. 함선은 FTL을 충전하고 주둔 행성으로 도약할 준비합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<gotaway>
-		<text>The defender class jumps away. You should probably do the same, quickly!</text>
+		<text>방어자는 도망칩니다. 당신 또한 아마 똑같이 도망쳐야 할 겁니다, 서둘러요!</text>
 	</gotaway>
 	<destroyed>
-		<text>The defense ship's armored hull bursts open under your last salvo but you should probably leave before they send in more ships.</text>
+		<text>방어선의 장갑 선체가 당신의 마지막 일제사격 아래 터지지만 당신은 더 많은 배를 보내기 전에 떠나야 합니다..</text>
 		<autoReward level="MED">standard</autoReward>
 	</destroyed>
 	<deadCrew>
-		<text>The defenders have been slain and their ship drifts dead in space. You quickly approach it to salvage some of its equipment, then you hasten to jump away.</text>
+		<text>방어자는 죽었고 수비수들이 죽었고 그들의 함선은 우주에서 죽은 체로 표류합니다. 당신은 재빨리 접근하여 선박의 장비의 일부를 인양한 다음, 서둘러 도망칩니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 	</deadCrew>
 	<weaponOverride count="1">
@@ -3797,18 +3797,18 @@
 
 <ship name="CE_SPOTTER_QUARANTINE_BEAM" auto_blueprint="SHIPS_ZOLTAN_DEFENDER">
 	<escape chance="0.5" min="3" max="4">
-		<text>The Zoltan defender's shields have failed and it sustained heavy damage. It charges up its FTL and prepares to jump back to its garrison planet.</text>
+		<text>졸탄 방어자의 방어막은 고장나고 상당한 피해를 입었습니다. 함선은 FTL을 충전하고 주둔 행성으로 도약할 준비합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<gotaway>
-		<text>The defender class jumps away. You should probably do the same, quickly!</text>
+		<text>방어자는 도망칩니다. 당신 또한 아마 똑같이 도망쳐야 할 겁니다, 서둘러요!</text>
 	</gotaway>
 	<destroyed>
-		<text>The defense ship's armored hull bursts open under your last salvo. Zoltan garrison forces don't seem to be as tough as one might think, but you have to leave before they send in more ships.</text>
+		<text>방어선의 장갑 선체가 당신의 마지막 일제사격 아래 터집니다. 졸탄 주둔군은 생각만큼 강인해 보이지 않지만, 그들이 더 많은 배를 보내기 전에 당신은 떠나야 합니다.</text>
 		<autoReward level="MED">standard</autoReward>
 	</destroyed>
 	<deadCrew>
-		<text>The Zoltan defender's have been slain and their ship drifts dead in space. You quickly approach it to salvage some of its equipment, then you hasten to jump away.</text>
+		<text>졸탄 방어군이 죽었고 수비수들이 죽었고 그들의 함선은 우주에서 죽은 체로 표류합니다. 당신은 재빨리 접근하여 선박의 장비의 일부를 인양한 다음, 서둘러 도망칩니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 	</deadCrew>
 	<weaponOverride count="1">
@@ -3825,11 +3825,11 @@
 
 <ship name="CE_MINELAYER_ROCK_HAZARD" auto_blueprint="CE_SHIPS_ROCK_MINELAYER_HAZARD">
 	<escape chance="0.5" min="3" max="4">
-		<text>The minelayer seems ill-equipped for direct combat and prepares to make a hasty retreat.</text>
+		<text>기뢰 부설함은 직접 전투에 적합하지 않았고 서둘러 퇴각할 준비합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<gotaway>
-		<text>The minelayer jumps away and you find yourself alone in the hazard field.</text>
+		<text>기뢰 부설함은 도망쳤고 당신은 위험지대에 홀로 있는 자신을 발견합니다.</text>
 	</gotaway>
 	<destroyed load="DESTROYED_SHIP_ROCK"/>
 	<deadCrew load="DEAD_CREW_DEFAULT"/>
@@ -3845,11 +3845,11 @@
 
 <ship name="CE_MINELAYER_ROCK" auto_blueprint="CE_SHIPS_ROCK_MINELAYER">
 	<escape chance="0.5" min="3" max="4">
-		<text>The minelayer seems ill-equipped for direct combat and prepares to make a hasty retreat.</text>
+		<text>기뢰 부설함은 직접 전투에 적합하지 않았고 서둘러 퇴각할 준비합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<gotaway>
-		<text>The minelayer jumps away and you find yourself alone in the hazard field.</text>
+		<text>기뢰 부설함은 도망쳤고 당신은 위험지대에 홀로 있는 자신을 발견합니다.</text>
 	</gotaway>
 	<destroyed load="DESTROYED_SHIP_ROCK"/>
 	<deadCrew load="DEAD_CREW_DEFAULT"/>
@@ -3858,11 +3858,11 @@
 
 <ship name="CE_MINELAYER_MANTIS_HAZARD" auto_blueprint="CE_SHIPS_MANTIS_MINELAYER_HAZARD">
 	<escape chance="0.5" min="3" max="4">
-		<text>The Mantis crew seems to favor setting traps as opposed to open fighting. The minelayer prepares to jump away.</text>
+		<text>맨티스 선원들은 공개적인 싸움보다는 함정 설치를 선호한느 것 같습니다. 기뢰 부설함은 도망칠 준비합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<gotaway>
-		<text>The minelayer jumps away and you find yourself alone in the hazard field.</text>
+		<text>기뢰 부설함은 도망쳤고 당신은 위험지대에 홀로 있는 자신을 발견합니다.</text>
 	</gotaway>
 	<destroyed load="DESTROYED_SHIP_MANTIS"/>
 	<deadCrew load="DEAD_CREW_DEFAULT"/>
@@ -3887,11 +3887,11 @@
 
 <ship name="CE_MINELAYER_MANTIS" auto_blueprint="CE_SHIPS_MANTIS_MINELAYER">
 	<escape chance="0.5" min="3" max="4">
-		<text>The Mantis crew seems to favor setting traps as opposed to open fighting. The minelayer prepares to jump away.</text>
+		<text>맨티스 선원들은 공개적인 싸움보다는 함정 설치를 선호한느 것 같습니다. 기뢰 부설함은 도망칠 준비합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<gotaway>
-		<text>The minelayer jumps away and you find yourself alone in the hazard field.</text>
+		<text>기뢰 부설함은 도망쳤고 당신은 위험지대에 홀로 있는 자신을 발견합니다.</text>
 	</gotaway>
 	<destroyed load="DESTROYED_SHIP_MANTIS"/>
 	<deadCrew load="DEAD_CREW_DEFAULT"/>
@@ -3903,10 +3903,10 @@
 
 <ship name="CE_ROCK_MILITARY_CRUISER" auto_blueprint="CE_SHIPS_ROCK_MILITARY">
 	<escape chance="0.5" min="6" max="7">
-		<text>It seems the Rock military has found its master for once. The ship engages its FTL drive and prepares to retreat.</text>
+		<text>암석 군대는 적수를 만난 것 같군요. 배는 FTL 드라이브를 가동하고 퇴각을 준비합니다.</text>
 	</escape>
 	<gotaway>
-		<text>The Rock military vessel jumps away. You can just hope that they don't track you down with more ships later.</text>
+		<text>암석 군함은 도망칩니다. 나중에 더 많은 배로 그들이 자신을 추적하지 않기를 바랍니다.</text>
 	</gotaway>
 	<destroyed load="DESTROYED_SHIP_ROCK"/>
 	<deadCrew load="DEAD_CREW_DEFAULT"/>
@@ -3914,57 +3914,57 @@
 
 <ship name="CE_ROCK_MILITARY_RAMSHIP" auto_blueprint="CE_SHIPS_ROCK_RAMSHIP">
 	<surrender chance="0.5" min="9" max="10">
-		<text>All of a sudden, the Rock military vessel turns hard and heads for you on a direct collision course. "Sir, the hostile is attempting a ramming maneuver!"</text>
+		<text>갑자기, 암석 군함이 힘껏 방향을 바꿔 선두를 당신과 직접 부딪힐 수 있는 경로로 향하게 합니다. "함장님, 적이 충각 작전을 시도합니다!"</text>
 		<choice req="engines" lvl="1" max_group="0" blue="false">
-			<text>Attempt to alter trajectory.</text>
+			<text>궤도 변경을 시도해라.</text>
 			<event load="CE_ROCK_RAMSHIP_EVASION_1"/>
 		</choice>
 		<choice req="engines" lvl="3" max_group="0" blue="false">
-			<text>(향상된 엔진) Divert power to navigation thrusters!</text>
+			<text>(향상된 엔진) 전력을 항법 추진기로 돌려라!</text>
 			<event load="CE_ROCK_RAMSHIP_EVASION_2"/>
 		</choice>
 		<choice req="engines" lvl="5" max_group="0" blue="false">
-			<text>(Advanced Engines) Full power to engines!</text>
+			<text>(고급 엔진) 엔진에 최대 전력을 넣어라!</text>
 			<event load="CE_ROCK_RAMSHIP_EVASION_3"/>
 		</choice>
 		<choice req="engines" lvl="8" max_group="0" blue="false">
-			<text>(Highly Advanced Engines) Evasive maneuvers!</text>
+			<text>(최고급 엔진) 회피 기동!</text>
 			<event>
-				<text>The Rock ship is unable to match your speed and you easily outmaneuver it. You turn to attack again.</text>
+				<text>암석선은 당신의 속도를 따라잡을 수 없었고 당신은 손쉽게 암석선을 압도합니다. 다시 공격하기 위해 방향을 바꿉니다.</text>
 			</event>
 		</choice>
 		<choice req="FTL_JUMPER" hidden="true"> 
-			<text>(고급 항법 AI) Complex evasive maneuvers!</text>
+			<text>(고급 항법 AI) 복합 회피 기동!</text>
 			<event>
-				<text>Your navigation AI tricks the Rock Captain by heading straight towards him as well. The computer fires the thrusters at the very last moment and your ships scratch each other at high speed; but your hull remains undamaged.</text>
+				<text>항법 AI는 암석 선장을 향해 직진하는 것으로 그를 속입니다. 컴퓨터는 마지막 순간에 추진기를 점화했고 당신의 배는 서로를 빠른 속도로 긁지만, 선체는 손상되지 않은 체로 남아있습니다.</text>
 			</event>
 		</choice>
 	</surrender>
 	<destroyed>
 		<text>The Rock ship sustained heavy damage and its hard to believe that anything on board can still be alive and intact. But the Rock Captain seems unwilling to give up. He ignites the backup thrusters and the ship heads directly for yours at full speed!</text>
 		<choice req="engines" lvl="1" max_group="0" blue="false" hidden="true">
-			<text>Attempt to alter trajectory.</text>
+			<text>궤도 변경을 시도해라.</text>
 			<event load="CE_ROCK_RAMSHIP_EVASION_1_REWARD"/>
 		</choice>
 		<choice req="engines" lvl="3" max_group="0" blue="false" hidden="true">
-			<text>(향상된 엔진) Divert power to navigation thrusters!</text>
+			<text>(향상된 엔진) 전력을 항법 추진기로 돌려라!</text>
 			<event load="CE_ROCK_RAMSHIP_EVASION_2_REWARD"/>
 		</choice>
 		<choice req="engines" lvl="5" max_group="0" blue="false" hidden="true">
-			<text>(Advanced Engines) Full power to engines!</text>
+			<text>(고급 엔진) 엔진에 최대 전력을 넣어라!</text>
 			<event load="CE_ROCK_RAMSHIP_EVASION_3_REWARD"/>
 		</choice>
 		<choice req="engines" lvl="7" max_group="0" blue="false" hidden="true">
-			<text>(Highly Advanced Engines) Evasive maneuvers!</text>
+			<text>(최고급 엔진) 회피 기동!</text>
 			<event>
-				<text>The Rock ship seems to be unable to match your speed and you easily outmaneuver it. You turn and fire a final volley. The FTL core is hit and the brave Rock Captain's military career is brought to a quick end.</text>
+				<text>선은 당신의 속도를 따라잡을 수 없었고 당신은 손쉽게 암석선을 압도합니다. 다시 공격하기 위해 방향을 바꾸고 마지막 일제사격을 퍼붓습니다. FTL 코어에 명중했고 용감한 암석 선장의 군 경력은 빠른 결말을 맞이합니다.</text>
 				<autoReward level="MED">standard</autoReward>
 			</event>
 		</choice>
 		<choice req="FTL_JUMPER" hidden="true"> 
-			<text>(고급 항법 AI) Evasive jump!</text>
+			<text>(고급 항법 AI) 회피 도약!</text>
 			<event>
-				<text>Your navigation AI throws your ship into hyper space for a split-second, making it reappear directly behind the completely wrecked military vessel. You feel almost sorry for the Rock Captain, but nevertheless end him with a final volley.</text>
+				<text>항법 AI는 함선을 순식간에 초공간으로 내던졌고,  완전히 난파된 군함 뒤로 다시 나타나게 합니다. 당신은 암석 선장에게 거의 미안한 감정을 느꼇지만, 그럼에도 불구하고 마지막 일제사격으로 그를 끝장냅니다.</text>
 				<autoReward level="MED">standard</autoReward>
 			</event>
 		</choice>
@@ -3976,7 +3976,7 @@
 
 <ship name="REBEL_AUTO_ACID" auto_blueprint="SHIPS_AUTO">
 	<surrender chance="0.5" min="1" max="5">
-		<text>You just lost your redundant environmental scanners. The acid levels must be off the chart.</text>
+		<text>당신은 방금 불필요한 환경 스캐너를 잃어버렸습니다. 산성 수준은 차트를 벗어난 게 분명합니다.</text>
 		<choice hidden="true">
 			<text>계속...</text>
 			<event load="CE_ACID_FIGHT_LIST"/>
@@ -4011,9 +4011,9 @@
 	<destroyed>
 		<text load="AUTO_FIGHT_DESTROYED"/>
 		<choice hidden="true">
-			<text>Stay to salvage from your opponent and the wreckages of other ships nearby.</text>
+			<text>당신의 상대와 근처 다른 선박들의 잔해를 인양하기 위해 머무릅니다.</text>
 			<event>
-				<text>Acid eats away at your ship's hull while you salvage the debris.</text>
+				<text>잔해를 인양하는 동안 산성은 함선의 선체를 부식시킵니다.</text>
 				<damage amount="1" system="random" effect="breach"/>
 				<autoReward level="HIGH">standard</autoReward>
 			</event>
@@ -4026,7 +4026,7 @@
 			</event>
 		</choice>
 		<choice hidden="true"> 
-			<text>Jump away quickly to avoid further acid damage to your ship's hull.</text>
+			<text>함선 선체에 추가적인 산성 피해를 방지하기 위해 빨리 도약합니다.</text>
 			<event/>
 		</choice>
 	</destroyed>
@@ -4034,7 +4034,7 @@
 
 <ship name="REBEL_AUTO_WARNING_ACID" auto_blueprint="SHIPS_AUTO">
 	<surrender chance="0.5" min="1" max="5">
-		<text>You just lost your redundant environmental scanners. The acid levels must be off the chart.</text>
+		<text>당신은 방금 불필요한 환경 스캐너를 잃어버렸습니다. 산성 수준은 차트를 벗어난 게 분명합니다.</text>
 		<choice hidden="true">
 			<text>계속...</text>
 			<event load="CE_ACID_FIGHT_LIST"/>
@@ -4057,9 +4057,9 @@
 	<destroyed>
 		<text load="AUTO_FIGHT_DESTROYED"/>
 		<choice hidden="true">
-			<text>Stay to salvage from your opponent and the wreckages of other ships nearby.</text>
+			<text>당신의 상대와 근처 다른 선박들의 잔해를 인양하기 위해 머무릅니다.</text>
 			<event>
-				<text>Acid eats away at your ship's hull while you salvage the debris.</text>
+				<text>잔해를 인양하는 동안 산성은 함선의 선체를 부식시킵니다.</text>
 				<damage amount="1" system="random" effect="breach"/>
 				<autoReward level="HIGH">standard</autoReward>
 			</event>
@@ -4072,7 +4072,7 @@
 			</event>
 		</choice>
 		<choice hidden="true"> 
-			<text>Jump away quickly to avoid further acid damage to your ship's hull.</text>
+			<text>함선 선체에 추가적인 산성 피해를 방지하기 위해 빨리 도약합니다.</text>
 			<event/>
 		</choice>
 	</destroyed>
@@ -4080,7 +4080,7 @@
 
 <ship name="PIRATE_ACID" auto_blueprint="SHIPS_PIRATE">
 	<surrender chance="0.5" min="1" max="5">
-		<text>The hull of your opponent immediately corrodes wherever it is hit, leaving trails of ugly yellow fog behind. Your ship probably does not look much better.</text>
+		<text>상대의 선체는 명중하는 곳마다, 즉시 부식되어 흉측한 노란 안개 자국을 남깁니다. 당신 함선 또한 아마 별로 나아보이지 않습니다.</text>
 		<choice hidden="true">
 			<text>계속...</text>
 			<event load="CE_ACID_FIGHT_LIST"/>
@@ -4094,11 +4094,11 @@
 	</surrender>
 	<escape chance="0.5" min="4" max="6" load="PIRATE_ESCAPE"/>
 	<destroyed>
-		<text>The ship sustained critical hull damage. The vessel decompresses then fluid acid enters the craft through several breaches and dissolves the freebooter crew alive before the craft finally explodes.</text>
+		<text>배는 심각한 선체 손상을 입었습니다. 선박이 마지막 폭발이 일어나기 전에 흐르는 산성은 몇 개의 균열을 통해 우주선 안으로 들어가 약탈자들을 산 채로 녹였습니다.</text>
 		<choice hidden="true">
-			<text>Stay to salvage from your opponent and the wreckages of other ships nearby.</text>
+			<text>당신의 상대와 근처 다른 선박들의 잔해를 인양하기 위해 머무릅니다.</text>
 			<event>
-				<text>Acid eats away at your ship's hull while you salvage the debris.</text>
+				<text>잔해를 인양하는 동안 산성은 함선의 선체를 부식시킵니다.</text>
 				<damage amount="1" system="random" effect="breach"/>
 				<autoReward level="HIGH">standard</autoReward>
 			</event>
@@ -4111,16 +4111,16 @@
 			</event>
 		</choice>
 		<choice hidden="true"> 
-			<text>Jump away quickly to avoid further acid damage to your ship's hull.</text>
+			<text>함선 선체에 추가적인 산성 피해를 방지하기 위해 빨리 도약합니다.</text>
 			<event/>
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>The pirate crew is dead and the ship floats unmanned in the acid cloud. Soon, nothing will remain of it.</text>
+		<text>해적들은 죽었고 배는 산성구름 속을 사람없이 표류합니다. 곧, 아무것도 남아있지 않을 겁니다.</text>
 		<choice hidden="true">
-			<text>Stay to salvage from the ship.</text>
+			<text>배를 인양하기 위해 머무릅니다.</text>
 			<event>
-				<text>Acid eats away at your ship's hull while you strip the ship.</text>
+				<text>당신이 선박을 해체하는 동안 산성은 선체를 부식시킵니다.</text>
 				<damage amount="1" system="random" effect="breach"/>
 				<autoReward level="HIGH">standard</autoReward>
 			</event>
@@ -4133,7 +4133,7 @@
 			</event>
 		</choice>
 		<choice hidden="true"> 
-			<text>Jump away quickly to avoid further acid damage to your ship's hull.</text>
+			<text>함선 선체에 추가적인 산성 피해를 방지하기 위해 빨리 도약합니다.</text>
 			<event/>
 		</choice>
 	</deadCrew>
@@ -4141,7 +4141,7 @@
 
 <ship name="REBEL_ACID" auto_blueprint="SHIPS_REBEL">
 	<surrender chance="0.5" min="1" max="5">
-		<text>The Rebel ship has taken heavy damage from both battle and the environment. Multiple hazard warnings tell you that your hull will not withstand the acid much longer either.</text>
+		<text>반란군은 전투와 환경으로부터 큰 피해를 입었습니다. 다수의 위험경고는 당신의 선체가 산성에 더 오래 견딜 수 없다는 걸 알려줍니다.</text>
 		<choice hidden="true">
 			<text>계속...</text>
 			<event load="CE_ACID_FIGHT_LIST"/>
@@ -4155,11 +4155,11 @@
 	</surrender>
 	<escape chance="0.5" min="4" max="6" load="PIRATE_ESCAPE"/>
 	<destroyed>
-		<text>Another Rebel ship explodes; the remaining crew is thrown into open space and desolves within seconds. A lot of Federation officers hate the Rebels with all their might, but no one deserves such a fate.</text>
+		<text>또 다른 반란군 배가 폭발합니다. 남은 선원들은 열린 우주로 내던져졌고 몇 초 안에 용해됩니. 많은 연방 장교들은 있는 힘을 다해 반란군들을 증오하지만, 이런 운명에 처해야 하는 사람은 아무도 없습니다.</text>
 		<choice hidden="true">
-			<text>Stay to salvage from your opponent and the wreckages of other ships nearby.</text>
+			<text>당신의 상대와 근처 다른 선박들의 잔해를 인양하기 위해 머무릅니다.</text>
 			<event>
-				<text>Acid eats away at your ship's hull while you salvage the debris.</text>
+				<text>잔해를 인양하는 동안 산성은 함선의 선체를 부식시킵니다.</text>
 				<damage amount="1" system="random" effect="breach"/>
 				<autoReward level="HIGH">standard</autoReward>
 			</event>
@@ -4172,16 +4172,16 @@
 			</event>
 		</choice>
 		<choice hidden="true"> 
-			<text>Jump away quickly to avoid further acid damage to your ship's hull.</text>
+			<text>함선 선체에 추가적인 산성 피해를 방지하기 위해 빨리 도약합니다.</text>
 			<event/>
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>The Rebels survived the hazard, but they did not survive you.</text>
+		<text>반란군들은 위험에서 살아남았지만, 당신에게서 살아남지는 못했습니다.</text>
 		<choice hidden="true">
-			<text>Stay to salvage from the ship.</text>
+			<text>배를 인양하기 위해 머무릅니다.</text>
 			<event>
-				<text>Acid eats away at your ship's hull while you strip the ship. You wonder if you should activate the ship's distress beacon so that the Rebels can find their dead before they and the ship are dissolved?</text>
+				<text>당신이 선박을 해체하는 동안 산성은 선체를 부식시킵니다. 당신은 선박이 녹아내리기 전에 반란군이 죽은 사람들을 찾을 수 있게 배의 조난신호를 작동시켜야 할지도 모른다는 생각을 합니다.</text>
 				<damage amount="1" system="random" effect="breach"/>
 				<autoReward level="HIGH">standard</autoReward>
 			</event>
@@ -4194,7 +4194,7 @@
 			</event>
 		</choice>
 		<choice hidden="true"> 
-			<text>Jump away quickly to avoid further acid damage to your ship's hull.</text>
+			<text>함선 선체에 추가적인 산성 피해를 방지하기 위해 빨리 도약합니다.</text>
 			<event/>
 		</choice>
 	</deadCrew>
@@ -4212,7 +4212,7 @@
 
 <ship name="PIRATE_ACID_ROCK" auto_blueprint="SHIPS_ROCK_PIRATE">
 	<surrender chance="0.5" min="1" max="5">
-		<text>Additional hazard warnings pop up on your screen. This does not look good...</text>
+		<text>화면에 추가 위험 경고가 표시됩니다. 이거 좀 별로인 것처럼 보이는데요...</text>
 		<choice hidden="true">
 			<text>계속...</text>
 			<event load="CE_ACID_FIGHT_LIST"/>
@@ -4225,11 +4225,11 @@
 		</choice>
 	</surrender>
 	<destroyed>
-		<text>The ship sustained critical hull damage and explodes. It will take awhile until the acid consumes the remains of the ship and its crew.</text>
+		<text>배는 심각한 선체 손상을 입었고 폭발했습니다. 산성이 선원들과 배의 잔해를 부식할 때까지 시간이 좀 걸릴 겁니다.</text>
 		<choice hidden="true">
-			<text>Stay to salvage from your opponent and the wreckages of other ships nearby.</text>
+			<text>당신의 상대와 근처 다른 선박들의 잔해를 인양하기 위해 머무릅니다.</text>
 			<event>
-				<text>Acid eats away at your ship's hull while you salvage the debris.</text>
+				<text>잔해를 인양하는 동안 산성은 함선의 선체를 부식시킵니다.</text>
 				<damage amount="1" system="random" effect="breach"/>
 				<autoReward level="HIGH">standard</autoReward>
 			</event>
@@ -4242,16 +4242,16 @@
 			</event>
 		</choice>
 		<choice hidden="true"> 
-			<text>Jump away quickly to avoid further acid damage to your ship's hull.</text>
+			<text>함선 선체에 추가적인 산성 피해를 방지하기 위해 빨리 도약합니다.</text>
 			<event/>
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>The Rock pirates are dead and the ship floats unmanned in the acid cloud. Soon, nothing will remain of it.</text>
+		<text>락맨 해적들은 죽었고 배는 산성구름 속을 무인으로 표류합니다. 곧, 아무것도 남지 않을 겁니다.</text>
 		<choice hidden="true">
-			<text>Stay to salvage from the ship.</text>
+			<text>배를 인양하기 위해 머무릅니다.</text>
 			<event>
-				<text>Acid eats away at your ship's hull while you strip the ship.</text>
+				<text>당신이 선박을 해체하는 동안 산성은 선체를 부식시킵니다.</text>
 				<damage amount="1" system="random" effect="breach"/>
 				<autoReward level="HIGH">standard</autoReward>
 			</event>
@@ -4264,7 +4264,7 @@
 			</event>
 		</choice>
 		<choice hidden="true"> 
-			<text>Jump away quickly to avoid further acid damage to your ship's hull.</text>
+			<text>함선 선체에 추가적인 산성 피해를 방지하기 위해 빨리 도약합니다.</text>
 			<event/>
 		</choice>
 	</deadCrew>
@@ -4282,7 +4282,7 @@
 <ship name="CE_RADIATION_HUSK" auto_blueprint="CE_SHIPS_HUSKS">
 	<destroyed load="BS_STATION_DESTROYED_DEFAULT"/>
 	<deadCrew>
-		<text>Everyone took a heavy dose of radiation, but in the end your impulse engines got the ship out of the hazard zone. You check on the crew.</text>
+		<text>모든 사람들이 다량의 방사선을 입었지만, 결국 당신의 임펄스 엔진은 배를 위험 지역 바깥으로 벗어나게 합니다. 이제 선원들을 확인해보죠.</text>
 		<status type="clear" target="player" system="oxygen" amount="100"/>
 	</deadCrew>
 </ship>
@@ -4323,11 +4323,11 @@
 
 <ship name="AI" auto_blueprint="SHIPS_AI">
 	<escape min="4" max="5" >
-		<text>The AI ship tries to retreat from combat. It's powering up its jump drive!</text>
+		<text>AI 선박은 전투로부터 후퇴하려 합니다. 점프 드라이브에 전력을 넣고 있습니다!</text>
 		<ship hostile="true"/>
 	</escape>
 	<gotaway>
-		<text>Looks like the AIs outsmarted you. They escaped from combat before sustaining critical damage.</text>
+		<text>AI들은 당신보다 한 수 앞서는군요. 그들은 심각한 손상을 입기 전에 전투에서 탈출했습니다.</text>
 	</gotaway>
 	<destroyed load="DESTROYED_SHIP_AI"/>
 	<deadCrew load="DEAD_CREW_SHIP_AI"/>
@@ -4343,20 +4343,20 @@
 		<text>함선이 파괴되자, 당신은 재빨리 유용한 자원들을 수집합니다.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the Zoltan ship.</text>
+			<text>졸탄 함선과 연락합니다.</text>
 			<event>
-				<text>"Your aid is most appreciated, Federation Captain. The sins of our past are haunting this sector. We shall continue to exterminate the constructs and you shall receive compensation for your help."</text>
+				<text>"연방 함장님, 당신의 도움에 정말 감사드립니다. 우리 과거의 죄가 이 구역을 떠나지 않군요. 우린 계속해서 이 존재들을 말살할 것이고 당신은 도움에 보상을 받을 겁니다."</text>
 				<autoReward level="LOW">standard</autoReward>
 			</event>
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>With the AI crew dead you salvage what you can.</text>
+		<text>AI 선원들은 모두 죽자 당신은 인양할 수 있는 걸 인양합니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the Zoltan ship.</text>
+			<text>졸탄 함선과 연락합니다.</text>
 			<event>
-				<text>"Your aid is most appreciated, Federation Captain. The sins of our past are haunting this sector. We shall continue to exterminate the constructs and you shall receive compensation for your help."</text>
+				<text>"연방 함장님, 당신의 도움에 정말 감사드립니다. 우리 과거의 죄가 이 구역을 떠나지 않군요. 우린 계속해서 이 존재들을 말살할 것이고 당신은 도움에 보상을 받을 겁니다."</text>
 				<autoReward level="LOW">standard</autoReward>
 			</event>
 		</choice>
@@ -4365,18 +4365,18 @@
 
 <ship name="AI_ZOLTAN_BETRAYAL" auto_blueprint="SHIPS_ZOLTAN"> 
 	<destroyed>
-		<text>With the ship destroyed you quickly collect useful resources.</text>
+		<text>함선이 파괴되자 당신은 재빨리 유용한 자원들을 수집합니다.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Hail the AI ship.</text>
+			<text>AI 선박과 교신합니다.</text>
 			<event load="AI_VS_ZOLTAN_BETRAYAL_LIST"/>
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>With the Zoltan crew dead you salvage what you can.</text>
+		<text>졸탄 선원들은 모두 죽자 당신은 인양할 수 있는 걸 인양합니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Hail the AI ship.</text>
+			<text>AI 선박과 교신합니다.</text>
 			<event load="AI_VS_ZOLTAN_BETRAYAL_LIST"/>
 		</choice>
 	</deadCrew>
@@ -4384,14 +4384,14 @@
 
 <ship name="AI_NEBULA" auto_blueprint="SHIPS_AI">
 	<escape min="3" max="4" >
-		<text>The AI ship tries to retreat from combat. It's powering up its jump drive.</text>
+		<text>AI 선박은 전투로부터 후퇴하려 합니다. 함선 점프 드라이브에 전력을 공급하고 있습니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<gotaway>
-		<text>When the AI ship jumps away its nano-bot swarm also stops attacking your ship. Might the AIs actually be good sportsmen?</text>
+		<text>AI 선박이 도약하자 나노봇 군단 또한 공격을 멈춥니다. AI는 사실 좋은 스포츠맨이 될 수 있는 거 아닐까요?</text>
 	</gotaway>
 	<destroyed>
-		<text>The nano-bots retreat from your ship after the AI vessel that controls them ceases to function. You gather up all the scrap you can. The remains of the ship are quickly dissembled by the all-consuming cloud.</text>
+		<text>나노봇은 자신들을 통제하는 AI 선박이 작동을 멈추자 함선에서 후퇴합니다. 당신은 모을 수 있는 모든 고철을 모읍니다. 선박 잔해는 순식간에 모든 것을 흡수하는 구름들에 가려집니다.</text>
 		<status type="clear" target="player" system="weapons" amount="100"/>
 		<status type="clear" target="player" system="shields" amount="100"/>
 		<status type="clear" target="player" system="medbay" amount="100"/>
@@ -4415,18 +4415,18 @@
 
 <ship name="CE_SPOTTER_AI_BEAM" auto_blueprint="SHIPS_AI_DEFENDER">
 	<escape chance="0.5" min="3" max="4">
-		<text>The AI defense ship is damaged and charges up its FTL.</text>
+		<text>AI 방어선이 피해를 입고 함선 FTL 충전을 합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<gotaway>
-		<text>The defender class jumps away. You should probably do the same, quickly!</text>
+		<text>방어자는 도망칩니다. 당신 또한 아마 똑같이 도망쳐야 할 겁니다, 서둘러요!</text>
 	</gotaway>
 	<destroyed>
-		<text>The defense ship's armored hull bursts open under your last salvo. You decide not to wait to see what the AI throws at you next.</text>
+		<text>방어선의 장갑 선체가 당신의 마지막 일제사격 아래 터집니다. 당신은 AI가 다음에 당신에게 뭘 던지는지 기다리지 않기로 판단합니다.</text>
 		<autoReward level="MED">standard</autoReward>
 	</destroyed>
 	<deadCrew>
-		<text>The AI substrates have been eliminated. The nano-cloud retreats from you and and starts to disassemble their vessel. You quickly approach the craft to salvage some of its equipment, then you hasten to jump away.</text>
+		<text>AI 구성물질들이 제거되었습니다. 나노구름은 당신에게서 떨어져 나와 그들의 선박을 분해하기 시작합니다. 당신은 선박의 장비 일부를 인양하기 위해 재빨리 접근한 다음, 서둘러 뛰어내립니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 	</deadCrew>
 	<weaponOverride count="1">
@@ -4438,74 +4438,74 @@
 
 <ship name="CE_MANTIS_CONVOY_ESCORT" auto_blueprint="SHIPS_MANTIS">
 	<surrender min="5" max="6">
-		<text>While fighting the escort you also get in a few shots at the transports. Their hulls are easily breached, venting dozens of proud Mantis warriors into open space. More teleporters activate.</text>
+		<text>호위선과 싸우는 동안 수송선 또한 몇 발의 사격을 받습니다. 그들의 선체는 손쉽게 균열이 났고, 수십 마리의 자랑스러운 맨티스 전사들을 구멍을 통해 열린 우주로 빠집니다. 더 많은 텔레포터들이 활성화됩니다.</text>
 			<choice req="AE_TELEPORTER_JAMMER" hidden="true">
-				<text>(텔레포터 교란장치) Divert more power to the disruption field.</text>
+				<text>(텔레포터 교란장치) 교란장에 더 많은 전력을 공급해라.</text>
 				<event>
-					<text>Enemy teleporter signals are completely scrambled, the Mantis will be unable to board you.</text>
+					<text>적 텔레포터 신호가 완전히 교란되자, 맨티스들을 강습할 수 없었습니다.</text>
 				</event>
 			</choice>
 			<choice>
 				<text>계속...</text>
 				<event>
-					<text>"More Mantis incoming, Captain." You order the bridge sealed and continue the assault.</text>
+					<text>"더 많은 맨티스들이 들어옵니다, 함장님." 당신은 함교를 봉쇄하고 공격을 계속 명령합니다.</text>
 					<boarders min="1" max="2" class="mantis"/>
 				</event>
 			</choice>
 	</surrender>
 	<escape timer="30" min="2" max="3">
-		<text>The troopship and its escort have taken heavy damage. Another set of teleporters starts to target your cruiser and many ships divert energy to their FTL drives. The mighty Mantis try to run away.</text>
+		<text>수송선과 호위선은 큰 손상을 입었습니다. 또 다른 텔러포터들이 당신의 순양함을 목표로 삼기 시작하고 많은 선박들이 그들의 FTL 드라이브로 에너지를 돌립니다. 강력한 맨티스들이 도망치려는군요.</text>
 			<choice req="AE_TELEPORTER_JAMMER" hidden="true">
-				<text>(텔레포터 교란장치) Randomize the disruption wave-pattern. Keep the Mantis from boarding.</text>
+				<text>(텔레포터 교란장치) 교란 파장 패턴을 무작위로 바꿔라. 맨티스들이 강습하지 못하게 해라.</text>
 				<event>
-					<text>Your augment continues to mess up the Mantis' defense strategy, preventing any boarders from materializing on your ship.</text>
+					<text>강화장치는 맨티스 방어 전략을 계속 엉망으로 만들고 있습니다. 어떤 강습자도 당신 선박에서 모습을 드러내지 못합니다.</text>
 				</event>
 			</choice>
 			<choice hidden="true">
 				<text>계속...</text>
 				<event>
-					<text>"More Mantis incoming Captain Captain." You order the bridge sealed and continue the assault.</text>
+					<text>"더 많은 맨티스들이 들어옵니다, 함장님." 당신은 함교를 봉쇄하고 공격을 계속 명령합니다.</text>
 					<boarders min="1" max="2" class="mantis"/>
 				</event>
 			</choice>
 		<ship hostile="true"/>
 	</escape>
 	<gotaway>
-		<text>Escort and convoy simultaneously ignite their FTL drives and the invasion fleet disappears with a flash of light and an unheard bang. While salvaging from the few ships you managed to take out, the scanners once more detect a teleporter signal.</text>
+		<text>호송선과 호위함이 동시에 FTL 드라이브를 점화하자 침략 함대는 섬광과 들리지 않는 굉음과 함께 사라집니다. 당신이 가까스로 제거한 몇 척의 선박에서 인양하는 동안, 스캐너는 다시 한번 텔레포터 신호를 감지합니다.</text>
 		<autoReward level="MED">standard</autoReward>
 			<choice req="AE_TELEPORTER_JAMMER" hidden="true">
-				<text>(텔레포터 교란장치) Keep the disruption field up some more.</text>
+				<text>(텔레포터 교란장치) 교란장을 좀 더 유지해라.</text>
 				<event>
-					<text>After scaning for the origin of the signal, a full barrage blows the last remaining intact Mantis vessel to bits. You are done here.</text>
+					<text>신호의 근원을 스캔한 후, 완전한 엄호 사격이 마지막 남은 온전한 맨티스 선박을 날려버립니다. 여기서 할 일은 다 끝냈습니다.</text>
 				</event>
 			</choice>
 			<choice>
 				<text>계속...</text>
 				<event>
-					<text>The left behind warriors aboard the wreckages won't give up. "Here they come again. That must be the last of them." You order your crew to reload all blasters and prepare for some more combat.</text>
+					<text>난파선에 타고 있는 남은 전사들은 결코 포기하지 않습니다. "여기 또 옵니다. 이게 마지막일 겁니다." 선원들에게 모두 블래스터를 재장전하고 전투 준비를 지시합니다.</text>
 					<boarders min="1" max="2" class="mantis"/>
 				</event>
 			</choice>
 		<ship hostile="true"/>
 	</gotaway>
 	<destroyed>
-		<text>The escort vessel is finally disabled by your weapons. You sail directly into the defenseless convoy and unload your guns in all directions. Many Mantis transporters burst into bright red flames before the remaining ships manage to jump out. You salvage from the debris.</text>
+		<text>호위함은 마침내 당신의 공격에 의해 무력화되었습니다. 당신은 무방비 상태의 호송함에 직접 차량에 직접 날아갔고 모든 방향의 무기들을 해제합니다. 많은 맨티스 수송선들이 도약하기 전에 밝은 적색 불꽃에 휩싸입니다. 당신은 잔해에서 인양합니다.</text>
 		<autoReward level="MED">standard</autoReward>
 			<choice hidden="true">
-				<text>Prepare to pick through the convoy wrecks as well.</text>
+				<text>호송선 잔해 역시 인양할 준비합니다.</text>
 				<event>
-					<text>The convoy will make good salvaging but some teleporters must still be working. A few remaining Mantis try to escape death by teleporting aboard your ship.</text>
+					<text>호송선은 잘 인양되겠지만 일부 텔러포터들이 여전히 작동하고 있습니다. 남은 몇몇 맨티스들이 당신의 함선으로 순간이동하여 죽음을 모면하려 합니다.</text>
 			<choice req="AE_TELEPORTER_JAMMER" hidden="true">
-				<text>(텔레포터 교란장치) Well, you know the drill. Disruption field please.</text>
+				<text>(텔레포터 교란장치) 뭐, 절차는 아시잖아요. 교란장을 부탁드려요.</text>
 				<event>
-					<text>You pretend to be unaware of the incoming signal and drop the field, then activate it again at the last moment. The teleported Mantis will never arrive anywhere, their particles are scattered in higher space. You take additional material on board.</text>
+					<text>당신은 들어오는 신호를 모르는 척하고, 교란장을 비활성화 시킨 다음 마지막 순간 다시 작동시킵니다. 순간이동된 맨티스들은 어디도 도착하지 않았고, 그들의 입자는 더 높은 차원으로 흩어졌습니다. 당신은 추가 물질들을 함선에 가지고 옵니다.</text>
 					<autoReward level="HIGH">standard</autoReward>
 				</event>
 			</choice>
 			<choice hidden="true">
 				<text>계속...</text>
 				<event>
-					<text>"Here they come again. This must be the last of them." While the crew mops up the remaining Mantis you scan the debris for usable parts.</text>
+					<text>"여기 또 옵니다. 이게 마지막일 겁니다." 선원들이 남은 맨티스들을 해치우는 동안 당신은 잔해를 스캔하여 유용한 부품들을 찾아냅니다.</text>
 					<autoReward level="HIGH">standard</autoReward>
 					<boarders min="1" max="2" class="mantis"/>
 				</event>
@@ -4514,12 +4514,12 @@
 			</choice>
 	</destroyed>
 	<deadCrew>
-	<text>The vicious Mantis escort crew has been eliminated. Many of the transport ships have been disabled as well during the combat. You decide to salvage the ship you just took out first.</text>
+	<text>포악한 맨티스 호위선 선원들은 제거되었습니다. 많은 수송선들이 전투 동안 또한 무력화 되었습니다. 당신은 방금 제거한 배를 먼저 인양하기로 결정합니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Pick through the convoy wrecks.</text>
+			<text>호송선 잔해를 수거합니다.</text>
 			<event>
-				<text>All these ships will make good salvaging.</text>
+				<text>이런 선박들은 모두 잘 인양될 것입니다.</text>
 				<autoReward level="HIGH">standard</autoReward>
 			</event>
 		</choice>
@@ -4529,7 +4529,7 @@
 
 <ship name="AI_VS_FEDERATION" auto_blueprint="SHIPS_AI">
 	<destroyed>
-		<text>With the ship destroyed you quickly collect useful resources.</text>
+		<text>선박이 파괴되자 당신은 유용한 자원들은 신속하게 수집합니다.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
 			<text>연방선과 접촉합니다.</text>
@@ -4537,7 +4537,7 @@
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>With the avatars dead you salvage what you can.</text>
+		<text>아바타들이 모두 죽자 당신은 할 수 있는 걸 인양합니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
 			<text>연방선과 접촉합니다.</text>
@@ -4549,18 +4549,18 @@
 
 <ship name="AI_VS_SLUG" auto_blueprint="SHIPS_AI">
 	<destroyed>
-		<text>With the ship destroyed you quickly collect useful resources.</text>
+		<text>선박이 파괴되자 당신은 유용한 자원들은 신속하게 수집합니다.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the Slug ship.</text>
+			<text>슬러그 함선과 연락합니다.</text>
 			<event load="AI_VS_SLUG_SAVED_LIST"/>
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>With the avatars dead you salvage what you can.</text>
+		<text>아바타들이 모두 죽자 당신은 할 수 있는 걸 인양합니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
-			<text>Contact the Slug ship.</text>
+			<text>슬러그 함선과 연락합니다.</text>
 			<event load="AI_VS_SLUG_SAVED_LIST"/>
 		</choice>
 	</deadCrew>
@@ -4569,12 +4569,12 @@
 
 <ship name="CE_SPOTTER_AI_BEAM_QUEST" auto_blueprint="SHIPS_AI_DEFENDER">
 	<destroyed>
-		<text>The defense ship is eliminated. Harmony Command pushes forward, "Splendid Captain, we proceed deeper into the cloud. Please meet our forces at the regroup node." Half a dozen Zoltan ships race into the center of the nanite cloud. You wonder what exactly they will battle there.</text>
+		<text>방어선은 제거됩니다. 조화 지휘관이 앞으로 나옵니다, "훌륭한 함장님, 우린 더 깉은 구름 속으로 나아갑니다. 재집결 교점에서 저희 아군을 만나주십시오." 여섯 척의 졸탄 선박들이 나노이트 구름의 중심부로 쏜살같이 움직입니다. 당신은 그들이 거기서 정확이 무엇과 싸우게될 지 궁금해합니다.</text>
 		<autoReward level="MED">standard</autoReward>
 		<quest event="AI_QUEST_CLEANUP_REWARD"/>
 	</destroyed>
 	<deadCrew>
-		<text>The AI substrates have been eliminated. Harmony Command pushes forward, "Splendid Captain, we proceed deeper into the cloud. Please meet our forces at the regroup node." Half a dozen Zoltan ships race into the center of the nanite cloud. You wonder what exactly they will battle there.</text>
+		<text>AI들이 제거되었습니다. 조화 지휘관이 앞으로 나옵니다, "훌륭한 함장님, 우린 더 깉은 구름 속으로 나아갑니다. 재집결 교점에서 저희 아군을 만나주십시오." 여섯 척의 졸탄 선박들이 나노이트 구름의 중심부로 쏜살같이 움직입니다. 당신은 그들이 거기서 정확이 무엇과 싸우게될 지 궁금해합니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<quest event="AI_QUEST_CLEANUP_REWARD"/>
 	</deadCrew>
@@ -4588,22 +4588,22 @@
 <ship name="MANTIS_CLAN" auto_blueprint="SHIPS_MANTIS">
 	<surrender chance="0.8" min="5" max="6" load="CE_COMBAT_FLUFF_MANNED"/>
 	<destroyed>
-		<text>Your opponent's reactor sealing fails. The Mantis ship melts into a drifting lump of red debris. Your own Mantis crewman tries to apologize. "I will take full responsibility for this incident. Thank you for helping me kill my brothers."</text>
+		<text>상대의 원자로 봉쇄에 실패합니다. 맨티스 선박은 표류하는 녹은 붉은 파편 덩어리가 됩니다. 당신의 맨티스 선원은 사과합니다. "이 사건에 대한 모든 책임을 지지. 내 형제를 죽이게 도와주어서 고마워."</text>
 		<autoReward level="MED">standard</autoReward>
 	</destroyed>
 	<deadCrew>
-		<text>The Mantis hunters have been slain. Your own Mantis crewman tries to apologize. "I will take full responsibility for this incident. Seeing them die like this, Captain... this was most satisfactory! I will disable their weapons security protocols. You shall wield their guns as a sign of triumph!"</text>
+		<text>맨티스 사냥꾼들은 죽었습니다. 맨티스 선원은 사과합니다. "이 사건에 대한 모든 책임을 지지. 함장, 그가 이렇게 죽는 걸 보니... 정말 만족스럽다고! 보안 프로토콜을 무력화시켰어. 어서 승리의 대가로 무기를 휘두르자고!"</text>
 		<autoReward level="MED">weapon</autoReward>
 	</deadCrew>
 </ship>
 
 <ship name="BS_SLAVER_HIDEOUT" auto_blueprint="BS_STATIONS_PIRATE">
 	<destroyed>
-		<text>The slaver station breaks apart. "I waited a long time for this, Captain. They will never harass this sector again." None of the slaves could have been saved. Your crewman stares at the station's wreckage for a long time.</text>
+		<text>노예상 정거장이 산산조각납니다. "함장, 난 이걸 오랫도안 기다려왔다고. 놈들은 더는 이 구역을 공격하지 못할 거야." 노예들 중 누구도 구할 수 없었을 것입니다. 선원은 오랫동안 정거장의 잔해를 응시합니다.</text>
 		<autoReward level="MED">standard</autoReward>
 	</destroyed>
 	<deadCrew>
-		<text>The slavers have been slain and your human crewman requests to lead the away mission to strip the station and look for survivors. "Captain! I want to introduce someone to you..." Miraculously, your crewman's former partner has survived the captivity as well as the battle. Lovers have been reunited.</text>
+		<text>노예상들은 모두 살해당했고 인간 선원은 정거장을 해체하고 생존자를 찾는 원정 임무의 대장을 맡는 것을 요청합니다. "함장! 난 소개하고 싶은 사람이 있어..." 기적적으로, 선원의 전 동료는 싸움 뿐만 아니라 감금에서도 살아남았습니다. 연인들은 재회했군요.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<crewMember amount="1" class="human"/>
 	</deadCrew>
@@ -4611,11 +4611,11 @@
 
 <ship name="ENGI_AI" auto_blueprint="SHIPS_CIRCLE_AI">
 	<escape min="5" max="6" >
-		<text>The AI ship tries to retreat from combat. It's powering up its jump drive!</text>
+		<text>AI 선박은 전투로부터 후퇴하려 합니다. 점프 드라이브에 전력을 넣고 있습니다!</text>
 		<ship hostile="true"/>
 	</escape>
 	<gotaway>
-		<text>Looks like the AIs outsmarted you. They escaped from combat before sustaining critical damage.</text>
+		<text>AI들은 당신보다 한 수 앞서는군요. 그들은 심각한 손상을 입기 전에 전투에서 탈출했습니다.</text>
 	</gotaway>
 	<destroyed load="DESTROYED_SHIP_AI"/>
 	<deadCrew load="DEAD_CREW_SHIP_AI"/>
@@ -4623,11 +4623,11 @@
 
 <ship name="ZOLTAN_AI" auto_blueprint="SHIPS_ZOLTAN_AI">
 	<escape min="5" max="6" >
-		<text>The AI ship tries to retreat from combat. It's powering up its jump drive!</text>
+		<text>AI 선박은 전투로부터 후퇴하려 합니다. 점프 드라이브에 전력을 넣고 있습니다!</text>
 		<ship hostile="true"/>
 	</escape>
 	<gotaway>
-		<text>Looks like the AIs outsmarted you. They escaped from combat before sustaining critical damage.</text>
+		<text>AI들은 당신보다 한 수 앞서는군요. 그들은 심각한 손상을 입기 전에 전투에서 탈출했습니다.</text>
 	</gotaway>
 	<destroyed load="DESTROYED_SHIP_AI"/>
 	<deadCrew load="DEAD_CREW_SHIP_AI"/>
@@ -4637,7 +4637,7 @@
 	<escape  min="4" max="5" load="PIRATE_ESCAPE"/>
 	<destroyed load="DESTROYED_SHIP_PIRATE"/>
 	<gotaway>
-		<text>The strange Engi pirates jumped away.</text>
+		<text>이상한 엔지 해적들은 도망쳤습니다.</text>
 	</gotaway>
 	<deadCrew load="DEAD_CREW_DEFAULT"/>
 	<crew>
@@ -4649,15 +4649,15 @@
 
 <ship name="PIRATE_STORE_TRAP" auto_blueprint="SHIPS_PIRATE">
 	<surrender chance="0.5" min="3" max="4">
-		<text>The pirate hails, saying: "Seriously Mister Federation Captain Sir, this was all just a test you know? You really should not engage in combat within protected trade space and stuff! But we eh... will let it go this time. Please accept our surrender!"</text>
+		<text>해적들은 교신하며 얘기합니다. "대단한 연방 함장님, 이 모든 건 당신이 아는한 시험에 불과하지 않습니까? 당신은 정말 보호받는 무역 장소나 그런 곳과 교전해서는 안됩니다. 하지만 하... 이번만은 그냥 넘어가죠. 저희의 항복을 받아들이세요!"</text>
 		<choice>
 			<text>그들의 제안을 수락합니다.</text>
 			<event>
-				<text>You quickly take their surrender offer aboard and prepare to get out of here. This is not a safe place.</text>
+				<text>당신은 재빨리 그들의 항복 제안을 받아들이고 여길 빠져 나갈 준비합니다. 여긴 안전한 곳이 아니에요.</text>
 				<ship hostile="false"/>
 				<autoReward level="RANDOM">stuff</autoReward>
 			<choice>
-				<text>Honor your truce.</text>
+				<text>휴전을 존중합니다.</text>
 				<event/>
 			</choice>
 			<choice>
@@ -4669,29 +4669,29 @@
 		<choice req="ENERGY_SHIELD">
 				<text>(졸탄 함선) 당신은 현명하고 외교적인 졸탄의 함선을 지휘합니다. 협상은 적합한 절차에 의해서 진행되어야 합니다. 표준 우주 법안에 의해 협상안을 재조정합니다.</text>
 			<event>
-				<text>You quickly take their surrender offer aboard and hurry to get out of here. This is not a safe place.</text>
+				<text>당신은 빨리 그들의 항복 제안을 받아들여 여기서 나가는 것을 서두릅니다. 여긴 안전한 장소가 아닙니다.</text>
 				<ship hostile="false"/>
 				<autoReward level="MED">standard</autoReward>
 			</event>
 		</choice>
 		<choice>
-			<text>This violation of protocols can not be tolerated. 우리는 항복을 받아들이지 않을 것이다!</text>
+			<text>이 협약 위반은 용납될 수 없습니다. 우리는 항복을 받아들이지 않을 것이다!</text>
 			<event/>
 		</choice>
 	</surrender>
 	<escape chance="0.5" min="5" max="6" >
-		<text>The local traders hail on all frequencies, asking everyone repeatedly to cease hostilities. "Come on guys, cut the crap. Don't we all have some interest in keeping it quiet here?" The pirate that is attacking you prepares to jump away.</text>
+		<text>현지 상인들은 모든 주파수로 교신하며, 모든 적대적인 행위를 중단하라고 거듭 요청합니다. "거기 형씨, 헛소리 집어치우라고. 우리 모두 여기서 조용히 지내는데 어느 정도 관심이 있지 않아?" 당신을 공격하는 해적은 도망갈 준비를 합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<gotaway>
-		<text>The pirate escapes, leaving you in peace to inspect the shop again.</text>
+		<text>해적은 당신에게서 도망치며, 평화롭게 가게를 다시 점검합니다.</text>
 	</gotaway>
 	<destroyed>
-		<text>함선은 산산조각납니다. A few unregistered ships within the system are messaging their approval. The pirates you took out were obviously not very popular here. Yet so are you, exchange of trade goods seems out of question after this incident.</text>
+		<text>함선은 산산조각납니다. 성계 내에서 등록되지 않은 일부 선박이 괜찮다는 메시지를 보내고 있습니다. 당신이 제거한 해적들은 분명 여기서 그다지 인기가 없었던 모양이군요. 하지만 당신도 그렇습니다. 이 사건 이후 무역품의 교환이 가능할 것 같지는 않거든요.</text>
 		<autoReward level="MED">standard</autoReward>
 	</destroyed>
 	<deadCrew>
-		<text>The pirates have been eliminated. You strip their vessel while a few more unregistered ships pass by, passively scanning you. No one bothers you anymore, but exchange of trade goods seems out of question after this incident.</text>
+		<text>해적들은 제거되었습니다. 등록되지 않은 몇 척의 선박이 더 지나가며 당신을 수동적으로 스캔하는 동안 당신은 정거장을 해체합니다. 이젠 아무도 당신을 귀찮게 하지 않지만, 이 사건 이후 무역품의 교환이 가능할 것 같지는 않습니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 	</deadCrew>
 </ship>
@@ -4700,31 +4700,31 @@
 
 <ship name="CRYSTAL_SHIP_HAZZARD" auto_blueprint="SHIPS_CRYSTAL">   
 	<escape timer="5" chance="0.5" min="5" max="6" >
-		<text>You never have seen an FTL field envelope spread so fast. Whatever advanced technology they use, it will allow them to escape quickly.</text>
+		<text>당신은 FTL 필드 봉인이 이렇게 빨리 퍼지는 것을 본 적이 없습니다. 그들이 어떤 첨단 기술을 사용하든, 그것은 빨리 탈출하게 만들 겁니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<gotaway>
-		<text>The strange ship got away, but their exotic FTL technology left an easy to follow particle trail.</text>
+		<text>이 이상한 선박은 도망쳤지만, 그들의 이색적인 FTL 기술은 입자 흔적을 추적하기 쉽게 만들어져 있습니다.</text>
 		<choice hidden="true">
-			<text>Follow the strange ship.</text>
+			<text>이상한 함선을 따라간다.</text>
 			<event>
-				<text>You input their coordinates into your map and prepare to follow.</text>
+				<text>지도에 그들의 좌표를 입력하고 추적할 준비합니다.</text>
 				<quest event="CRYSTAL_UNLOCK_HAZZARD"/>
 			</event>
 		</choice>
 		<choice hidden="true">
-			<text>Hope to never see this ship again.</text>
+			<text>다시는 이 선박을 보지 않기 바랍니다.</text>
 			<event>
-				<text>This was scary and writing the log entry will take a lot of time. You prepare to leave.</text>
+				<text>이건 무섭고 일지를 작성하는 데 많은 시간이 걸릴 겁니다. 당신은 떠날 준비합니다.</text>
 			</event>
 		</choice>
 	</gotaway>
 	<destroyed>
-		<text>The crystalline hull of the craft keeps withstanding you weapon fire, even when most of its systems are already destroyed. Your first mate suggest focusing fire on a possible weak spot. A concentrated barrage finally blows the vessel to pieces. The remains contain little materials of use; writing the log entry for this event will be complicated.</text>
+		<text>우주선 수정 선체는 대부분의 시설이 이미 파괴된 상태에서도 당신의 무기 사격을 계속 견디고 있습니다. 당신의 일등 항해사는 가능성이 있는 취약 부분에 집중 사격을 제안합니다. 집중된 일제사격은 마침내 배를 산산조각냅니다. 잔해는 유용한 물질들이 거의 없습니다. 이 사건에 대한 일지 작성은 꽤나 복잡하군요.</text>
 		<autoReward level="MED">standard</autoReward>
 	</destroyed>
 	<deadCrew>
-		<text>The strange crystalline beings have been destroyed. You strip their ship of the little technology that seems usable to you. Federation protocol demands that all unknown alien tech has to be archived for analysis, but you decide to put the scrap material to use immediately. Writing the log entry for this event will take a lot of time.</text>
+		<text>이상한 수정체가 파괴되었습니다. 당신이 쓸 수 있을 것 같은 작은 기술들을 그들의 함선에서 해체합니다. 연방 규약에는 모든 알려지지 않은 외계인 기술을 분석하기 위해 보관할 것을 요구하지만, 당신은 즉시 고철 물질들을 사용하기로 결정합니다. 이 사건에 대한 일지 작성에는 많은 시간이 소요되었습니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 	</deadCrew>
 </ship> 
@@ -4733,7 +4733,7 @@
 <ship name="REBEL_CRUISER_EXCESSION" auto_blueprint="C_SHIPS_REBEL_CRUISER">
 	<escape min="4" max="6" load="C_CRUISER_ESCAPE"/>
 	<gotaway>
-		<text>반란군 순양함은 시공의 구조에 거대한 파문을 남기며 도망칩니다. 그들은 함대에 당신의 위치를 알리겠지만, 적어도 당신은 이 사나운 전투에서는 간신히 살아남았습닌다. Any attempts to further analyze the strange anomaly yield no results. You prepare to jump.</text>
+		<text>반란군 순양함은 시공의 구조에 거대한 파문을 남기며 도망칩니다. 그들은 함대에 당신의 위치를 알리겠지만, 적어도 당신은 이 사나운 전투에서는 간신히 살아남았습닌다. 이 이상한 현상을 추가 분석하려는 어떤 시도도 결과를 낳지는 못합니다. 당신은 도약할 준비합니다.</text>
 		<modifyPursuit amount="1"/>
 	</gotaway>
 	<destroyed>
@@ -4742,7 +4742,7 @@
 		<choice>
 			<text>더 많은 시간을 보내어 또다른 잔해를 수거합니다.</text>
 			<event>
-				<text>당신은 천천히 신호소 주위를 몇 차례 순회했고 선원들은 가치 있어 보이는 모든 표류물을 추적합니다. 수집한 것들은 나쁘진 않지만, 반란군 주요 함선을 파괴함으로써 얻은 시간들은 이미 대부분 잃은 것처럼 느껴집니다. Any attempts to further analyze the strange anomaly yield no results. You prepare to jump.</text>
+				<text>당신은 천천히 신호소 주위를 몇 차례 순회했고 선원들은 가치 있어 보이는 모든 표류물을 추적합니다. 수집한 것들은 나쁘진 않지만, 반란군 주요 함선을 파괴함으로써 얻은 시간들은 이미 대부분 잃은 것처럼 느껴집니다. 이 이상한 현상을 추가 분석하려는 어떤 시도도 결과를 낳지는 못합니다. 당신은 도약할 준비합니다.</text>
 				<modifyPursuit amount="-1"/>
 				<autoReward level="RANDOM">standard</autoReward>
 			</event>
@@ -4750,13 +4750,13 @@
 		<choice>
 			<text>FTL 드라이브를 점화시키고 다음 신호소로 도약합니다.</text>
 			<event>
-				<text>반란군의 주요 함선 중 한 척이 여기서 예기치 않게 파괴된 것은 틀림없이 반란군을 걱정하게 만들었고 더 조심스럽게 전진할 것입니다. 당신은 일단 유리한 점을 얻었군요. Any attempts to further analyze the strange anomaly yield no results. You prepare to jump.</text>
+				<text>반란군의 주요 함선 중 한 척이 여기서 예기치 않게 파괴된 것은 틀림없이 반란군을 걱정하게 만들었고 더 조심스럽게 전진할 것입니다. 당신은 일단 유리한 점을 얻었군요. 이 이상한 현상을 추가 분석하려는 어떤 시도도 결과를 낳지는 못합니다. 당신은 도약할 준비합니다.</text>
 				<modifyPursuit amount="-2"/>
 			</event>
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>You did it; the cruiser crew is dead! 당신은 인양 선원들을 보내어 배의 쓸모 있는 것을 모두 해체하도록 합니다.You also send a message with Rebel encryption, claiming that you have been captured. The investigation will surely slow down the Rebel fleet quite a bit. Any attempts to analyze the strange object yield no further results. You prepare to jump.</text>
+		<text>당신은 해냈습니다, 순양함의 선원들이 모두 죽었어요! 당신은 인양 선원들을 보내어 배의 쓸모 있는 것을 모두 해체하도록 합니다. 또한 당신이 잡혔다고 주장하는 반란군 암호화된 메시지도 보냅니다. 조사로 반란군 함대가 상당히 느려질 것이 분명합니다. 이 이상한 물체를 분석하려는 시도는 더 이상 결과를 낳지 않습니다. 당신은 도약할 준비합니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<modifyPursuit amount="-3"/>
 	</deadCrew>
@@ -4764,11 +4764,11 @@
 
 <ship name="MANTIS_EXCESSION" auto_blueprint="MANTIS_BOMBER">
 	<surrender  min="2" max="2">
-		<text>"Look you proved your point. We don't want this thing anyway... Take this and let us go. Please?"</text>
+		<text>"뭘 말하는지 알겠어. 어쨋든 우린 이걸 원하지 않는다고... 이걸 가져가고 우릴 놓아줘. 부탁하지."</text>
 		<choice>
 			<text>맨티스를 살려줍니다.</text>
 			<event>
-				<text>"Pff... you meatbags better get out of here. This thing is too scary for you."</text>
+				<text>"프르르... 너 같은 고기주머니들은 여기서 나가는 게 좋을 거야. 이 건 네게 너무 겁날 거라고."</text>
 				<autoReward level="HIGH">stuff</autoReward>
 				<ship hostile="false"/>
 			<choice>
@@ -4784,16 +4784,16 @@
 		<choice>
 			<text>그것들을 끝장냅니다.</text>
 			<event>
-				<text>"So be it! We shall fight to the death, filthy Federation scum. Your names will be extinguished from your blood-line. We slice your bellies and use your insides to..." You cut transmissions.</text>
+				<text>"그렇다면 좋지! 우린 죽을 때가지 싸울 거다, 더러운 연방 쓰레기들. 네 족보에서 네 이름은 지워질 거다. 우린 네놈의 배를 갈라 창자를 끄집어..." 당신은 교신을 끊었습니다.</text>
 			</event>
 		</choice>
 	</surrender>
 	<destroyed>
-		<text>Their ship breaks apart and you salvage what remains. Any attempts to further analyze the strange anomaly yield no results. You prepare to jump.</text>
+		<text>그들의 배는 산산조각나고 당신은 남은 것을 인양합니다. 이 이상한 현상을 추가 분석하려는 어떤 시도도 결과를 낳지는 못합니다. 당신은 도약할 준비합니다.</text>
 		<autoReward level="MED">standard</autoReward>
 	</destroyed>
 	<deadCrew>
-		<text>You find some equipment on their now empty ship. Any attempts to further analyze the strange anomaly yield no results. You prepare to jump.</text>
+		<text>당신은 이제 아무도 없는 선박에서 장비를 찾아냅니다. 이 이상한 현상을 추가 분석하려는 어떤 시도도 결과를 낳지는 못합니다. 당신은 도약할 준비합니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 	</deadCrew>
 </ship>
@@ -4802,29 +4802,29 @@
 <ship name="AI_EXCESSION" auto_blueprint="SHIPS_AI">
 	<surrender chance="0.8" min="5" max="6" load="CE_COMBAT_FLUFF_MANNED"/>
 	<escape min="5" max="6" >
-		<text>The AI ship tries to retreat from combat. It's powering up its jump drive!</text>
+		<text>AI 선박은 전투로부터 후퇴하려 합니다. 점프 드라이브에 전력을 넣고 있습니다!</text>
 		<ship hostile="true"/>
 	</escape>
 	<gotaway>
-		<text>Looks like the AIs outsmarted you. They escaped from combat before sustaining critical damage. Any attempts to analyze the strange object yield no further results. You prepare to jump.</text>
+		<text>AI들은 당신보다 한 수 앞서는군요. 그들은 심각한 손상을 입기 전에 전투에서 탈출했습니다. 이 이상한 물체를 분석하려는 어떤 시도도 더 이상의 결과를 낳지 못합니다. 당신은 도약할 준비합니다.</text>
 	</gotaway>
 	<destroyed>
-		<text>Their ship breaks apart and you salvage what remains. Any attempts to analyze the strange object yield no further results. You prepare to jump.</text>
+		<text>그들의 배는 산산조각나고 당신은 남은 것을 인양합니다. 이 이상한 물체를 분석하려는 어떤 시도도 더 이상의 결과를 낳지 못합니다. 당신은 도약할 준비합니다.</text>
 		<autoReward level="MED">standard</autoReward>
 	</destroyed>
 	<deadCrew>
-		<text>You find some equipment on their now empty ship. Any attempts to analyze the strange object yield no further results. You prepare to jump.</text>
+		<text>당신은 이제 아무도 없는 선박에서 장비를 찾아냅니다. 이 이상한 물체를 분석하려는 어떤 시도도 더 이상의 결과를 낳지 못합니다. 당신은 도약할 준비합니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 	</deadCrew>
 </ship>
 
 <ship name="REBEL_ENGI_ENGINEER" auto_blueprint="SHIPS_REBEL">
 	<surrender min="3" max="5">
-		<text>During the fighting, the engineering vessel approached the nearby depot. The crafty Engi hack into the station and get it's anti ship battery online - You'll get some fire support!</text>
+		<text>전투가 진행되는 동안, 기술선은 근처 창고에 접근합니다. 재주가 좋은 엔지들이 정거장을 해킹하여 대함포대를 활성화합니다. 당신은 화력 지원을 받을 겁니다!</text>
 		<environment type="PDS" target="enemy"/>
 	</surrender>
 	<destroyed>
-		<text>함선은 산산조각납니다. You hasten to contact the engineering vessel.</text>
+		<text>함선은 산산조각납니다. 당신은 서둘러 기술선과 접촉합니다.</text>
 		<autoReward level="LOW">standard</autoReward>
 		<choice hidden="true">
 			<text>민간선과 접촉합니다.</text>
@@ -4832,7 +4832,7 @@
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>Their Rebel captors eliminated, you hasten to contact the engineering vessel.</text>
+		<text>반란군 억류범들은 제거되었고, 당신은 서둘러 기술선과 접촉합니다.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
 			<text>민간선과 접촉합니다.</text>	
@@ -4843,22 +4843,22 @@
 
 <ship name="C_REBEL_GUNBOAT_PDS_DELAYED" auto_blueprint="C_SHIPS_REBEL_GUNBOATS">
 	<surrender min="13" max="15">
-		<text>Despite the interference caused by ships and weapon fire, you finally manage to establish a commlink with the local Federation base. "We read you, free asset. As you can see, we got our hands full here."</text>
+		<text>선박과 무기 발포로 인한 간섭에도 불구하고, 당신은 마침내 지역 연방 기지와 통신망을 구축했습니다. "우린 당신을 확인했습니다, 자유 함선. 보시다시피 우린 여기서 너무 바쁩니다."</text>
 		<choice hidden="true">
-			<text>Request fire support.</text>	
+			<text>화력 지원을 요청한다.</text>	
 			<event load="C_REBEL_GUNBOAT_PDS_DELAYED_LIST"/>    
 		</choice>
 		<choice hidden="true">
-			<text>Transmit your situation data, wish them luck and continue the engagement on your own.</text>	
+			<text>상황 자료를 전송하고, 그들의 행운을 빌며 당신의 교전을 계속합니다.</text>	
 			<event/>    
 		</choice>
 	</surrender>
 	<destroyed>
-		<text>함선은 산산조각납니다. You realize that the combat has died down. Most of the Rebel cruisers have descended into low orbit and started to take the Federation base apart from close range. You quickly salvage from the gunboat and prepare to leave.</text>
+		<text>함선은 산산조각납니다. 당신은 전투가 잦아들었다는 것을 깨닫습니다. 대부분의 반란군 순양함은 저궤도로 내려갔고 근거리에 있는 연방기지를 탈취하기 시작합니다. 당신은 재빨리 포함을 인양하고 떠날 준비합니다.</text>
 		<autoReward level="MED">standard</autoReward>
 	</destroyed>
 	<deadCrew>
-		<text>The patrol craft's crew is dead and the ship goes quiet. You realize that the combat has died down. Most of the Rebel cruisers have descended into low orbit and started to take the Federation base apart from close range. You send in a salvage crew and let them strip the gunboat of anything useful.</text>
+		<text>경비선 선원들은 죽고 배는 고요해집니다. 당신은 전투가 잦아들었다는 것을 깨닫습니다. 대부분의 반란군 순양함은 저궤도로 내려갔고 근거리에 있는 연방기지를 탈취하기 시작합니다. 당신은 인양팀을 보내어 포함에 있는 유용한 물질을 모두 벗겨냅니다.</text>
 		<autoReward level="HIGH">standard</autoReward>
 	</deadCrew>
 </ship>
@@ -4866,22 +4866,22 @@
 
 <ship name="MANTIS_FIGHT_ESCAPE" auto_blueprint="SHIPS_MANTIS">
 	<surrender min="4" max="7">
-		<text>The Mantis ship has receive some heavy hits. All of a sudden, it ignites a powerful backup thruster and screams away into the darkness. Scans indicate it is heading towards the nearby Mantis colony, which is protected by heavy anti-ship batteries. For once, its the proud Mantis warriors that are on the run. "If we go after them now we can still get them. Your orders, Captain?"</text>
+		<text>맨티스 함선이 큰 타격을 받았습니다. 갑자기, 선박은 강력한 백업 추진기를 점화시키며 어둠 속으로 괴성을 지릅니다. 스캔 결과, 중형 대함포대로 보호받고 잇는 인근 사마귀 식민지를 향해 나아가고 있습니다. 이번만큼은, 도망가는 것이 자랑스러운 사마귀 전사들입니다. "지금 저희가 그들을 쫓는다면 여전히 놈들을 잡을 수 있습니다. 명령을 내려주시죠, 함장님."</text>
 		<choice hidden="true">
-			<text>Chase the Mantis to the colony.</text>
+			<text>식민지로 맨티스를 추적합니다.</text>
 			<event load="MANTIS_FIGHT_ESCAPE_LIST"/>  
 		</choice>
 		<choice hidden="true">
 			<text>탈출하게 내버려둡니다.</text>
 			<event>
-				<text>The ships soon disappears from the radar. You wonder how the cowardice Mantis will be received at home.</text>
+				<text>선박들은 곧 레이더에서 사라집니다. 당신은 겁쟁이 맨티스들이 고향에서 어떻게 대접받을지 궁금하군요.</text>
 				<ship hostile="false"/>
 			</event>
 		</choice>
 		<choice hidden="true" req="engines" lvl="7">
-			<text>(향상된 엔진) Intercept them before they get away!</text>
+			<text>(향상된 엔진) 그들이 도망치기 전에 가로막아라!</text>
 			<event>
-				<text>You are pushed deep into your seat as your pilot puts full power to the engines, easily geting ahead of the ship. No one escapes you!</text>
+				<text>조타수가 엔진에 전력을 공급하자 손쉽게 선박을 앞질렀고, 그 덕에 당신은 좌석 깊숙한 곳에 파묻힙니다. 아무도 당신에게서 도망칠 수 없습니다!</text>
 			</event>
 		</choice>
 	</surrender>
@@ -4897,11 +4897,11 @@
 <ship name="C_AUTO_CRUISER" auto_blueprint="C_SHIPS_AUTO_CRUISER">
 	<surrender chance="0.8" min="5" max="6" load="CE_COMBAT_FLUFF_AUTO"/>
 	<escape min="5" max="6" >
-		<text>The automated cruiser slowly spins up it's FTL drive. If it gets away, it will certainly inform the rest of the fleet of your position.</text>
+		<text>무인 순양함은 FTL 드라이브를 천천히 예열시킵니다. 만약 순양함이 도망친다면, 남은 함대에게 당신의 위치를 확실히 전달할 겁니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<gotaway>
-		<text>The automated cruiser accelerates rapidly and slips into higher space. There is no doubt that it will forward your position to the fleet.</text>
+		<text>무인 순양함은 급격히 가속하며 초공간으로 미끄러집니다. 무인선이 당신의 위치를 함대에 전달할 것은 의심할 여지가 없군요.</text>
 		<modifyPursuit amount="1"/>
 	</gotaway>
 	<destroyed load="C_CRUISER_DESTROYED_DEFAULT"/>
@@ -4910,11 +4910,11 @@
 <ship name="ROCK_CRYSTAL_DIPLOMATE" auto_blueprint="SHIPS_ROCK_DIPLOMAT">  
 	<surrender  chance="0.5" min="4" max="5" load="ROCK_DIPLOMAT_SHIP_SURRENDER"/>
 	<escape chance="0.5" min="2" max="3" >
-		<text>The hybrid ship prepares to get into a jump vector. They are trying to escape.</text>
+		<text>혼종 선박은 도약 진로를 준비합니다. 그들은 도망을 시도합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<gotaway>
-		<text>The strange ship got away, taking its secrets and tech with it.</text>
+		<text>그 이상한 선박은 비밀과 기술을 가지고 도망쳤습니다.</text>
 	</gotaway>
 	<destroyed load="DESTROYED_SHIP_ROCK_DIPLOMAT"/>
 	<deadCrew load="DEAD_CREW_DEFAULT"/> 
@@ -4927,11 +4927,11 @@
 
 <ship name="REBEL_AUTO_BOARDERS" auto_blueprint="SHIPS_AUTO">
 	<surrender min="5" max="8">
-		<text>The automate drone seems to be equipped with a micro teleporter. It starts targeting your ship with the device.</text>
+		<text>무인 드론은 초소형 텔레포터가 장착된 것 같습니다. 드론은 당신의 함선을 조준하기 시작합니다.</text>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true">
 			<text>(텔레포터 교란장치) 이건 좋지 않군. 텔레포터를 교란시켜라!</text>
 			<event>
-				<text>With the field in place, the teleporter will not get a lock on your ship. You continue the engagement without having to fear whatever the AI tried to teleport.</text>
+				<text>교란장을 가동하자, 텔레포터는 당신의 함선을 조준하지 못할 겁니다. AI가 텔레포트를 시도하는 것을 두려워할 필요 없이 교전을 계속합니다.</text>
 			</event>
 		</choice>
 		<choice>
@@ -4971,107 +4971,107 @@
 
 <ship name="REBEL_FIGHTER_BOSS_REPAIR_STATION" auto_blueprint="SHIPS_REBEL_FIGHTER">
 	<surrender min="4" max="5">
-		<text>The Federation ASB decimates the Rebel fighters, but there is just too many of them. Chemical fires engulf the repair dock as its personnel desperately tries to evacuate via shuttles and escape pods.</text>
+		<text>연방 ASB는 반란군 전투기들을 대량으로 제거하지만, 놈들은 너무 많습니다. 연방 사람들이 필사적으로 셔틀과 탈출용 포드를 통해 대피하려고 할 때, 화학 화재가 수리 부두를 뒤덮습니다.</text>
 	</surrender>
 	<escape timer="20" min="2" max="3">
-		<text>This must have been planned as a hit-and-run attack; the Rebels start to charge up their FTL to escape.</text>
+		<text>이건 히트 앤 런 공격으로 계획된 것이 들림없습니다. 반란군들은 탈출하기 위해 FTL을 충전하기 시작합니다.</text>
 		<ship hostile="true"/>
 	</escape> 
 	<gotaway>
-		<text>The Rebels jump away as quickly as they came in. You are hailed by what remains of the local command structure: "This position is no longer safe, you have to get out of here!"</text>
+		<text>반란군들은 들어온 것만큼 재빨리 도망칩니다. 당신은 남은 현지 지휘부로부터 교신을 받습니다. "이 위치는 더 이상 안전하지 않습니다, 당장 여길 떠나십시오!"</text>
 	</gotaway>
 	<destroyed>
-		<text>You manage to take down your target. The remaining Rebels retreat to attack from another vector. The local Federation commander in chief hurries you to leave. "We will try to hold this position a little longer to cover your escape. Get out of here!"</text>
+		<text>당신은 간신히 목표를 해치웁니다. 반란군들은 다른 진로 공격을 하기 위해 후퇴합니다. 현지 연방 지휘대장은 당신에게 떠날 것을 재촉합니다. "우린 당신의 탈출을 돕기 위해 이 위치를 좀 더 오래 사수하겠습니다. 여길 빠져나가요!"</text>
 		<autoReward level="MED">standard</autoReward>
 	</destroyed>
 	<deadCrew>
-		<text>You manage to take down your target. The Rebels retreat to attack from another vector and the local Federation commander in chief hurries you to leave. "We will try to hold this position a little longer to cover your escape. Get out of here!"</text>
+		<text>당신은 간신히 목표를 해치웁니다. 반란군들은 다른 진로 공격을 하기 위해 후퇴했고 현지 연방 지휘대장은 당신에게 떠날 것을 재촉합니다. "우린 당신의 탈출을 돕기 위해 이 위치를 좀 더 오래 사수하겠습니다. 여길 빠져나가요!"</text>
 		<autoReward level="HIGH">standard</autoReward>
 	</deadCrew>
 </ship>
 
 <ship name="REBEL_GUNBOAT_BOSS_REPAIR_STATION" auto_blueprint="C_SHIPS_REBEL_GUNBOATS">
 	<surrender min="8" max="9">
-		<text>"Free asset, danger close!" You narrowly avoid a friendly ASB barrage before it impacts into another Rebel ship below you.</text>
+		<text>"자유 함선, 위험합니다!"  동맹 ASB 사격이 반란군 아래에 있는 당신에게 영향을 주기 전에 당신은 가까스로 피합니다.</text>
 	</surrender>
 	<escape timer="30" min="5" max="6">
-		<text>A nuclear blast shudders through your ship. The repair docks reactor has been breached, the station is lost. This attack must have been planned as a hit-and-run operation; the Rebels start to charge up their FTL to escape.</text>
+		<text>핵폭발이 당신의 함선을 마구 흔듭니다. 수리 부두의 원자로는 균열이 생겼 정거장을 잃어버립니다. 이건 히트 앤 런 공격으로 계획된 것이 들림없습니다. 반란군들은 탈출하기 위해 FTL을 충전하기 시작합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<gotaway>
-		<text>The Rebels jump away as quickly as they came in. You are hailed by what remains of the local command structure: "This position is no longer safe, you have to get out of here!"</text>
+		<text>반란군들은 들어온 것만큼 재빨리 도망칩니다. 당신은 남은 현지 지휘부로부터 교신을 받습니다. "이 위치는 더 이상 안전하지 않습니다, 당장 여길 떠나십시오!"</text>
 	</gotaway>
 	<destroyed>
-		<text>You manage to take down one of the gunboats. The remaining Rebels retreat to attack from another vector and the local Federation commander in chief hurries you to leave. "We will try to hold this position a little longer to cover your escape. Get out of here!"</text>
+		<text>당신은 간신히 반란군 포함 중 하나를 해치웁니다. 반란군들은 다른 진로 공격을 하기 위해 후퇴합니다. 현지 연방 지휘대장은 당신에게 떠날 것을 재촉합니다. "우린 당신의 탈출을 돕기 위해 이 위치를 좀 더 오래 사수하겠습니다. 여길 빠져나가요!"</text>
 		<autoReward level="MED">standard</autoReward>
 	</destroyed>
 	<deadCrew>
-		<text>You manage to take down your target. The Rebels retreat to attack from another vector and the local Federation commander in chief hurries you to leave. "We will try to hold this position a little longer to cover your escape. Get out of here!"</text>
+		<text>당신은 간신히 목표를 해치웁니다. 반란군들은 다른 진로 공격을 하기 위해 후퇴했고 현지 연방 지휘대장은 당신에게 떠날 것을 재촉합니다. "우린 당신의 탈출을 돕기 위해 이 위치를 좀 더 오래 사수하겠습니다. 여길 빠져나가요!"</text>
 		<autoReward level="HIGH">standard</autoReward>
 	</deadCrew>
 </ship>
 
 <ship name="SIMMED_SHIP_DEFENSIVE" auto_blueprint="CE_AUTO_BASIC_SIMMED_DEFENSIVE">
 	<escape timer="90" min="25" max="25">
-		<text>The screen shows a virtual opponent, accelerating hard. You order a pursuit course and prepare the weapons. Time for some target practice.</text>
+		<text>화면에는 가상의 상대가 열심히 가속하는 것을 보여줍니다. 당신은 추격 진로를 명령하고 무기를 준비합니다. 조준 연습 시간입니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<surrender chance="0.5" min="10" max="15">
-		<text>You keep flying complex maneuvers and unload your weapons at an opponent that is not really there. For an outside observer, this must look quite strange.</text>
+		<text>당신은 실제로 존재하지 않는 상대를 보며 무기에 탄환을 빼고 복잡한 기동 작전을 유지합니다. 외부 목격자는, 이 광경이 상당히 이상하게 볼 겁니다.</text>
 	</surrender>
 	<gotaway>
-		<text>You completed the training simulation, but failed to score enough hits on the simulated craft in time. In a real encounter, your opponent would have escaped.</text>
+		<text>당신은 모의훈련을 완료했지만, 모의 상대에게 충분한 타격을 기록하지 못했습니다. 실제 상황이었다면, 상대는 도망쳤을 겁니다.</text>
 		<status type="clear" target="player" system="teleporter" amount="100"/>
 	</gotaway>
 	<destroyed>
-		<text>"You successfully completed this attack training session and eliminated the hostile before it got away. The combat simulator will now evaluate your crew's performance.</text>
+		<text>"당신은 이 공격 훈련을 성공적으로 끝마쳤고, 적이 도망치기 전에 제거했습니다." 이제 전투 시뮬레이터가 승무원의 성과를 평가할 겁니다.</text>
 		<status type="clear" target="player" system="teleporter" amount="100"/>
 		<choice req="weapons" max_lvl="1" max_group="0" blue="false">
 			<text>계속...</text>
 			<event>
-				<text>"Your ship and crew has passed this test by destroying the hostile craft, but performed below average in most areas. Consider avoiding any real ship-to-ship combat scenarios with your current assets."</text>
+				<text>"당신의 배와 선원들은 적 함선을 파괴함으로써 이번 시험을 통과했지만, 대부분의 지역에서 평균 이하의 성과를 거두었습니다. 현재 함선으로는 실제 함대전 전투 시나리오를 피하는 것을 고려하십시오."</text>
 			</event>
 		</choice>
 		<choice req="weapons" max_lvl="2" max_group="0" blue="false">
 			<text>계속...</text>
 			<event>
-				<text>"Your ship and crew passed this test by destroying the hostile craft, but performed below average in most areas. Consider additional training exercises and ship upgrades to improve your crew's performance."</text>
+				<text>"당신의 배와 선원들은 적 함선을 파괴함으로써 이번 시험을 통과했지만, 대부분의 지역에서 평균 이하의 성과를 거두었습니다. 추가적인 교육 훈련과 함선 업그레이드를 통해 선원들의 수행 능력을 향상시킬 수 있습니다."</text>
 			</event>
 		</choice>
 		<choice req="weapons" max_lvl="3" max_group="0" blue="false">
 			<text>계속...</text>
 			<event>
-				<text>"Your ship and crew passed this test by destroying the hostile craft and performed well considering the circumstances."</text>
+				<text>"당신의 배와 선원들은 이 시험을 적 함선을 파괴함으로 통과했고 상황을 고려하면 잘 수행했습니다."</text>
 			</event>
 		</choice>
 		<choice req="weapons" max_lvl="4" max_group="0" blue="false">
 			<text>계속...</text>
 			<event>
-				<text>"Your crew scored average results in this scenario. Your team is combat ready and fit for front-line service."</text>
+				<text>"당신의 승무원들은 이 시나리오에서 평균적인 결과를 얻었습니다. 당신 팀은 전투태세를 갖추고 최전방에 적합합니다."</text>
 			</event>
 		</choice>
 		<choice req="weapons" max_lvl="5" max_group="0" blue="false">
 			<text>계속...</text>
 			<event>
-				<text>"Your crew scored decently in this scenario."</text>
+				<text>"이 시나리오에서 당신 선원들은 후한 점수를 기록헀습니다."</text>
 			</event>
 		</choice>
 		<choice req="weapons" max_lvl="6" max_group="0" blue="false">
 			<text>계속...</text>
 			<event>
-				<text>"Your crew scored well in this scenario, and remained disciplined in a hectic situation. This shows good promise."</text>
+				<text>"당신 선원들은 이 시나리오에서 좋은 점수를 받았고, 정신없이 바쁜 상황에서도 훈련된 모습이 남아있습니다. 이건 좋은 가능성을 보여주는군요."</text>
 			</event>
 		</choice>
 		<choice req="weapons" max_lvl="7" max_group="0" blue="false">
 			<text>계속...</text>
 			<event>
-				<text>"Your crew scored well in this scenario by efficiently eliminating the hostile."</text>
+				<text>"당신 선원들은 이 시나리오에서 적을 효율적으로 제거함으로써 좋은 점수를 얻었습니다."</text>
 			</event>
 		</choice>
 		<choice req="weapons" max_lvl="8" max_group="0" blue="false">
 			<text>계속...</text>
 			<event>
-				<text>"Your crew and ship scored exceptionally well in this scenario. Your rating qualifies you for a promotion to the rank of [Lieutenant]."</text>
+				<text>"이 시나리오에서 당신의 선원과 함선은 유난히 좋은 점수를 받았습니다. 귀하에게 계급을 [중위]로 승진할 수 있는 자격을 부여합니다."</text>
 			</event>
 		</choice>
 	</destroyed>
@@ -5079,11 +5079,11 @@
 
 <ship name="SIMMED_SHIP_AGGRESSIVE" auto_blueprint="CE_AUTO_BASIC_SIMMED_AGGRESSIVE">
 	<escape timer="30" min="10" max="10">
-		<text>A moment ago there was just empty space; now the screen shows a heavily armed gunboat as your opponent. The simulated ship will fire virtual projectiles at you until the training program ends. You remind your crew to take this seriously and order evasive maneuvers.</text>
+		<text>조금 전에는 거긴 빈 공간이었습니다. 이제 화면에는 중무장한 포함이 상대로 나타납니다. 모의훈련 함선은 훈련 프로그램이 끝날 때까지 가상 발사체를 발사할 겁니다. 당신은 선원들에게 훈련을 진지하게 받아들일 것을 상기시키고 회피 기동을 명령합니다.</text>
 		<ship hostile="true"/>
 	</escape>
 	<gotaway>
-		<text>"You successfully completed this evasion training session. The combat simulator will now evaluate your crew's performance."</text>
+		<text>"당신은 이 회피 훈련을 성공적으로 마쳤습니다. 이제 전투 시뮬레이터가 승무원의 성과를 평가할 겁니다."</text>
 		<status type="clear" target="player" system="teleporter" amount="100"/>
 		<status type="clear" target="player" system="weapons" amount="100"/>
 		<status type="clear" target="player" system="drones" amount="100"/>
@@ -5092,54 +5092,54 @@
 		<choice req="engines" max_lvl="1" max_group="0" blue="false">
 			<text>계속...</text>
 			<event>
-				<text>"Your crew performed below average in this scenario. In a real combat situation your ship would have taken heavy damage, leading to its destruction. Consider not taking part in any real combat scenarios involving ship-to-ship combat with your current assets."</text>
+				<text>"당신의 선원들은 이 시나리오에서 평균 이하의 성과를 거두었습니다. 실제 전투 상황이라면 당신의 배는 큰 피해를 입고 파괴되었을 겁니다. 현 함선은 함대전과 관련된 실제 전투 시나리오에는 참여하지 않는 것이 좋습니다."</text>
 			</event>
 		</choice>
 		<choice req="engines" max_lvl="2" max_group="0" blue="false">
 			<text>계속...</text>
 			<event>
-				<text>"Your crew performed below average in this scenario. In a real combat situation your ship would have taken heavy damage, leading to its destruction. Consider additional training exercises and ship upgrades to improve your crew's performance."</text>
+				<text>"당신의 선원들은 이 시나리오에서 평균 이하의 성과를 거두었습니다. 실제 전투 상황이라면 당신의 배는 큰 피해를 입고 파괴되었을 겁니다. 추가 교육 훈련과 함선 업그레이드를 통해 승무원의 능력을 향상시킬 수 있습니다."</text>
 			</event>
 		</choice>
 		<choice req="engines" max_lvl="3" max_group="0" blue="false">
 			<text>계속...</text>
 			<event>
-				<text>"Your crew and performed well considering the circumstances, but your current ship configuration reduces your chances of survival in a real combat situation."</text>
+				<text>"당신의 선원들은 상황을 고려하자면 좋은 성과를 거두었지만, 현 함선 상태는 실제 전투 상황에서 생존 가능성이 좀 낮습니다."</text>
 			</event>
 		</choice>
 		<choice req="engines" max_lvl="4" max_group="0" blue="false">
 			<text>계속...</text>
 			<event>
-				<text>"Your crew scored average results in this scenario. You evaded a significant part of the enemy fire, but would still have taken considerable damage in a real fight."</text>
+				<text>"당신의 선원들은 이 시나리오에서 평균적인 결과를 얻었습니다. 당신은 적 사격의 상당 부분을 피했지만, 실제 전투에서는 여전히 상당한 손상을 입을 겁니다."</text>
 			</event>
 		</choice>
 		<choice req="engines" max_lvl="5" max_group="0" blue="false">
 			<text>계속...</text>
 			<event>
-				<text>"Your crew scored decently in this scenario. You evaded the enemy fire as best as possible while trying to outmaneuver your opponent."</text>
+				<text>"이 시나리오에서는 당신 선원들은 후한 점수를 기록합니다. 당신은 상대를 노련하게 압도하며 가능한 많은 적의 공격을 피했습니다."</text>
 			</event>
 		</choice>
 		<choice req="engines" max_lvl="6" max_group="0" blue="false">
 			<text>계속...</text>
 			<event>
-				<text>"Your crew scored well in this scenario remained steady under heavy fire. This shows good promise."</text>
+				<text>"이 시나리오에서 당신의 선원들은 집중 사격에도 흔들리지 않았습니다. 이건 장래가 좋아보입니다."</text>
 			</event>
 		</choice>
 		<choice req="engines" max_lvl="7" max_group="0" blue="false">
 			<text>계속...</text>
 			<event>
-				<text>"Your crew scored well in this scenario remained calm while being under attack. Your team navigated confidently and was able to evade a significant portion of the hostile fire."</text>
+				<text>"이 시나리오에서 선원들은 공격을 받는 동안 침착함을 유지합니다. 선원들은 대담하게 항해했고 적 사격의 대부분을 피할 수 있었습니다."</text>
 			</event>
 		</choice>
 		<choice req="engines" max_lvl="8" max_group="0" blue="false">
 			<text>계속...</text>
 			<event>
-				<text>"Your crew and ship scored exceptionally in this scenario and easily outmaneuver the opponent. Special Message: Well done [Rank]. Consider applying for special forces training. You show some promise."</text>
+				<text>"이 시나리오에서는 선원들은 이례적으로 우수한 점수를 기록했고 손쉽게 상대를 압도합니다. 특별한 메시지를 보냅니다. 잘했군요 [계급]님. 특수부대 훈련을 신청하는 것을 고려해보세요. 당신은 어느 정도 가능성이 보입니다."</text>
 			</event>
 		</choice>
 	</gotaway>
 	<destroyed>
-		<text>You completed the training by eliminating the hostile before it got away.</text>
+		<text>당신은 적이 도망치기 전에 제거하여 훈련을 끝마쳤습니다.</text>
 	</destroyed>
 </ship>
 
@@ -5147,10 +5147,10 @@
 <ship name="C_AUTO_CRUISER_CONSTRUCTION" auto_blueprint="C_SHIPS_AUTO_CRUISER_CONSTRUCTION">
 	<surrender chance="0.8" min="5" max="6" load="CE_COMBAT_FLUFF_AUTO"/>
 	<escape min="7" max="8" >
-		<text>The automated cruiser slowly spins up it's FTL drive. It tries to get away.</text>
+		<text>무인 순양함은 FTL 드라이브를 천천히 예열시킵니다. 도망치려고 합니다.</text>
 	</escape>
 	<gotaway>
-		<text>With a silent bang, the automated cruiser blast away into higher space. The machine got away, but in the hurried escape it left a few construction materials behind. You pick through the bits and pieces.</text>
+		<text>무인 순양함이 굉음과 함께 초공간으로 돌진합니다. 기계는 달아났지만, 급히 탈출하는 과정에서 소량의 자재들을 남겨 놓았습니다. 당신은 남은 것들을 회수합니다.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<item_modify>
 			<item type="scrap" min="-5" max="-5"/>
@@ -5181,7 +5181,7 @@
 	<surrender min="4" max="6">
 		<text>These readings... You register micro teleporter activating from... everywhere!</text>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true">
-			<text>(텔레포터 교란장치) Get the scrambler field up!</text>
+			<text>(텔레포터 교란장치) 변환장을 올려라!</text>
 			<event>
 				<text>With the field in place, the teleporters will not get a lock on your ship. You continue the engagement without having to fear the boarding attempts.</text>
 			</event>
@@ -5237,7 +5237,7 @@
 <ship name="C_AUTO_CRUISER_CONSTRUCTION_PLANET" auto_blueprint="C_SHIPS_AUTO_CRUISER_CONSTRUCTION"> 
 	<surrender chance="0.8" min="5" max="6" load="CE_COMBAT_FLUFF_AUTO"/>
 	<escape min="7" max="8" >
-		<text>The automated cruiser slowly spins up it's FTL drive. It tries to get away.</text>
+		<text>무인 순양함은 FTL 드라이브를 천천히 예열시킵니다. 도망치려고 합니다.</text>
 	</escape>
 	<gotaway>
 		<text>With a silent bang, the automated cruiser blast away into higher space. The machine got away, but in the hurried escape it left a few construction materials behind. You pick through the bits and pieces and contact the settlement.</text>
@@ -5275,7 +5275,7 @@
 <ship name="C_AUTO_CRUISER_CONSTRUCTION_DISTRESS_PLANET_MINER" auto_blueprint="C_SHIPS_AUTO_CRUISER_CONSTRUCTION"> 
 	<surrender chance="0.8" min="5" max="6" load="CE_COMBAT_FLUFF_AUTO"/>
 	<escape min="7" max="8" >
-		<text>The automated cruiser slowly spins up it's FTL drive. It tries to get away.</text>
+		<text>무인 순양함은 FTL 드라이브를 천천히 예열시킵니다. 도망치려고 합니다.</text>
 	</escape>
 	<gotaway>
 		<text>With a silent bang, the automated cruiser blast away into higher space. The machine got away, but in the hurried escape it left a few construction materials behind. You pick through the bits and pieces and contact the settlement.</text>
@@ -5334,19 +5334,19 @@
 	<deadCrew>
 		<text>There are no more life signs remaining on the civilian vessel. You murdered these poor people and this constitutes an act of piracy. The data they stole does not even have any apparent use for you. The crew might be disturbed by all this.</text>
 		<choice hidden="true"> 
-			<text>See how the crew reacts.</text>
+			<text>승무원들이 어떻게 반응하는지 봅니다.</text>
 			<event load="DEAD_CREW_PIRACY_CIVILIAN_RESULTS"/>
 		</choice>
 		<choice req="ROCK_ARMOR" hidden="true"> 
-			<text>(Rock Ship) You command a vessel of the brutal Rock people. Your crew knew that they were not signing on for a moral joyride here.</text>
+			<text>(락맨 함선) 당신은 잔혹한 락맨의 배를 지휘하고 있습니다. 선원들은 도덕적인 쾌락 따위를 위해 계약하지 않았다는 걸 알고 있지요.</text>
 			<event load="DEAD_CREW_PIRACY_CIVILIAN_RESULTS_RISKLESS"/>
 		</choice>
 		<choice req="CREW_STIMS" hidden="true"> 
-			<text>(Mantis Ship) You command a vessel of the most vicious creatures in the galaxy. You crew should expect things like this.</text>
+			<text>(맨티스 함선) 당신은 은하계에서 가장 사악한 생물의 배를 지휘하고 있습니다. 이런 일쯤이야 당연한 일 아니겠습니까.</text>
 			<event load="DEAD_CREW_PIRACY_CIVILIAN_RESULTS_RISKLESS"/>
 		</choice>
 		<choice req="SLUG_GEL" hidden="true"> 
-			<text>(Slug Ship) You command a vessel of the sly and treacherous Slugs. Your crew knew this mission wouldn't be that clean.</text>
+			<text>(슬러그 함선) 당신은 교활하고 기만적인 슬러그 함선을 지휘하고 있습니다. 선원들은 이런 임무가 깨애끗하지 않다는 걸 잘 알고 있죠오.</text>
 			<event load="DEAD_CREW_PIRACY_CIVILIAN_RESULTS_RISKLESS"/>
 		</choice>
 	</deadCrew>
@@ -6008,11 +6008,11 @@
 <ship name="CE_SHIP_BOUNTY_ZOLTAN_AI" auto_blueprint="SHIPS_ZOLTAN_AI">
 	<surrender chance="0.8" min="5" max="6" load="CE_COMBAT_FLUFF_MANNED"/>
 	<escape min="5" max="6" >
-		<text>The AI ship tries to retreat from combat. It's powering up its jump drive!</text>
+		<text>AI 선박은 전투로부터 후퇴하려 합니다. 점프 드라이브에 전력을 넣고 있습니다!</text>
 		<ship hostile="true"/>
 	</escape>
 	<gotaway>
-		<text>Looks like the AIs outsmarted you. They escaped from combat before sustaining critical damage.</text>
+		<text>AI들은 당신보다 한 수 앞서는군요. 그들은 심각한 손상을 입기 전에 전투에서 탈출했습니다.</text>
 	</gotaway>
 	<destroyed>
 		<text>You successfully hunted down the runaway AIs. Only a glowing wreckage remains of their advanced warship.</text>
@@ -6059,7 +6059,7 @@
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>You did it; the cruiser crew is dead! 당신은 인양 선원들을 보내어 배의 쓸모 있는 것을 모두 해체하도록 합니다. The team also manages to access the ship's long-range comm systems. You send a message with Rebel encryption, claiming that you have been sighted elsewhere. The investigation will surely slow down the Rebel fleet.</text>
+		<text>당신은 해냈습니다, 순양함의 선원들이 모두 죽었어요! 당신은 인양 선원들을 보내어 배의 쓸모 있는 것을 모두 해체하도록 합니다. The team also manages to access the ship's long-range comm systems. You send a message with Rebel encryption, claiming that you have been sighted elsewhere. The investigation will surely slow down the Rebel fleet.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<modifyPursuit amount="-1"/>
 		<choice hidden="true">
@@ -6243,7 +6243,7 @@
 		<ship hostile="true"/>
 	</escape>
 	<gotaway>
-		<text>Looks like the AIs outsmarted you. They escaped from combat before sustaining critical damage. Any attempts to analyze the strange object yield no further results. You prepare to jump.</text>
+		<text>AI들은 당신보다 한 수 앞서는군요. 그들은 심각한 손상을 입기 전에 전투에서 탈출했습니다. 이 이상한 물체를 분석하려는 어떤 시도도 더 이상의 결과를 낳지 못합니다. 당신은 도약할 준비합니다.</text>
 	</gotaway>
 	<destroyed>
 		<text>The AI ships self-destructs shortly before your final volley hits. You scrap what remains salvageable.</text>
